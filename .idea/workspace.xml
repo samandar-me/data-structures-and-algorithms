@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8efb1a0-c606-444b-98ce-804d0c93fb25" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/problems/arrays/pascal_triangle.py" afterDir="false" />
+    <list default="true" id="d8efb1a0-c606-444b-98ce-804d0c93fb25" name="Changes" comment="Pascal triangle problem has been solved">
+      <change afterPath="$PROJECT_DIR$/problems/arrays/sorted_square.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problems/move_zeroes_to_end.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/arrays/move_zeroes_to_end.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problems/reverse_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/arrays/reverse_list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/arrays/pascal_triangle.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/arrays/pascal_triangle.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +55,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.main.executor": "Run",
+    "Python.main.executor": "Debug",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -131,7 +130,12 @@
       <workItem from="1771854701865" duration="180000" />
       <workItem from="1771958968749" duration="6797000" />
       <workItem from="1772047456823" duration="1409000" />
-      <workItem from="1772049019526" duration="4157000" />
+      <workItem from="1772049019526" duration="4377000" />
+      <workItem from="1772317076856" duration="2461000" />
+      <workItem from="1772543249821" duration="297000" />
+      <workItem from="1773165170154" duration="614000" />
+      <workItem from="1773257002637" duration="1639000" />
+      <workItem from="1773340720290" duration="2778000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -141,7 +145,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771962739458</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Pascal triangle problem has been solved">
+      <option name="closed" value="true" />
+      <created>1772054092341</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1772054092341</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,9 +161,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Pascal triangle problem has been solved" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pascal triangle problem has been solved" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/data_structures_and_algorithms$main.coverage" NAME="main Coverage Results" MODIFIED="1772052030173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/data_structures_and_algorithms$main.coverage" NAME="main Coverage Results" MODIFIED="1773344297185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

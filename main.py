@@ -1,17 +1,19 @@
-def generate(n: int) -> list:
-    if n <= 0:
-        return []
-    triangle = [[1]]
+def sortedSquares(nums: list) -> list:
+    n = len(nums)
+    result = [0] * n
 
-    for i in range(1, n):
-        previous_row = triangle[i - 1]
-        current_row = [1]
-        for j in range(0, len(previous_row) - 1):
-            sum = previous_row[j] + previous_row[j + 1]
-            current_row.append(sum)
-        current_row.insert(len(current_row), 1)
-        triangle.insert(i, current_row)
-    return triangle
+    left = 0
+    right = n - 1
+
+    for write_index in range(n - 1, -1, -1):
+        if abs(nums[left]) > abs(nums[right]):
+            result[write_index] = nums[left] ** 2
+            left = left + 1
+        else:
+            result[write_index] = nums[right] ** 2
+            right = right - 1
+
+    return result
 
 if __name__ == '__main__':
-    print(generate(-1))
+    print(sortedSquares([-4,-1,0,3,10]))
