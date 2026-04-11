@@ -12,3 +12,7 @@
 #
 # Input: "cbbd"
 # Result: "bb"
+
+
+def longestPalindrome(s: str) -> str:
+	pass
