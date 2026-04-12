@@ -15,12 +15,24 @@
 
 
 def longestPalindrome(text: str) -> str:
-	if not text:
-		return ""
+    if not text:
+        return ""
 
-	longest = ""
+    longest = ""
 
-	for i in range(len(text)):
-		print(i)
+    for i in range(len(text)):
+        odd_length = expand(text, i, i)
+        event_length = expand(text, i, i + 1)
 
-	return longest
+        longest = max([longest, odd_length, event_length], key=len)
+
+    return longest
+
+def expand(text, i, j) -> str:
+    length = len(text)
+
+    while i >= 0 and j < length and text[i] == text[j]:
+        i -= 1
+        j += 1
+
+    return text[i+1: j]
