@@ -14,5 +14,13 @@
 # Result: "bb"
 
 
-def longestPalindrome(s: str) -> str:
-	pass
+def longestPalindrome(text: str) -> str:
+	if not text:
+		return ""
+
+	longest = ""
+
+	for i in range(len(text)):
+		print(i)
+
+	return longest
