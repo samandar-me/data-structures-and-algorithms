@@ -19,4 +19,5 @@ class Node:
 
 
 def middleNode(head: Node) -> Node:
-    pass
+    print("find_middle of linked list in progress")
+    return ""
