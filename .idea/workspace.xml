@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8efb1a0-c606-444b-98ce-804d0c93fb25" name="Changes" comment="reverse linked list">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linked_list/palindrome_linked_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/linked_list/palindrome_linked_list.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linked_list/reverse_linked_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/linked_list/reverse_linked_list.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="d8efb1a0-c606-444b-98ce-804d0c93fb25" name="Changes" comment="find if linked list is palindrome" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -390,7 +385,15 @@
       <option name="project" value="LOCAL" />
       <updated>1776706379402</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="find if linked list is palindrome">
+      <option name="closed" value="true" />
+      <created>1776708799806</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1776708799806</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -416,7 +419,8 @@
     <MESSAGE value="linked list" />
     <MESSAGE value="finding middle of linked list" />
     <MESSAGE value="reverse linked list" />
-    <option name="LAST_COMMIT_MESSAGE" value="reverse linked list" />
+    <MESSAGE value="find if linked list is palindrome" />
+    <option name="LAST_COMMIT_MESSAGE" value="find if linked list is palindrome" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/data_structures_and_algorithms$main.coverage" NAME="main Coverage Results" MODIFIED="1773781252828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
