@@ -5,4 +5,4 @@ class Node:
 
 
 def addTwoNumbers(head1: Node, head2: Node) -> Node:
-    pass
+    return head1
