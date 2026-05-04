@@ -1,6 +1,3 @@
-from ast import List
-
-
 from typing import List
 
 
