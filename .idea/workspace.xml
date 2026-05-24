@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8efb1a0-c606-444b-98ce-804d0c93fb25" name="Changes" comment="binary search implemented">
+      <change afterPath="$PROJECT_DIR$/hashtable/contains_duplicate.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arrays/two_sum.py" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/two_sum.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,6 +40,65 @@
     <commands />
     <urls />
   </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0059286662824796" />
+      <entry key="MS500" value="1.453880172406021" />
+      <entry key="S2" value="2.3666176537022725" />
+      <entry key="S5" value="3.2223423109083984" />
+      <entry key="S10" value="4.2298861410807795" />
+      <entry key="S30" value="5.721465083724104" />
+      <entry key="S60" value="6.301448485625856" />
+      <entry key="M2" value="6.857403773128518" />
+      <entry key="M5" value="12.446931091902623" />
+      <entry key="M10" value="28.75237217012247" />
+      <entry key="M15" value="43.353534225146355" />
+      <entry key="M30" value="69.74495628663847" />
+      <entry key="H1" value="90.47649416431068" />
+      <entry key="H2" value="103.59044368825515" />
+      <entry key="H4" value="110.98296946539158" />
+      <entry key="D1" value="117.61812087379795" />
+      <entry key="W1" value="118.80143744691678" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="3.979033616396034E-22" />
+      <entry key="MS500" value="5.247537147479285E-5" />
+      <entry key="S2" value="0.08511162461160668" />
+      <entry key="S5" value="0.37324633516683253" />
+      <entry key="S10" value="0.6109388964265023" />
+      <entry key="S30" value="0.8485276170761884" />
+      <entry key="S60" value="0.9216850704133728" />
+      <entry key="M2" value="1.008233827732913" />
+      <entry key="M5" value="2.043788063777641" />
+      <entry key="M10" value="4.663583140537923" />
+      <entry key="M15" value="6.871579343013796" />
+      <entry key="M30" value="10.775073896074815" />
+      <entry key="H1" value="13.817324521968368" />
+      <entry key="H2" value="15.739779708147077" />
+      <entry key="H4" value="16.823804832323226" />
+      <entry key="D1" value="17.79720779981274" />
+      <entry key="W1" value="17.970859236520923" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.03331753371769648" />
+      <entry key="MS500" value="0.6925708116038544" />
+      <entry key="S2" value="2.01678144047876" />
+      <entry key="S5" value="3.320945734294311" />
+      <entry key="S10" value="4.650921053029481" />
+      <entry key="S30" value="6.482739325605086" />
+      <entry key="S60" value="7.175018884754315" />
+      <entry key="M2" value="7.838818492544425" />
+      <entry key="M5" value="14.464021201516896" />
+      <entry key="M10" value="33.382145540448185" />
+      <entry key="M15" value="50.19150204076238" />
+      <entry key="M30" value="80.49380570564412" />
+      <entry key="H1" value="104.27715482609035" />
+      <entry key="H2" value="119.32078982310816" />
+      <entry key="H4" value="127.80174991554156" />
+      <entry key="D1" value="135.4144455223579" />
+      <entry key="W1" value="136.77216935670887" />
+    </decayedShown>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -54,12 +113,13 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.main.executor": "Debug",
+    "Python.main.executor": "Run",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "ai.playground.ignore.import.keys.banner.in.settings": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
@@ -69,7 +129,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "settings.editor.selected.configurable": "editor.preferences.completion.inline",
     "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
   }
@@ -94,6 +154,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="RUN_TOOL" value="" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
@@ -114,7 +175,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-2653e85de345-6d6dccd035ac-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-253.31033.139" />
+        <option value="bundled-python-sdk-c59985aa861c-c2ffad84badb-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-261.24374.152" />
       </set>
     </attachedChunks>
   </component>
@@ -140,6 +201,9 @@
       <workItem from="1773780418509" duration="1512000" />
       <workItem from="1773829940698" duration="225000" />
       <workItem from="1774794188777" duration="4000" />
+      <workItem from="1779176957521" duration="623000" />
+      <workItem from="1779563977146" duration="39000" />
+      <workItem from="1779564025483" duration="9132000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -500,16 +564,6 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/main.py</url>
-          <line>14</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>16</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
           <line>21</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
@@ -530,43 +584,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/main.py</url>
-          <line>3</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>4</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>5</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>6</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>9</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
           <line>8</line>
           <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>11</line>
-          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/data_structures_and_algorithms$main.coverage" NAME="main Coverage Results" MODIFIED="1773781252828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/data_structures_and_algorithms$main.coverage" NAME="main Coverage Results" MODIFIED="1779631279301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
