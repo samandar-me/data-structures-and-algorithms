@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8efb1a0-c606-444b-98ce-804d0c93fb25" name="Changes" comment="hash table, hash set implemented. &#10;&#10;contains_duplicate.py">
-      <change afterPath="$PROJECT_DIR$/hashtable/two_sum.py" afterDir="false" />
+    <list default="true" id="d8efb1a0-c606-444b-98ce-804d0c93fb25" name="Changes" comment="valid anagram problem solved">
+      <change afterPath="$PROJECT_DIR$/arrays/my_queue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/arrays/my_stack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/arrays/remove_starts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hashtable/cropped_paper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hashtable/find_words.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hashtable/valid_anagram.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -30,73 +35,73 @@
     &quot;assignee&quot;: &quot;samandar-me&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/samandar-me/data-structures-and-algorithms.git",
-    "accountId": "a59c70be-b0ce-41e0-9014-48882411a3aa"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/samandar-me/data-structures-and-algorithms.git&quot;,
+    &quot;accountId&quot;: &quot;a59c70be-b0ce-41e0-9014-48882411a3aa&quot;
   }
-}]]></component>
+}</component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0000000000052167" />
-      <entry key="MS500" value="1.005539609514396" />
-      <entry key="S2" value="1.2734457092867835" />
-      <entry key="S5" value="1.7170361335480413" />
-      <entry key="S10" value="2.7579607264892605" />
-      <entry key="S30" value="7.542553044327557" />
-      <entry key="S60" value="11.486671865118295" />
-      <entry key="M2" value="14.620820331095459" />
-      <entry key="M5" value="17.647903834005227" />
-      <entry key="M10" value="24.38291577884551" />
-      <entry key="M15" value="34.680828343059495" />
-      <entry key="M30" value="65.6213823892989" />
-      <entry key="H1" value="102.2714646162472" />
-      <entry key="H2" value="131.47033129741266" />
-      <entry key="H4" value="150.062039627174" />
-      <entry key="D1" value="168.08549869442118" />
-      <entry key="W1" value="171.43409545274244" />
+      <entry key="MS100" value="2.2688594581406835E-80" />
+      <entry key="MS500" value="1.8583802334427191E-16" />
+      <entry key="S2" value="2.799256260865908E-4" />
+      <entry key="S5" value="0.08784190092695836" />
+      <entry key="S10" value="0.711998788929896" />
+      <entry key="S30" value="5.221428516543342" />
+      <entry key="S60" value="10.580790449153337" />
+      <entry key="M2" value="17.450502716296313" />
+      <entry key="M5" value="29.720900122565258" />
+      <entry key="M10" value="39.982899771094175" />
+      <entry key="M15" value="47.0934980273823" />
+      <entry key="M30" value="67.39463152308649" />
+      <entry key="H1" value="107.140734390372" />
+      <entry key="H2" value="168.9994102704056" />
+      <entry key="H4" value="241.68847188409168" />
+      <entry key="D1" value="490.2708378490251" />
+      <entry key="W1" value="650.8220538187868" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.8414593090697373E-16" />
-      <entry key="MS500" value="7.129113300090436E-4" />
-      <entry key="S2" value="0.1718489159550793" />
-      <entry key="S5" value="0.6433610203763043" />
-      <entry key="S10" value="1.2365705887615428" />
-      <entry key="S30" value="2.826436772677656" />
-      <entry key="S60" value="3.9605833354316125" />
-      <entry key="M2" value="4.825270349463496" />
-      <entry key="M5" value="5.623835549633469" />
-      <entry key="M10" value="7.110322539560031" />
-      <entry key="M15" value="9.108374129279042" />
-      <entry key="M30" value="14.582632985668793" />
-      <entry key="H1" value="20.714800926323473" />
-      <entry key="H2" value="25.481449886452477" />
-      <entry key="H4" value="28.482923923883735" />
-      <entry key="D1" value="31.374118284452656" />
-      <entry key="W1" value="31.909560531440686" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0000000000000002" />
+      <entry key="S2" value="1.0001422734900332" />
+      <entry key="S5" value="1.0437592182350495" />
+      <entry key="S10" value="1.4285505638133063" />
+      <entry key="S30" value="3.921975188330071" />
+      <entry key="S60" value="6.160983931659821" />
+      <entry key="M2" value="8.55332904011312" />
+      <entry key="M5" value="12.684947076063454" />
+      <entry key="M10" value="16.61374714969485" />
+      <entry key="M15" value="19.736951465883493" />
+      <entry key="M30" value="29.70809417502537" />
+      <entry key="H1" value="48.9042432599235" />
+      <entry key="H2" value="74.7964170206734" />
+      <entry key="H4" value="99.90827868600518" />
+      <entry key="D1" value="159.29539448558532" />
+      <entry key="W1" value="192.45566318559227" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.009290680585998135" />
-      <entry key="MS500" value="0.3947705391962749" />
-      <entry key="S2" value="1.1535143853301228" />
-      <entry key="S5" value="2.1683530192702514" />
-      <entry key="S10" value="3.8392063247546906" />
-      <entry key="S30" value="10.245163864100158" />
-      <entry key="S60" value="15.356606390885014" />
-      <entry key="M2" value="19.389320411717122" />
-      <entry key="M5" value="23.244619342830024" />
-      <entry key="M10" value="31.474219421669403" />
-      <entry key="M15" value="43.770310325029556" />
-      <entry key="M30" value="80.18473218835915" />
-      <entry key="H1" value="122.97069087928439" />
-      <entry key="H2" value="156.94162223804022" />
-      <entry key="H4" value="178.53912878644843" />
-      <entry key="D1" value="199.45852251335893" />
-      <entry key="W1" value="203.34349639455732" />
+      <entry key="MS100" value="0.04298568181686699" />
+      <entry key="MS500" value="0.5329233680339714" />
+      <entry key="S2" value="0.8547670259162051" />
+      <entry key="S5" value="1.0613636577972465" />
+      <entry key="S10" value="2.0683738051267606" />
+      <entry key="S30" value="9.042982405766125" />
+      <entry key="S60" value="16.653268798948048" />
+      <entry key="M2" value="25.935846552541165" />
+      <entry key="M5" value="42.361484368267874" />
+      <entry key="M10" value="56.56629525531942" />
+      <entry key="M15" value="66.80508388316015" />
+      <entry key="M30" value="97.08004282675735" />
+      <entry key="H1" value="156.0227190958998" />
+      <entry key="H2" value="243.77697418916102" />
+      <entry key="H4" value="341.58349690304135" />
+      <entry key="D1" value="649.5623817585858" />
+      <entry key="W1" value="843.2770270873949" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -113,7 +118,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.main.executor": "Debug",
+    "Python.main.executor": "Run",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -129,7 +134,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editor.preferences.completion.inline",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
     "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
   }
@@ -203,7 +208,9 @@
       <workItem from="1774794188777" duration="4000" />
       <workItem from="1779176957521" duration="623000" />
       <workItem from="1779563977146" duration="39000" />
-      <workItem from="1779564025483" duration="11063000" />
+      <workItem from="1779564025483" duration="22320000" />
+      <workItem from="1779702320932" duration="9967000" />
+      <workItem from="1779988201188" duration="9933000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -533,14 +540,21 @@
       <option name="project" value="LOCAL" />
       <updated>1779631314195</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="two sum logic implemented">
+      <option name="closed" value="true" />
+      <created>1779633684305</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1779633684305</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Pascal triangle problem has been solved" />
     <MESSAGE value="Sorted Square" />
     <MESSAGE value="Container With Most Water" />
     <MESSAGE value="pulling rope is in progress" />
@@ -565,16 +579,12 @@
     <MESSAGE value="add two linked_lists" />
     <MESSAGE value="binary search implemented" />
     <MESSAGE value="hash table, hash set implemented. &#10;&#10;contains_duplicate.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="hash table, hash set implemented. &#10;&#10;contains_duplicate.py" />
+    <MESSAGE value="two sum logic implemented" />
+    <option name="LAST_COMMIT_MESSAGE" value="two sum logic implemented" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>21</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/main.py</url>
           <line>22</line>
@@ -585,54 +595,10 @@
           <line>24</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>25</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>8</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <option name="timeStamp" value="46" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>1</line>
-          <option name="timeStamp" value="47" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>3</line>
-          <option name="timeStamp" value="48" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>4</line>
-          <option name="timeStamp" value="49" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>5</line>
-          <option name="timeStamp" value="50" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>7</line>
-          <option name="timeStamp" value="51" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>9</line>
-          <option name="timeStamp" value="52" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/data_structures_and_algorithms$main.coverage" NAME="main Coverage Results" MODIFIED="1779633531277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/data_structures_and_algorithms$main.coverage" NAME="main Coverage Results" MODIFIED="1779998314731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
