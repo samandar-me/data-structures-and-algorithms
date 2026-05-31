@@ -1,3 +1,5 @@
+from collections import deque
+
 class TreeNode:
     def __init__(self, val: int=0, left=None, right=None):
         self.val = val
@@ -10,19 +12,43 @@ def count_leaves(root: TreeNode) -> int:
 
     counter = 0
 
-    stack = [root]
+    queue = deque([root])
 
-    while stack:
-        node = stack.pop()
+    while queue:
+        node = queue.popleft()
 
         if is_leaf(node):
             counter += 1
-        if node.right:
-            stack.append(node.right)
+            continue
+
         if node.left:
-            stack.append(node.left)
+            queue.append(node.left)
+        if node.right:
+            queue.append(node.right)
 
     return counter
+
+# def count_leaves(root: TreeNode) -> int:
+#     if not root:
+#         return 0
+#
+#     counter = 0
+#
+#     stack = [root]
+#
+#     while stack:
+#         node = stack.pop()
+#
+#         if is_leaf(node):
+#             counter += 1
+#             continue
+#
+#         if node.right:
+#             stack.append(node.right)
+#         if node.left:
+#             stack.append(node.left)
+#
+#     return counter
 
 # def count_leaves(root: TreeNode) -> int:
 #     if not root:
