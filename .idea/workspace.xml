@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8efb1a0-c606-444b-98ce-804d0c93fb25" name="Changes" comment="valid brackets">
+    <list default="true" id="d8efb1a0-c606-444b-98ce-804d0c93fb25" name="Changes" comment="few linked list problmes solved">
+      <change afterPath="$PROJECT_DIR$/trees/bfs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trees/count_leaves.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trees/depth_of_tree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trees/dfs.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linked_list/merge_two_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/linked_list/merge_two_list.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linked_list/reverse_linked_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/linked_list/reverse_linked_list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashtable/cropped_paper.py" beforeDir="false" afterPath="$PROJECT_DIR$/hashtable/cropped_paper.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,61 +46,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.000000016648878" />
-      <entry key="MS500" value="1.0289924139570243" />
-      <entry key="S2" value="1.5985490899153614" />
-      <entry key="S5" value="2.327925225097168" />
-      <entry key="S10" value="2.9228585231503517" />
-      <entry key="S30" value="4.920958171399963" />
-      <entry key="S60" value="9.23289816796986" />
-      <entry key="M2" value="16.200704966170278" />
-      <entry key="M5" value="25.060868952649614" />
-      <entry key="M10" value="32.09029271088416" />
-      <entry key="M15" value="39.11697696072444" />
-      <entry key="M30" value="64.66339747490898" />
-      <entry key="H1" value="110.7166135352622" />
-      <entry key="H2" value="165.7648020338709" />
-      <entry key="H4" value="231.03871746999167" />
-      <entry key="D1" value="600.2022479930174" />
-      <entry key="W1" value="993.9815099416292" />
+      <entry key="MS100" value="0.04450156861255041" />
+      <entry key="MS500" value="0.5394222793509942" />
+      <entry key="S2" value="1.1955763670006878" />
+      <entry key="S5" value="2.2475541446551337" />
+      <entry key="S10" value="3.93265830357794" />
+      <entry key="S30" value="11.701621452855012" />
+      <entry key="S60" value="21.93325962107219" />
+      <entry key="M2" value="36.688711933505836" />
+      <entry key="M5" value="70.39650085756239" />
+      <entry key="M10" value="108.38376704574605" />
+      <entry key="M15" value="132.59550222946697" />
+      <entry key="M30" value="174.54935128092936" />
+      <entry key="H1" value="220.151679497271" />
+      <entry key="H2" value="265.23147955057516" />
+      <entry key="H4" value="302.29707790394076" />
+      <entry key="D1" value="616.9867751248603" />
+      <entry key="W1" value="1244.645179568207" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="2.6516583033785255E-71" />
-      <entry key="S2" value="2.3283505244808135E-18" />
-      <entry key="S5" value="1.2684090167596432E-7" />
-      <entry key="S10" value="7.472023310495805E-4" />
-      <entry key="S30" value="0.4100130082238054" />
-      <entry key="S60" value="2.242600827354251" />
-      <entry key="M2" value="5.364122724305903" />
-      <entry key="M5" value="9.426169112983294" />
-      <entry key="M10" value="13.098114662926664" />
-      <entry key="M15" value="17.048108244136653" />
-      <entry key="M30" value="32.049368997685214" />
-      <entry key="H1" value="58.83096722112477" />
-      <entry key="H2" value="88.86122581429589" />
-      <entry key="H4" value="118.66989946207299" />
-      <entry key="D1" value="244.99629857391088" />
-      <entry key="W1" value="356.57600544469767" />
+      <entry key="MS100" value="1.000037254799168" />
+      <entry key="MS500" value="1.1833730998232899" />
+      <entry key="S2" value="2.3811241373542873" />
+      <entry key="S5" value="3.7252652725361783" />
+      <entry key="S10" value="5.615837673758787" />
+      <entry key="S30" value="10.368487748064812" />
+      <entry key="S60" value="14.543919295439904" />
+      <entry key="M2" value="19.69581460523687" />
+      <entry key="M5" value="29.77360577418592" />
+      <entry key="M10" value="40.92375300802233" />
+      <entry key="M15" value="47.93166129490284" />
+      <entry key="M30" value="60.54448364261838" />
+      <entry key="H1" value="75.87677866104788" />
+      <entry key="H2" value="92.06669157589228" />
+      <entry key="H4" value="105.94154061187837" />
+      <entry key="D1" value="230.8559709328047" />
+      <entry key="W1" value="441.0712626970717" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9460576630318448" />
-      <entry key="MS500" value="1.0178397578587446" />
-      <entry key="S2" value="1.5950233078070093" />
-      <entry key="S5" value="2.3260573839684753" />
-      <entry key="S10" value="2.9224219464264682" />
-      <entry key="S30" value="5.3234252902883235" />
-      <entry key="S60" value="11.453070528017328" />
-      <entry key="M2" value="21.535947055394335" />
-      <entry key="M5" value="34.465667751525245" />
-      <entry key="M10" value="45.17271139045641" />
-      <entry key="M15" value="56.150716173651084" />
-      <entry key="M30" value="96.69785132633164" />
-      <entry key="H1" value="169.53293380390463" />
-      <entry key="H2" value="254.61450625411612" />
-      <entry key="H4" value="349.7005504487504" />
-      <entry key="D1" value="845.1946833826894" />
-      <entry key="W1" value="1350.5565764511523" />
+      <entry key="MS100" value="0.08663828702228796" />
+      <entry key="MS500" value="1.0337203710923526" />
+      <entry key="S2" value="3.129977114011917" />
+      <entry key="S5" value="5.666475020633899" />
+      <entry key="S10" value="9.30553058739681" />
+      <entry key="S30" value="21.886679172276807" />
+      <entry key="S60" value="36.32298112007909" />
+      <entry key="M2" value="56.260704422109114" />
+      <entry key="M5" value="100.07894796155908" />
+      <entry key="M10" value="149.23848715923862" />
+      <entry key="M15" value="180.4711930973622" />
+      <entry key="M30" value="235.05705262173925" />
+      <entry key="H1" value="296.0051069885664" />
+      <entry key="H2" value="357.2840164327221" />
+      <entry key="H4" value="408.23051041852653" />
+      <entry key="D1" value="847.8394706591607" />
+      <entry key="W1" value="1685.71538104448" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -206,7 +209,7 @@
       <workItem from="1779563977146" duration="39000" />
       <workItem from="1779564025483" duration="22320000" />
       <workItem from="1779702320932" duration="9967000" />
-      <workItem from="1779988201188" duration="25943000" />
+      <workItem from="1779988201188" duration="35496000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -560,14 +563,21 @@
       <option name="project" value="LOCAL" />
       <updated>1780058077385</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="few linked list problmes solved">
+      <option name="closed" value="true" />
+      <created>1780091065355</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1780091065355</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="pulling rope is in progress" />
     <MESSAGE value="tug_of_war.py" />
     <MESSAGE value="skipped one problem" />
     <MESSAGE value="Reverse Word" />
@@ -592,25 +602,10 @@
     <MESSAGE value="two sum logic implemented" />
     <MESSAGE value="few problems solved" />
     <MESSAGE value="valid brackets" />
-    <option name="LAST_COMMIT_MESSAGE" value="valid brackets" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>9</line>
-          <option name="timeStamp" value="157" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>26</line>
-          <option name="timeStamp" value="175" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="few linked list problmes solved" />
+    <option name="LAST_COMMIT_MESSAGE" value="few linked list problmes solved" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/data_structures_and_algorithms$main.coverage" NAME="main Coverage Results" MODIFIED="1780088534976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/data_structures_and_algorithms$main.coverage" NAME="main Coverage Results" MODIFIED="1780187842453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

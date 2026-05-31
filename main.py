@@ -1,42 +1,21 @@
-from typing import Optional
-
-
-class ListNode:
-    def __init__(self, val=0, next=None):
+class TreeNode:
+    def __init__(self, val: int=0, left=None, right=None):
         self.val = val
-        self.next = next
-
-
-class Solution:
-    def mergeTwoLists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:
-
-        dummy = ListNode(0)
-        tail = dummy
-
-        while list1 and list2:
-            if list1.val < list2.val:
-                tail.next = list1
-                list1 = list1.next
-            else:
-                tail.next = list2
-                list2 = list2.next
-
-            tail = tail.next
-
-        tail.next = list1 or list2
+        self.left = left
+        self.right = right
 
 
 if __name__ == '__main__':
-    l2 = ListNode(0)
-    l3 = ListNode(3)
-    l2.next = l3
+    t1 = TreeNode(3)
+    t2 = TreeNode(9)
+    t3 = TreeNode(20)
+    t4 = TreeNode(15)
+    t5 = TreeNode(7)
 
-    l1 = None
+    t1.left = t2
+    t1.right = t3
 
-    solution = Solution()
-    result = solution.mergeTwoLists(l1, l2)
+    t3.left = t4
+    t3.right = t5
 
-    node = result
-    while node:
-        print(node.val)
-        node = node.next
+    print(count_leaves(t1))
