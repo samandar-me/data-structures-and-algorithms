@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8efb1a0-c606-444b-98ce-804d0c93fb25" name="Changes" comment="count_leaves.py">
-      <change afterPath="$PROJECT_DIR$/trees/invert_tree.py" afterDir="false" />
+    <list default="true" id="d8efb1a0-c606-444b-98ce-804d0c93fb25" name="Changes" comment="invert binary tree in progress">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trees/invert_tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/trees/invert_tree.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,61 +42,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="2.6574303421860553E-83" />
-      <entry key="MS500" value="3.05416416980823E-17" />
-      <entry key="S2" value="7.434009204228712E-5" />
-      <entry key="S5" value="0.022309469219058395" />
-      <entry key="S10" value="0.14936354784263337" />
-      <entry key="S30" value="0.5321957563597344" />
-      <entry key="S60" value="0.8566772006418674" />
-      <entry key="M2" value="2.333986948561277" />
-      <entry key="M5" value="7.881236995565678" />
-      <entry key="M10" value="12.722589751669217" />
-      <entry key="M15" value="15.038032994735264" />
-      <entry key="M30" value="19.730474326782403" />
-      <entry key="H1" value="34.58032240481148" />
-      <entry key="H2" value="62.7218647083801" />
-      <entry key="H4" value="99.67994108277682" />
-      <entry key="D1" value="495.36813974061283" />
-      <entry key="W1" value="1341.120844330124" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0000000158603517" />
+      <entry key="S2" value="1.0112222051352802" />
+      <entry key="S5" value="1.1659706447978047" />
+      <entry key="S10" value="1.4073949494014448" />
+      <entry key="S30" value="1.7413565674345524" />
+      <entry key="S60" value="1.882394254904884" />
+      <entry key="M2" value="2.529116787937615" />
+      <entry key="M5" value="8.603003894509538" />
+      <entry key="M10" value="21.18743782866834" />
+      <entry key="M15" value="31.99311709041123" />
+      <entry key="M30" value="55.5678799366381" />
+      <entry key="H1" value="85.9499615002928" />
+      <entry key="H2" value="126.46230106823387" />
+      <entry key="H4" value="175.54211198303102" />
+      <entry key="D1" value="582.2116334343873" />
+      <entry key="W1" value="1441.8923488062048" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0" />
-      <entry key="S5" value="1.0" />
-      <entry key="S10" value="1.0000000012450412" />
-      <entry key="S30" value="1.0024272732128838" />
-      <entry key="S60" value="1.179395826629917" />
-      <entry key="M2" value="3.005457798345861" />
-      <entry key="M5" value="10.188830398937975" />
-      <entry key="M10" value="16.421180246607577" />
-      <entry key="M15" value="19.364490151497236" />
-      <entry key="M30" value="24.002227162471964" />
-      <entry key="H1" value="33.9501854538059" />
-      <entry key="H2" value="51.548763452148336" />
-      <entry key="H4" value="72.31240699939937" />
-      <entry key="D1" value="229.25746393425788" />
-      <entry key="W1" value="524.7413548071695" />
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="1.738685680142427E-306" />
+      <entry key="S2" value="3.693273338512688E-77" />
+      <entry key="S5" value="3.371832928685293E-31" />
+      <entry key="S10" value="1.1316635334816931E-15" />
+      <entry key="S30" value="5.4649663303489796E-5" />
+      <entry key="S60" value="0.02970761784383198" />
+      <entry key="M2" value="0.7275208581889161" />
+      <entry key="M5" value="5.65222066027734" />
+      <entry key="M10" value="12.823728637764443" />
+      <entry key="M15" value="18.23205937331887" />
+      <entry key="M30" value="30.267061387912534" />
+      <entry key="H1" value="47.3290232157448" />
+      <entry key="H2" value="71.48460758795738" />
+      <entry key="H4" value="99.73066625177063" />
+      <entry key="D1" value="266.28657994461264" />
+      <entry key="W1" value="568.5424599702333" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.01030865555291324" />
-      <entry key="MS500" value="0.40053493879481106" />
-      <entry key="S2" value="0.7956101059351716" />
-      <entry key="S5" value="0.9347885286378623" />
-      <entry key="S10" value="1.1043568799683219" />
-      <entry key="S30" value="1.5191116419361819" />
-      <entry key="S60" value="2.0267151317236265" />
-      <entry key="M2" value="5.326205724830838" />
-      <entry key="M5" value="18.050682157471375" />
-      <entry key="M10" value="29.127837582011775" />
-      <entry key="M15" value="34.38991335986659" />
-      <entry key="M30" value="43.7245617332696" />
-      <entry key="H1" value="68.5238149401881" />
-      <entry key="H2" value="114.26481060988732" />
-      <entry key="H4" value="171.9879523663688" />
-      <entry key="D1" value="724.6227368391488" />
-      <entry key="W1" value="1865.8610441185647" />
+      <entry key="MS100" value="0.0027813480382755293" />
+      <entry key="MS500" value="0.30821309034992006" />
+      <entry key="S2" value="0.75483261484241" />
+      <entry key="S5" value="1.0457661850327147" />
+      <entry key="S10" value="1.3388300324452354" />
+      <entry key="S30" value="1.7149958355250996" />
+      <entry key="S60" value="1.8979858773845175" />
+      <entry key="M2" value="3.245950263371073" />
+      <entry key="M5" value="14.239645962816894" />
+      <entry key="M10" value="33.99353404082688" />
+      <entry key="M15" value="50.20805400678937" />
+      <entry key="M30" value="85.820490173313" />
+      <entry key="H1" value="133.26766538093003" />
+      <entry key="H2" value="197.93818442010715" />
+      <entry key="H4" value="275.2665263877812" />
+      <entry key="D1" value="848.4949560750382" />
+      <entry key="W1" value="2010.4335871944306" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -207,6 +207,8 @@
       <workItem from="1779702320932" duration="9967000" />
       <workItem from="1779988201188" duration="37033000" />
       <workItem from="1780333203742" duration="5210000" />
+      <workItem from="1780407572297" duration="36000" />
+      <workItem from="1780420737335" duration="4638000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -584,7 +586,15 @@
       <option name="project" value="LOCAL" />
       <updated>1780255523387</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="invert binary tree in progress">
+      <option name="closed" value="true" />
+      <created>1780407591916</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1780407591916</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -602,7 +612,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Reverse Word" />
     <MESSAGE value="correct_brackets.py" />
     <MESSAGE value="correct capitalization" />
     <MESSAGE value="longest_common_prefix.py" />
@@ -627,9 +636,10 @@
     <MESSAGE value="few linked list problmes solved" />
     <MESSAGE value="learning binary trees, dfs and bfs algorithms." />
     <MESSAGE value="count_leaves.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="count_leaves.py" />
+    <MESSAGE value="invert binary tree in progress" />
+    <option name="LAST_COMMIT_MESSAGE" value="invert binary tree in progress" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/data_structures_and_algorithms$main.coverage" NAME="main Coverage Results" MODIFIED="1780387507587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/data_structures_and_algorithms$main.coverage" NAME="main Coverage Results" MODIFIED="1780425647270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
