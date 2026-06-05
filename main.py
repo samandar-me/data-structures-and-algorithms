@@ -8,17 +8,40 @@ class TreeNode:
         self.left = left
         self.right = right
 
+def bfs(root: TreeNode):
+    if not root:
+        return
+
+    queue = deque([root])
+
+    while queue:
+        node = queue.popleft()
+
+        print(node.val)
+
+        if node.left:
+            queue.append(node.left)
+        if node.right:
+            queue.append(node.right)
+
+def dfs(root: TreeNode):
+    if not root:
+        return
+
+    print(root.val)
+
+    dfs(root.left)
+    dfs(root.right)
+
 
 if __name__ == '__main__':
-    sol = Solution()
+    root = TreeNode(1)
 
-    t1 = TreeNode(1)
-    t1.left = TreeNode(2)
-    t1.right = TreeNode(3)
+    root.left = TreeNode(2)
+    root.right = TreeNode(3)
 
-    t2 = TreeNode(1)
-    t2.left = TreeNode(2)
-    t2.right = TreeNode(4)
+    root.left.left = TreeNode(4)
+    root.left.right = TreeNode(5)
 
+    dfs(root)
 
-    print(sol.isSameTree(t1, t2))

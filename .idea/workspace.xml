@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8efb1a0-c606-444b-98ce-804d0c93fb25" name="Changes" comment=".">
-      <change afterPath="$PROJECT_DIR$/trees/same_tree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trees/symmetric_tree.py" afterDir="false" />
+    <list default="true" id="d8efb1a0-c606-444b-98ce-804d0c93fb25" name="Changes" comment="learning binary tree">
+      <change afterPath="$PROJECT_DIR$/trees/diameter_of_tree.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -43,61 +42,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0000315937781934" />
-      <entry key="MS500" value="1.1258754048160577" />
-      <entry key="S2" value="1.6458318052853573" />
-      <entry key="S5" value="2.188534047045854" />
-      <entry key="S10" value="2.9403624511043605" />
-      <entry key="S30" value="9.407536616164485" />
-      <entry key="S60" value="23.71246254553164" />
-      <entry key="M2" value="45.4801291559879" />
-      <entry key="M5" value="80.59034918116538" />
-      <entry key="M10" value="107.92812895349493" />
-      <entry key="M15" value="125.61141716565857" />
-      <entry key="M30" value="169.30067046111517" />
-      <entry key="H1" value="250.71300109162036" />
-      <entry key="H2" value="379.2129990620692" />
-      <entry key="H4" value="529.9664896953558" />
-      <entry key="D1" value="1081.838102405304" />
-      <entry key="W1" value="2008.8787831825694" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0000000000000002" />
+      <entry key="S2" value="1.0001173146671811" />
+      <entry key="S5" value="1.0465890508542575" />
+      <entry key="S10" value="1.717120444236737" />
+      <entry key="S30" value="10.08693932706745" />
+      <entry key="S60" value="22.461845501582864" />
+      <entry key="M2" value="36.05117155439317" />
+      <entry key="M5" value="49.53092006591797" />
+      <entry key="M10" value="62.49477142179972" />
+      <entry key="M15" value="78.68604688576234" />
+      <entry key="M30" value="130.3132508980766" />
+      <entry key="H1" value="223.71667660977567" />
+      <entry key="H2" value="368.08686107341805" />
+      <entry key="H4" value="539.6581608155267" />
+      <entry key="D1" value="1128.567267558264" />
+      <entry key="W1" value="2070.475686827497" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="5.059243879079599E-15" />
-      <entry key="MS500" value="0.001469718552202963" />
-      <entry key="S2" value="0.3638090958526983" />
-      <entry key="S5" value="1.6225624117554227" />
-      <entry key="S10" value="3.151458068059823" />
-      <entry key="S30" value="6.110279643720271" />
-      <entry key="S60" value="9.179948417425278" />
-      <entry key="M2" value="13.270959356456807" />
-      <entry key="M5" value="20.45620618294845" />
-      <entry key="M10" value="26.840712742726556" />
-      <entry key="M15" value="31.982706354645636" />
-      <entry key="M30" value="47.743726360364626" />
-      <entry key="H1" value="82.04840864112201" />
-      <entry key="H2" value="142.3316086963717" />
-      <entry key="H4" value="217.92971238879275" />
-      <entry key="D1" value="462.6162936773773" />
-      <entry key="W1" value="797.7263120725152" />
+      <entry key="MS100" value="3.3733319077104395E-111" />
+      <entry key="MS500" value="9.722425888446047E-23" />
+      <entry key="S2" value="6.934478336213252E-6" />
+      <entry key="S5" value="0.0217243677962248" />
+      <entry key="S10" value="0.38526749782207337" />
+      <entry key="S30" value="3.3508028312835343" />
+      <entry key="S60" value="6.304410507414432" />
+      <entry key="M2" value="8.91942272732289" />
+      <entry key="M5" value="11.227354431440947" />
+      <entry key="M10" value="13.818775560837116" />
+      <entry key="M15" value="17.609019508686046" />
+      <entry key="M30" value="32.04564648968827" />
+      <entry key="H1" value="65.10745682762534" />
+      <entry key="H2" value="126.52618056023951" />
+      <entry key="H4" value="207.6620894162086" />
+      <entry key="D1" value="467.0016769496054" />
+      <entry key="W1" value="808.5878183086433" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.09808357978369615" />
-      <entry key="MS500" value="0.7306930959025845" />
-      <entry key="S2" value="1.8255896902980566" />
-      <entry key="S5" value="3.650573414751929" />
-      <entry key="S10" value="5.947403110433244" />
-      <entry key="S30" value="15.382638415148087" />
-      <entry key="S60" value="32.74556259783368" />
-      <entry key="M2" value="58.61931733812826" />
-      <entry key="M5" value="100.95657490580851" />
-      <entry key="M10" value="134.70889388804957" />
-      <entry key="M15" value="157.54692714461893" />
-      <entry key="M30" value="217.0105340692746" />
-      <entry key="H1" value="332.73389897878917" />
-      <entry key="H2" value="521.522133574486" />
-      <entry key="H4" value="747.8797056781182" />
-      <entry key="D1" value="1544.4485745815284" />
-      <entry key="W1" value="2806.603454251464" />
+      <entry key="MS100" value="0.04543664116625969" />
+      <entry key="MS500" value="0.5388665725218353" />
+      <entry key="S2" value="0.856876046032852" />
+      <entry key="S5" value="1.0029078534303288" />
+      <entry key="S10" value="2.035173293252629" />
+      <entry key="S30" value="13.309747901315186" />
+      <entry key="S60" value="28.63427906849759" />
+      <entry key="M2" value="44.86885533830649" />
+      <entry key="M5" value="60.70368734892367" />
+      <entry key="M10" value="76.27959123176053" />
+      <entry key="M15" value="96.26663551895462" />
+      <entry key="M30" value="162.3344637896461" />
+      <entry key="H1" value="288.8011683584682" />
+      <entry key="H2" value="494.5923603113304" />
+      <entry key="H4" value="747.3041348281688" />
+      <entry key="D1" value="1595.5630009788183" />
+      <entry key="W1" value="2879.0618356027353" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -211,15 +210,7 @@
       <workItem from="1780407572297" duration="36000" />
       <workItem from="1780420737335" duration="11551000" />
       <workItem from="1780433192831" duration="6773000" />
-      <workItem from="1780505937533" duration="3948000" />
-    </task>
-    <task id="LOCAL-00001" summary="Initial commit">
-      <option name="closed" value="true" />
-      <created>1771962739458</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1771962739458</updated>
+      <workItem from="1780505937533" duration="7168000" />
     </task>
     <task id="LOCAL-00002" summary="Pascal triangle problem has been solved">
       <option name="closed" value="true" />
@@ -605,7 +596,15 @@
       <option name="project" value="LOCAL" />
       <updated>1780426256564</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="learning binary tree">
+      <option name="closed" value="true" />
+      <created>1780511224133</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1780511224133</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -623,7 +622,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="correct capitalization" />
     <MESSAGE value="longest_common_prefix.py" />
     <MESSAGE value="longest_palindrome.py in progress" />
     <MESSAGE value="longest_palindrome in progress" />
@@ -648,7 +646,8 @@
     <MESSAGE value="count_leaves.py" />
     <MESSAGE value="invert binary tree in progress" />
     <MESSAGE value="." />
-    <option name="LAST_COMMIT_MESSAGE" value="." />
+    <MESSAGE value="learning binary tree" />
+    <option name="LAST_COMMIT_MESSAGE" value="learning binary tree" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -661,6 +660,6 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/data_structures_and_algorithms$main.coverage" NAME="main Coverage Results" MODIFIED="1780510878485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/data_structures_and_algorithms$main.coverage" NAME="main Coverage Results" MODIFIED="1780513215558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
