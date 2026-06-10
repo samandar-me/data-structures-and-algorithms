@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8efb1a0-c606-444b-98ce-804d0c93fb25" name="Changes" comment="binary tree problems">
-      <change afterPath="$PROJECT_DIR$/trees/sum_of_left_leaves.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/find_judge.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/visit_all.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -42,61 +43,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0000001345933967" />
-      <entry key="MS500" value="1.1208455658119363" />
-      <entry key="S2" value="2.6622103912071524" />
-      <entry key="S5" value="3.8144580892141016" />
-      <entry key="S10" value="4.35511994990974" />
-      <entry key="S30" value="4.772289731557917" />
-      <entry key="S60" value="4.884471846001309" />
-      <entry key="M2" value="4.941811481156609" />
-      <entry key="M5" value="4.976621923919952" />
-      <entry key="M10" value="4.9882937832154965" />
-      <entry key="M15" value="4.992192032975665" />
-      <entry key="M30" value="4.99609911478356" />
-      <entry key="H1" value="5.030300464116947" />
-      <entry key="H2" value="7.699221274213018" />
-      <entry key="H4" value="31.49607122425855" />
-      <entry key="D1" value="649.9450365013787" />
-      <entry key="W1" value="2229.119944272644" />
+      <entry key="MS100" value="4.0506000888606966E-165" />
+      <entry key="MS500" value="1.3228295066010862E-33" />
+      <entry key="S2" value="6.03210153356008E-9" />
+      <entry key="S5" value="5.418444995968277E-4" />
+      <entry key="S10" value="0.031765308828116415" />
+      <entry key="S30" value="1.2079013387249644" />
+      <entry key="S60" value="5.044507007908746" />
+      <entry key="M2" value="12.34997676220979" />
+      <entry key="M5" value="27.2347012314151" />
+      <entry key="M10" value="45.58395491389569" />
+      <entry key="M15" value="60.82405620102923" />
+      <entry key="M30" value="97.15065823061273" />
+      <entry key="H1" value="138.5737417621241" />
+      <entry key="H2" value="173.86795493705958" />
+      <entry key="H4" value="214.9862336914465" />
+      <entry key="D1" value="836.0077191291018" />
+      <entry key="W1" value="2431.2951342943384" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="0.0" />
-      <entry key="S5" value="0.0" />
-      <entry key="S10" value="0.0" />
-      <entry key="S30" value="0.0" />
-      <entry key="S60" value="8.943597012136731E-223" />
-      <entry key="M2" value="2.530871700408595E-111" />
-      <entry key="M5" value="2.4094472530832487E-44" />
-      <entry key="M10" value="7.446855476523664E-22" />
-      <entry key="M15" value="2.6691407158835E-14" />
-      <entry key="M30" value="1.1110471981745431E-6" />
-      <entry key="H1" value="0.00811096055760948" />
-      <entry key="H2" value="0.732078558310689" />
-      <entry key="H4" value="7.636754816352659" />
-      <entry key="D1" value="246.5668145669557" />
-      <entry key="W1" value="850.4481109556727" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.000000000000371" />
+      <entry key="S5" value="1.000010882087065" />
+      <entry key="S10" value="1.003919251635179" />
+      <entry key="S30" value="1.3273574075591061" />
+      <entry key="S60" value="2.2014469281706477" />
+      <entry key="M2" value="3.4706877770217517" />
+      <entry key="M5" value="6.328546134380191" />
+      <entry key="M10" value="10.955285799412176" />
+      <entry key="M15" value="15.413811185851786" />
+      <entry key="M30" value="26.9346374182454" />
+      <entry key="H1" value="40.43271575315314" />
+      <entry key="H2" value="51.87009506328035" />
+      <entry key="H4" value="64.57873775814357" />
+      <entry key="D1" value="302.7703157258155" />
+      <entry key="W1" value="912.5828685124296" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.029564372556502745" />
-      <entry key="MS500" value="0.5979005563435549" />
-      <entry key="S2" value="2.43494403474133" />
-      <entry key="S5" value="3.7010051315150925" />
-      <entry key="S10" value="4.293254772308769" />
-      <entry key="S30" value="4.75035840545717" />
-      <entry key="S60" value="4.8733307945760735" />
-      <entry key="M2" value="4.9361961822769045" />
-      <entry key="M5" value="4.9743649381060395" />
-      <entry key="M10" value="4.987163469114868" />
-      <entry key="M15" value="4.991438084777096" />
-      <entry key="M30" value="4.995723047826864" />
-      <entry key="H1" value="5.038219518833145" />
-      <entry key="H2" value="8.431066168834095" />
-      <entry key="H4" value="39.13208405229481" />
-      <entry key="D1" value="896.508650144034" />
-      <entry key="W1" value="3079.566333684181" />
+      <entry key="MS100" value="0.024518253059273458" />
+      <entry key="MS500" value="0.47631899902196867" />
+      <entry key="S2" value="0.8307578979301317" />
+      <entry key="S5" value="0.9290290439715146" />
+      <entry key="S10" value="0.9980027346298469" />
+      <entry key="S30" value="2.5062508357094853" />
+      <entry key="S60" value="7.207425253319893" />
+      <entry key="M2" value="15.779922170343834" />
+      <entry key="M5" value="33.52278369737855" />
+      <entry key="M10" value="56.50057871479676" />
+      <entry key="M15" value="76.20279467367455" />
+      <entry key="M30" value="124.05852416526325" />
+      <entry key="H1" value="178.9885269466317" />
+      <entry key="H2" value="225.72727572741672" />
+      <entry key="H4" value="279.5585355102882" />
+      <entry key="D1" value="1138.7738942715023" />
+      <entry key="W1" value="3343.876136960753" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -113,7 +114,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Debug&quot;,
     &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
@@ -214,15 +215,7 @@
       <workItem from="1780659263667" duration="691000" />
       <workItem from="1780772550885" duration="12852000" />
       <workItem from="1780906323439" duration="24000" />
-      <workItem from="1780936394166" duration="649000" />
-    </task>
-    <task id="LOCAL-00004" summary="Sorted Square">
-      <option name="closed" value="true" />
-      <created>1773606406241</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1773606406241</updated>
+      <workItem from="1780936394166" duration="6899000" />
     </task>
     <task id="LOCAL-00005" summary="Sorted Square">
       <option name="closed" value="true" />
@@ -608,7 +601,15 @@
       <option name="project" value="LOCAL" />
       <updated>1780852812527</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="binary tree problems">
+      <option name="closed" value="true" />
+      <created>1780988284499</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1780988284500</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -664,6 +665,6 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/data_structures_and_algorithms$main.coverage" NAME="main Coverage Results" MODIFIED="1780859851724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/data_structures_and_algorithms$main.coverage" NAME="main Coverage Results" MODIFIED="1781031902479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

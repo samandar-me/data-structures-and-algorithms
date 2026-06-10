@@ -1,82 +1,21 @@
-from collections import deque
+trusts = [
+    [1, 4],
+    [2, 4],
+    [3, 4],
+]
 
-from trees.sum_of_left_leaves import Solution
+def find_judge(n: int, trust) -> int:
+    score = [0] * (n + 1)
 
+    for a, b in trust:
+        score[a] -= 1
+        score[b] += 1
 
-class TreeNode:
-    def __init__(self, val: int = 0, left=None, right=None):
-        self.val = val
-        self.left = left
-        self.right = right
+    for p in range(1, n + 1):
+        if score[p] == n - 1:
+            return p
 
-# def dfs(root: TreeNode):
-#     if not root:
-#         return
-#
-#     stack = [root]
-#
-#     while stack:
-#         s_len = len(stack)
-#
-#         node = stack.pop()
-#
-#         print(node.val)
-#
-#         if node.right:
-#             stack.append(node.right)
-#         if node.left:
-#             stack.append(node.left)
-
-# def dfs(root: TreeNode):
-#     if not root:
-#         return
-#
-#     print(root.val)
-#
-#     dfs(root.left)
-#     dfs(root.right)
-
-def diameterOfBinaryTree(root: TreeNode) -> int:
-    diameter = 0
-
-    def dfs(node: TreeNode) -> int:
-        nonlocal diameter
-
-        if not node:
-            return 0
-
-        leftDepth = dfs(node.left)
-        rightDepth = dfs(node.right)
-
-      #  print(leftDepth)
-        print(rightDepth)
-
-        d = leftDepth + rightDepth
-        diameter = max(d, diameter)
-        return max(leftDepth, rightDepth) + 1
-
-    dfs(root)
-    return diameter
+    return -1
 
 if __name__ == '__main__':
-    # root = TreeNode(4)
-    #
-    # root.left = TreeNode(9)
-    # root.right = TreeNode(0)
-    #
-    # root.left.left = TreeNode(5)
-    # root.left.right = TreeNode(1)
-
-    root = TreeNode(3)
-
-    root.left = TreeNode(9)
-    root.right = TreeNode(20)
-
-    root.right.left = TreeNode(15)
-    root.right.right = TreeNode(7)
-
-    sol = Solution()
-    print(sol.sumOfLeftLeaves(root))
-
-    # print(diameterOfBinaryTree(root))
-
+    print(find_judge(4, trusts))
