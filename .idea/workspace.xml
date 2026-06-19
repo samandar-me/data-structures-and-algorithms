@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8efb1a0-c606-444b-98ce-804d0c93fb25" name="Changes" comment="solving graph problems">
-      <change afterPath="$PROJECT_DIR$/arrays/flip_image.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arrays/remove_duplicates.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arrays/single_number.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graphs/number_of_islands.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graphs/path_exists.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graphs/word_exists.py" afterDir="false" />
+    <list default="true" id="d8efb1a0-c606-444b-98ce-804d0c93fb25" name="Changes" comment="improving two pointer &amp; sliding window patterns">
+      <change afterPath="$PROJECT_DIR$/two_sum/is_palindrome.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graphs/find_judge.py" beforeDir="false" afterPath="$PROJECT_DIR$/graphs/find_judge.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,61 +42,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0000000003072218" />
-      <entry key="MS500" value="1.012516716837338" />
-      <entry key="S2" value="1.334481888696528" />
-      <entry key="S5" value="1.6452812452334011" />
-      <entry key="S10" value="1.8032975240505378" />
-      <entry key="S30" value="1.9551951351048533" />
-      <entry key="S60" value="2.3129672829709103" />
-      <entry key="M2" value="4.105768807596231" />
-      <entry key="M5" value="13.749409400992231" />
-      <entry key="M10" value="28.287740794677767" />
-      <entry key="M15" value="38.41129881816346" />
-      <entry key="M30" value="64.21719069687123" />
-      <entry key="H1" value="119.9609605845985" />
-      <entry key="H2" value="215.23117544703115" />
-      <entry key="H4" value="335.1415547098162" />
-      <entry key="D1" value="1041.0142957182325" />
-      <entry key="W1" value="2714.135389224063" />
+      <entry key="MS100" value="0.003307598876416122" />
+      <entry key="MS500" value="0.3190821922072382" />
+      <entry key="S2" value="0.7515807390327813" />
+      <entry key="S5" value="0.8920521755387831" />
+      <entry key="S10" value="0.9444851378072565" />
+      <entry key="S30" value="0.9812088712592841" />
+      <entry key="S60" value="1.0245088770526574" />
+      <entry key="M2" value="1.8715048406093158" />
+      <entry key="M5" value="8.280895454324497" />
+      <entry key="M10" value="20.749750608832013" />
+      <entry key="M15" value="31.488859625470443" />
+      <entry key="M30" value="51.19056498282347" />
+      <entry key="H1" value="66.96764751159824" />
+      <entry key="H2" value="78.63818646762343" />
+      <entry key="H4" value="111.5610896822544" />
+      <entry key="D1" value="779.4260423086627" />
+      <entry key="W1" value="2648.910478161136" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="2.063973945544548E-8" />
-      <entry key="MS500" value="0.029036271070341044" />
-      <entry key="S2" value="0.41279574357097415" />
-      <entry key="S5" value="0.7019304524906864" />
-      <entry key="S10" value="0.837814506800607" />
-      <entry key="S30" value="0.9557580278745825" />
-      <entry key="S60" value="1.171386945032283" />
-      <entry key="M2" value="2.2812372036351074" />
-      <entry key="M5" value="6.721472951602164" />
-      <entry key="M10" value="11.558145776763695" />
-      <entry key="M15" value="14.39163172893599" />
-      <entry key="M30" value="20.157117299355672" />
-      <entry key="H1" value="30.512760710835998" />
-      <entry key="H2" value="49.32072588365049" />
-      <entry key="H4" value="76.3018155186709" />
-      <entry key="D1" value="321.6445441462781" />
-      <entry key="W1" value="955.6224882922894" />
+      <entry key="MS100" value="1.0000000000814844" />
+      <entry key="MS500" value="1.0143278433023102" />
+      <entry key="S2" value="1.5755821765865732" />
+      <entry key="S5" value="2.214157768603372" />
+      <entry key="S10" value="2.558074271344874" />
+      <entry key="S30" value="2.840216991873626" />
+      <entry key="S60" value="2.9207438934866463" />
+      <entry key="M2" value="3.0266420949375106" />
+      <entry key="M5" value="3.52204276384307" />
+      <entry key="M10" value="4.217791487161127" />
+      <entry key="M15" value="4.712488299799688" />
+      <entry key="M30" value="5.535602494645508" />
+      <entry key="H1" value="6.159600735594071" />
+      <entry key="H2" value="6.910461181628704" />
+      <entry key="H4" value="13.319105107055666" />
+      <entry key="D1" value="220.61423494893776" />
+      <entry key="W1" value="908.3698941237378" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.1425954655988048" />
-      <entry key="MS500" value="0.6952285561695374" />
-      <entry key="S2" value="1.4660385312723596" />
-      <entry key="S5" value="2.1514146311757374" />
-      <entry key="S10" value="2.5207138319105655" />
-      <entry key="S30" value="2.8625102377504765" />
-      <entry key="S60" value="3.4493244542886283" />
-      <entry key="M2" value="6.351357653950226" />
-      <entry key="M5" value="20.4317118341884" />
-      <entry key="M10" value="39.81187405027738" />
-      <entry key="M15" value="52.774096137656066" />
-      <entry key="M30" value="84.3524121766514" />
-      <entry key="H1" value="150.4554935948949" />
-      <entry key="H2" value="264.53704168007164" />
-      <entry key="H4" value="411.4324816050078" />
-      <entry key="D1" value="1362.653563310257" />
-      <entry key="W1" value="3669.7557984324158" />
+      <entry key="MS100" value="0.036523426762290756" />
+      <entry key="MS500" value="0.6894388035345497" />
+      <entry key="S2" value="1.975164576046652" />
+      <entry key="S5" value="2.907673876877083" />
+      <entry key="S10" value="3.3883257470999464" />
+      <entry key="S30" value="3.779287336544322" />
+      <entry key="S60" value="3.923420276045213" />
+      <entry key="M2" value="4.884439043712494" />
+      <entry key="M5" value="11.788445384365769" />
+      <entry key="M10" value="24.95104437535185" />
+      <entry key="M15" value="36.185246912337895" />
+      <entry key="M30" value="56.713660128523365" />
+      <entry key="H1" value="73.11928256270943" />
+      <entry key="H2" value="85.54402081983557" />
+      <entry key="H4" value="124.87685098571113" />
+      <entry key="D1" value="1000.0363485360505" />
+      <entry key="W1" value="3557.278350121315" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -119,7 +113,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.main.executor": "Run",
+    "Python.main.executor": "Debug",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -222,15 +216,8 @@
       <workItem from="1780906323439" duration="24000" />
       <workItem from="1780936394166" duration="6899000" />
       <workItem from="1781109273355" duration="5645000" />
-      <workItem from="1781630564940" duration="11425000" />
-    </task>
-    <task id="LOCAL-00006" summary="Container With Most Water">
-      <option name="closed" value="true" />
-      <created>1773688081122</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1773688081122</updated>
+      <workItem from="1781630564940" duration="11502000" />
+      <workItem from="1781808114140" duration="16000" />
     </task>
     <task id="LOCAL-00007" summary="pulling rope is in progress">
       <option name="closed" value="true" />
@@ -616,7 +603,15 @@
       <option name="project" value="LOCAL" />
       <updated>1781109398259</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="improving two pointer &amp; sliding window patterns">
+      <option name="closed" value="true" />
+      <created>1781692049335</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1781692049335</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -634,7 +629,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="longest_palindrome in progress" />
     <MESSAGE value="longest_palindrome solved" />
     <MESSAGE value="linked list and recursion session will start" />
     <MESSAGE value="the fist linked list problem is in progress" />
@@ -659,7 +653,8 @@
     <MESSAGE value="learning binary tree" />
     <MESSAGE value="binary tree problems" />
     <MESSAGE value="solving graph problems" />
-    <option name="LAST_COMMIT_MESSAGE" value="solving graph problems" />
+    <MESSAGE value="improving two pointer &amp; sliding window patterns" />
+    <option name="LAST_COMMIT_MESSAGE" value="improving two pointer &amp; sliding window patterns" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -702,6 +697,66 @@
           <url>file://$PROJECT_DIR$/arrays/single_number.py</url>
           <line>12</line>
           <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/two_sum/is_palindrome.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/two_sum/is_palindrome.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/two_sum/is_palindrome.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/two_sum/is_palindrome.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/two_sum/is_palindrome.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/two_sum/is_palindrome.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/two_sum/is_palindrome.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/two_sum/is_palindrome.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/two_sum/is_palindrome.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/two_sum/is_palindrome.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/two_sum/is_palindrome.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/two_sum/is_palindrome.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
