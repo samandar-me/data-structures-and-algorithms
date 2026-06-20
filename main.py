@@ -1,5 +1,5 @@
-from strings.first_occurance import Solution
+from strings.length_of_last_word import Solution
 
 if __name__ == '__main__':
     s = Solution()
-    print(s.strStr("hello", "ll"))
+    print(s.lengthOfLastWord("   fly me   to   the moon  "))
