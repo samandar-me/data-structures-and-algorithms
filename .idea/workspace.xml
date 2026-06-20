@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8efb1a0-c606-444b-98ce-804d0c93fb25" name="Changes" comment="improving two pointer &amp; sliding window patterns">
-      <change afterPath="$PROJECT_DIR$/strings/length_of_last_word.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strings/valid_pair.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,61 +41,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="0.0029809750175010903" />
-      <entry key="MS500" value="0.3125419592288317" />
-      <entry key="S2" value="0.8206142912634209" />
-      <entry key="S5" value="1.4401163816265363" />
-      <entry key="S10" value="2.838339849274195" />
-      <entry key="S30" value="9.012746830662417" />
-      <entry key="S60" value="14.926100430511584" />
-      <entry key="M2" value="20.252944947035562" />
-      <entry key="M5" value="25.49587735694494" />
-      <entry key="M10" value="30.727878854529532" />
-      <entry key="M15" value="38.22536374550012" />
-      <entry key="M30" value="68.9684290543115" />
-      <entry key="H1" value="123.04694294337594" />
-      <entry key="H2" value="181.8597259846348" />
-      <entry key="H4" value="246.16316827344517" />
-      <entry key="D1" value="929.4400560805065" />
-      <entry key="W1" value="2824.0594133469267" />
+      <entry key="MS100" value="1.8587460238451405" />
+      <entry key="MS500" value="2.2803617284393907" />
+      <entry key="S2" value="3.247687279230706" />
+      <entry key="S5" value="3.658891896422415" />
+      <entry key="S10" value="3.8824197217431795" />
+      <entry key="S30" value="4.568161274267522" />
+      <entry key="S60" value="5.177164720451838" />
+      <entry key="M2" value="6.494742500960657" />
+      <entry key="M5" value="13.220325009620925" />
+      <entry key="M10" value="28.553952160521906" />
+      <entry key="M15" value="45.9202157155564" />
+      <entry key="M30" value="95.39099504425972" />
+      <entry key="H1" value="173.4222849446377" />
+      <entry key="H2" value="281.22260906342655" />
+      <entry key="H4" value="405.3957519786259" />
+      <entry key="D1" value="1155.7811311002818" />
+      <entry key="W1" value="3102.186970117611" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.000000000500469" />
-      <entry key="S2" value="1.0047298167342626" />
-      <entry key="S5" value="1.117478705185721" />
-      <entry key="S10" value="1.3451506264143558" />
-      <entry key="S30" value="1.8348852648531073" />
-      <entry key="S60" value="2.2583385773740723" />
-      <entry key="M2" value="2.9290501408247955" />
-      <entry key="M5" value="4.283735736106443" />
-      <entry key="M10" value="6.096746339408288" />
-      <entry key="M15" value="8.303533699997747" />
-      <entry key="M30" value="16.276174682569497" />
-      <entry key="H1" value="28.921497005179347" />
-      <entry key="H2" value="41.571195902586865" />
-      <entry key="H4" value="55.13250203495142" />
-      <entry key="D1" value="262.44287430869747" />
-      <entry key="W1" value="956.2459503152771" />
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="6.831184020218281E-165" />
+      <entry key="S2" value="9.091258280789921E-42" />
+      <entry key="S5" value="3.832218473538876E-17" />
+      <entry key="S10" value="6.198127633375397E-9" />
+      <entry key="S30" value="0.0020334278199741953" />
+      <entry key="S60" value="0.05753231489632502" />
+      <entry key="M2" value="0.36671322647661286" />
+      <entry key="M5" value="1.8955450213872376" />
+      <entry key="M10" value="5.77166381340438" />
+      <entry key="M15" value="10.159081016365624" />
+      <entry key="M30" value="22.072004728012782" />
+      <entry key="H1" value="40.37027206474058" />
+      <entry key="H2" value="65.30563539879728" />
+      <entry key="H4" value="93.38928192440568" />
+      <entry key="D1" value="311.8289645491116" />
+      <entry key="W1" value="1017.9043157177206" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.1947999087880726" />
-      <entry key="MS500" value="0.8183737412225126" />
-      <entry key="S2" value="1.545242254439049" />
-      <entry key="S5" value="2.3793023615705695" />
-      <entry key="S10" value="4.040452084979798" />
-      <entry key="S30" value="10.741849067839642" />
-      <entry key="S60" value="17.104691701752547" />
-      <entry key="M2" value="23.128555713624408" />
-      <entry key="M5" value="29.7518525191216" />
-      <entry key="M10" value="36.8073940452819" />
-      <entry key="M15" value="46.51425866746713" />
-      <entry key="M30" value="85.2306325072036" />
-      <entry key="H1" value="151.9554243195497" />
-      <entry key="H2" value="223.42108687038748" />
-      <entry key="H4" value="301.2888514638378" />
-      <entry key="D1" value="1191.8783549736775" />
-      <entry key="W1" value="3780.303232112411" />
+      <entry key="MS100" value="1.0105406472108514" />
+      <entry key="MS500" value="1.8679848302584037" />
+      <entry key="S2" value="3.0875350146835774" />
+      <entry key="S5" value="3.58589564128782" />
+      <entry key="S10" value="3.841804872966845" />
+      <entry key="S30" value="4.548369333631293" />
+      <entry key="S60" value="5.219371225129325" />
+      <entry key="M2" value="6.84876933029056" />
+      <entry key="M5" value="15.100516107460129" />
+      <entry key="M10" value="34.30580374369228" />
+      <entry key="M15" value="56.05725348144392" />
+      <entry key="M30" value="117.44017047931965" />
+      <entry key="H1" value="213.77237555569496" />
+      <entry key="H2" value="346.5122249786416" />
+      <entry key="H4" value="498.77355461002304" />
+      <entry key="D1" value="1467.6044609534588" />
+      <entry key="W1" value="4120.08896884813" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -109,30 +109,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.main.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;ai.playground.ignore.import.keys.banner.in.settings&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/samandar/PycharmProjects/data-structures-and-algorithms&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.main.executor": "Run",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "ai.playground.ignore.import.keys.banner.in.settings": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "/Users/samandar/PycharmProjects/data-structures-and-algorithms",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -217,22 +217,6 @@
       <workItem from="1781109273355" duration="5645000" />
       <workItem from="1781630564940" duration="11502000" />
       <workItem from="1781808114140" duration="16000" />
-    </task>
-    <task id="LOCAL-00009" summary="skipped one problem">
-      <option name="closed" value="true" />
-      <created>1775401651032</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1775401651032</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Reverse Word">
-      <option name="closed" value="true" />
-      <created>1775402361591</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1775402361591</updated>
     </task>
     <task id="LOCAL-00011" summary="Reverse Word">
       <option name="closed" value="true" />
@@ -610,7 +594,23 @@
       <option name="project" value="LOCAL" />
       <updated>1781970906478</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="improving two pointer &amp; sliding window patterns">
+      <option name="closed" value="true" />
+      <created>1781977581964</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1781977581964</updated>
+    </task>
+    <task id="LOCAL-00059" summary="improving two pointer &amp; sliding window patterns">
+      <option name="closed" value="true" />
+      <created>1781977584629</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1781977584629</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -836,6 +836,56 @@
           <url>file://$PROJECT_DIR$/strings/length_of_last_word.py</url>
           <line>12</line>
           <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/strings/valid_pair.py</url>
+          <line>45</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/strings/valid_pair.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/strings/valid_pair.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/strings/valid_pair.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/strings/valid_pair.py</url>
+          <line>34</line>
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/strings/valid_pair.py</url>
+          <line>35</line>
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/strings/valid_pair.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/strings/valid_pair.py</url>
+          <line>37</line>
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/strings/valid_pair.py</url>
+          <line>42</line>
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/strings/valid_pair.py</url>
+          <line>43</line>
+          <option name="timeStamp" value="99" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
