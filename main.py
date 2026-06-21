@@ -1,6 +1,5 @@
-from strings.valid_pair import Solution
+from strings.day_of_year import Solution
 
 if __name__ == '__main__':
     s = Solution()
-
-    print(s.findValidPair("12597319494953859992349459"))
+    print(s.dayOfYear("2012-01-02"))
