@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8efb1a0-c606-444b-98ce-804d0c93fb25" name="Changes" comment="solving some easy problems">
-      <change afterPath="$PROJECT_DIR$/strings/arr_str_are_equal_.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/strings/day_of_year.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/strings/goat_latin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/arrays/plus_one.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/math_py/counting_bits.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/math_py/happy_number.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strings/replace_only_letters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strings/truncate_sentence.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strings/valid_palindrome.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/binary_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/binary_search.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,61 +48,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="4.845460569552049E-19" />
-      <entry key="MS500" value="2.173036458135977E-4" />
-      <entry key="S2" value="0.12141343694270414" />
-      <entry key="S5" value="0.4302359545899102" />
-      <entry key="S10" value="0.6559424127300061" />
-      <entry key="S30" value="0.9658177178951699" />
-      <entry key="S60" value="1.7591703324486814" />
-      <entry key="M2" value="3.6192419460947045" />
-      <entry key="M5" value="11.839092909676296" />
-      <entry key="M10" value="32.16700393466217" />
-      <entry key="M15" value="51.501702468685785" />
-      <entry key="M30" value="89.50082847393408" />
-      <entry key="H1" value="121.74234557527946" />
-      <entry key="H2" value="144.09606859713563" />
-      <entry key="H4" value="182.78210074753784" />
-      <entry key="D1" value="974.6571305234104" />
-      <entry key="W1" value="3240.4155273639362" />
+      <entry key="MS100" value="5.67675010143654E-13" />
+      <entry key="MS500" value="0.0035548391565660116" />
+      <entry key="S2" value="0.24417713224229742" />
+      <entry key="S5" value="0.5690086938188577" />
+      <entry key="S10" value="0.7702956522843566" />
+      <entry key="S30" value="1.7974518701929962" />
+      <entry key="S60" value="4.057913522568626" />
+      <entry key="M2" value="8.113231739153147" />
+      <entry key="M5" value="14.152208700078658" />
+      <entry key="M10" value="17.54015748318711" />
+      <entry key="M15" value="19.173094178709643" />
+      <entry key="M30" value="23.853379091157066" />
+      <entry key="H1" value="32.98708190049485" />
+      <entry key="H2" value="45.50717071861584" />
+      <entry key="H4" value="83.28064501967613" />
+      <entry key="D1" value="846.546635829806" />
+      <entry key="W1" value="3381.3569272350182" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.000000127765353" />
-      <entry key="MS500" value="1.041810236087066" />
-      <entry key="S2" value="1.4521896887805439" />
-      <entry key="S5" value="1.727994774796587" />
-      <entry key="S10" value="1.8532582072130772" />
-      <entry key="S30" value="2.026888145576254" />
-      <entry key="S60" value="2.5337759409729665" />
-      <entry key="M2" value="3.580864639284063" />
-      <entry key="M5" value="6.798282565878393" />
-      <entry key="M10" value="12.991306194375253" />
-      <entry key="M15" value="18.454361768317145" />
-      <entry key="M30" value="28.966153996334032" />
-      <entry key="H1" value="37.868411427355106" />
-      <entry key="H2" value="44.06174373339761" />
-      <entry key="H4" value="54.3445772960932" />
-      <entry key="D1" value="272.89815640995715" />
-      <entry key="W1" value="1054.280062480214" />
+      <entry key="MS100" value="1.0000869171261961" />
+      <entry key="MS500" value="1.1541065406829758" />
+      <entry key="S2" value="1.6265493271378721" />
+      <entry key="S5" value="1.8294410118150732" />
+      <entry key="S10" value="1.9132982620647114" />
+      <entry key="S30" value="2.162115064043853" />
+      <entry key="S60" value="2.924791362284449" />
+      <entry key="M2" value="4.684390143602106" />
+      <entry key="M5" value="7.693226313107182" />
+      <entry key="M10" value="9.501170545846419" />
+      <entry key="M15" value="10.336138151803882" />
+      <entry key="M30" value="12.20766495382167" />
+      <entry key="H1" value="15.373490948744921" />
+      <entry key="H2" value="19.632865419997326" />
+      <entry key="H4" value="32.57806398831804" />
+      <entry key="D1" value="259.16043147202936" />
+      <entry key="W1" value="1110.810839835448" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.014179989079175623" />
-      <entry key="MS500" value="0.4456741896162978" />
-      <entry key="S2" value="1.27280471197197" />
-      <entry key="S5" value="1.9796983674598776" />
-      <entry key="S10" value="2.4021392521332627" />
-      <entry key="S30" value="2.949947679956983" />
-      <entry key="S60" value="4.264673981055508" />
-      <entry key="M2" value="7.178806814193791" />
-      <entry key="M5" value="18.618500945692443" />
-      <entry key="M10" value="45.13667327676079" />
-      <entry key="M15" value="69.9339370529765" />
-      <entry key="M30" value="118.44833062728314" />
-      <entry key="H1" value="159.59819678090534" />
-      <entry key="H2" value="188.15039338051162" />
-      <entry key="H4" value="237.1218492941429" />
-      <entry key="D1" value="1247.5505319166105" />
-      <entry key="W1" value="4294.693180109243" />
+      <entry key="MS100" value="0.13869634240068066" />
+      <entry key="MS500" value="0.7207398509054689" />
+      <entry key="S2" value="1.6058488876033907" />
+      <entry key="S5" value="2.2601413516378597" />
+      <entry key="S10" value="2.6067620583143922" />
+      <entry key="S30" value="3.9151303486638125" />
+      <entry key="S60" value="6.927135819173924" />
+      <entry key="M2" value="12.730636013795841" />
+      <entry key="M5" value="21.792609983030953" />
+      <entry key="M10" value="27.007412967172403" />
+      <entry key="M15" value="29.484454066119568" />
+      <entry key="M30" value="36.04666717081222" />
+      <entry key="H1" value="48.35192177913872" />
+      <entry key="H2" value="65.13477670688032" />
+      <entry key="H4" value="115.85474094173256" />
+      <entry key="D1" value="1105.7023972334243" />
+      <entry key="W1" value="4492.165173021557" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -221,14 +225,6 @@
       <workItem from="1781109273355" duration="5645000" />
       <workItem from="1781630564940" duration="11502000" />
       <workItem from="1781808114140" duration="16000" />
-    </task>
-    <task id="LOCAL-00012" summary="correct_brackets.py">
-      <option name="closed" value="true" />
-      <created>1775403482706</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1775403482706</updated>
     </task>
     <task id="LOCAL-00013" summary="correct_brackets.py">
       <option name="closed" value="true" />
@@ -614,7 +610,15 @@
       <option name="project" value="LOCAL" />
       <updated>1781987757380</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="solving some easy problems">
+      <option name="closed" value="true" />
+      <created>1782053716871</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1782053716871</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -970,6 +974,406 @@
           <url>file://$PROJECT_DIR$/strings/day_of_year.py</url>
           <line>13</line>
           <option name="timeStamp" value="135" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/math_py/happy_number.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="136" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/math_py/happy_number.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="137" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/math_py/happy_number.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="153" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/math_py/happy_number.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="154" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/math_py/happy_number.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="155" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/math_py/happy_number.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="156" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/math_py/happy_number.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="157" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/math_py/happy_number.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="158" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/math_py/happy_number.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="159" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/math_py/happy_number.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="160" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/math_py/happy_number.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="161" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/math_py/happy_number.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="162" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/math_py/happy_number.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="163" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/math_py/happy_number.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="164" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/math_py/happy_number.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="165" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arrays/binary_search.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="166" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arrays/binary_search.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="167" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arrays/binary_search.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="168" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arrays/binary_search.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="169" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arrays/binary_search.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="170" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arrays/binary_search.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="171" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arrays/binary_search.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="172" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arrays/binary_search.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="173" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arrays/binary_search.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="174" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arrays/binary_search.py</url>
+          <line>31</line>
+          <option name="timeStamp" value="175" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arrays/binary_search.py</url>
+          <line>32</line>
+          <option name="timeStamp" value="176" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arrays/binary_search.py</url>
+          <line>34</line>
+          <option name="timeStamp" value="177" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arrays/binary_search.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="178" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arrays/binary_search.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="179" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arrays/binary_search.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="180" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arrays/binary_search.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="181" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arrays/binary_search.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="182" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arrays/binary_search.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="183" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arrays/binary_search.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="184" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arrays/binary_search.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="185" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arrays/binary_search.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="186" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arrays/binary_search.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="187" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arrays/binary_search.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="188" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arrays/binary_search.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="189" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arrays/binary_search.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="190" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arrays/binary_search.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="191" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arrays/binary_search.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="192" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/strings/truncate_sentence.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="193" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/strings/truncate_sentence.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="194" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/strings/truncate_sentence.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="195" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/strings/truncate_sentence.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="196" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/strings/truncate_sentence.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="197" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/strings/truncate_sentence.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="198" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/strings/truncate_sentence.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="199" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/strings/truncate_sentence.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="200" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/strings/truncate_sentence.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="202" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/math_py/counting_bits.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="203" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/math_py/counting_bits.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="204" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/math_py/counting_bits.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="205" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/math_py/counting_bits.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="206" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/math_py/counting_bits.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="207" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/math_py/counting_bits.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="208" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/math_py/counting_bits.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="209" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/math_py/counting_bits.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="211" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/math_py/counting_bits.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="212" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/math_py/counting_bits.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="213" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/math_py/counting_bits.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="214" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/math_py/counting_bits.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="218" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/strings/valid_palindrome.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="219" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/strings/valid_palindrome.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="220" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/strings/valid_palindrome.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="221" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/strings/valid_palindrome.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="222" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/strings/valid_palindrome.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="223" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/strings/valid_palindrome.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="224" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/strings/valid_palindrome.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="228" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/strings/valid_palindrome.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="232" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/strings/valid_palindrome.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="233" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/strings/valid_palindrome.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="234" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/strings/valid_palindrome.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="235" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/strings/valid_palindrome.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="236" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/strings/valid_palindrome.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="237" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/strings/valid_palindrome.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="238" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/strings/valid_palindrome.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="239" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/strings/valid_palindrome.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="240" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/strings/valid_palindrome.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="241" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

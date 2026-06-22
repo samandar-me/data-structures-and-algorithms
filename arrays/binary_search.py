@@ -1,20 +1,40 @@
-def binary_search(items, target):
+from typing import List
+
+
+def search(nums: List[int], target: int) -> int:
     low = 0
-    high = len(items) - 1
-    target = target.lower()
+    high = len(nums) - 1
 
     while low <= high:
         mid = (low + high) // 2
-        guess = items[mid].lower()
+        guess = nums[mid]
 
-        if guess == target:
+        if target == guess:
             return mid
         if guess > target:
             high = mid - 1
         else:
             low = mid + 1
 
-    return None
+    return -1
+
+# def binary_search(items, target):
+#     low = 0
+#     high = len(items) - 1
+#     target = target.lower()
+#
+#     while low <= high:
+#         mid = (low + high) // 2
+#         guess = items[mid].lower()
+#
+#         if guess == target:
+#             return mid
+#         if guess > target:
+#             high = mid - 1
+#         else:
+#             low = mid + 1
+#
+#     return None
 
 # if __name__ == '__main__':
 #     my_list1 = [3, 1, 8, 7, 2]
