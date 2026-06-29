@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8efb1a0-c606-444b-98ce-804d0c93fb25" name="Changes" comment="solving some easy problems">
-      <change afterPath="$PROJECT_DIR$/arrays/common_value.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arrays/minimum_index.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/math_py/mirror_distance.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/strings/modify_string.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/two_pointers/merge_array.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/two_pointers/move_zeroes.py" afterDir="false" />
+    <list default="true" id="d8efb1a0-c606-444b-98ce-804d0c93fb25" name="Changes" comment="solving easy questions related to two-pointers pattern">
+      <change afterPath="$PROJECT_DIR$/sliding_window/max_average.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sliding_window/max_vowels.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/two_pointers/move_zeroes.py" beforeDir="false" afterPath="$PROJECT_DIR$/two_pointers/move_zeroes.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,61 +44,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="7.50427334613287E-4" />
-      <entry key="MS500" value="0.23717107878511348" />
-      <entry key="S2" value="0.6978650841816464" />
-      <entry key="S5" value="0.8872193876129425" />
-      <entry key="S10" value="1.2948718483698918" />
-      <entry key="S30" value="4.982428935880098" />
-      <entry key="S60" value="9.27350145024367" />
-      <entry key="M2" value="14.044150117724884" />
-      <entry key="M5" value="25.22658734987523" />
-      <entry key="M10" value="40.25167452395615" />
-      <entry key="M15" value="51.98896537601449" />
-      <entry key="M30" value="80.48665421009055" />
-      <entry key="H1" value="124.78199734454996" />
-      <entry key="H2" value="196.92225569817808" />
-      <entry key="H4" value="297.6148578497506" />
-      <entry key="D1" value="965.8593057705334" />
-      <entry key="W1" value="3736.9567573490494" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0000000000000027" />
+      <entry key="S5" value="1.0000019623702712" />
+      <entry key="S10" value="1.0027810524971992" />
+      <entry key="S30" value="1.5412789453460443" />
+      <entry key="S60" value="3.1959562307097515" />
+      <entry key="M2" value="5.554854679722908" />
+      <entry key="M5" value="8.237906621988316" />
+      <entry key="M10" value="10.242983552377279" />
+      <entry key="M15" value="12.87591875787426" />
+      <entry key="M30" value="21.830431977471893" />
+      <entry key="H1" value="33.36855246238566" />
+      <entry key="H2" value="46.76669214003933" />
+      <entry key="H4" value="91.74735498666911" />
+      <entry key="D1" value="791.689763653998" />
+      <entry key="W1" value="3717.12502477917" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0000000000496299" />
-      <entry key="MS500" value="1.008706817150959" />
-      <entry key="S2" value="1.4076529837153897" />
-      <entry key="S5" value="2.3791940842590407" />
-      <entry key="S10" value="3.6545829602623914" />
-      <entry key="S30" value="7.32232461576693" />
-      <entry key="S60" value="10.037567046049485" />
-      <entry key="M2" value="12.420370014698769" />
-      <entry key="M5" value="17.786076076554522" />
-      <entry key="M10" value="26.851705045034905" />
-      <entry key="M15" value="34.568061632671174" />
-      <entry key="M30" value="52.5393424318333" />
-      <entry key="H1" value="76.19426145196145" />
-      <entry key="H2" value="107.30644639798031" />
-      <entry key="H4" value="145.847186202245" />
-      <entry key="D1" value="379.84057470450233" />
-      <entry key="W1" value="1316.440158213405" />
+      <entry key="MS100" value="4.196386374010029E-290" />
+      <entry key="MS500" value="1.3322173755081939E-58" />
+      <entry key="S2" value="3.41163375270721E-15" />
+      <entry key="S5" value="1.903469694230474E-6" />
+      <entry key="S10" value="0.0020132771204230807" />
+      <entry key="S30" value="0.25263674011852394" />
+      <entry key="S60" value="0.9069227104024606" />
+      <entry key="M2" value="1.899444004906443" />
+      <entry key="M5" value="3.2718992788104853" />
+      <entry key="M10" value="4.45955999801602" />
+      <entry key="M15" value="5.977936322090428" />
+      <entry key="M30" value="10.916387504060404" />
+      <entry key="H1" value="17.09262179608462" />
+      <entry key="H2" value="23.740354990001116" />
+      <entry key="H4" value="43.65517409537299" />
+      <entry key="D1" value="314.2289126792601" />
+      <entry key="W1" value="1319.38625254148" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.01938476879222164" />
-      <entry key="MS500" value="0.5660126338899762" />
-      <entry key="S2" value="1.7332808763612355" />
-      <entry key="S5" value="3.017230768601864" />
-      <entry key="S10" value="4.755828453924967" />
-      <entry key="S30" value="12.150224207601907" />
-      <entry key="S60" value="19.192340187377628" />
-      <entry key="M2" value="26.385322122092106" />
-      <entry key="M5" value="42.962382250210624" />
-      <entry key="M10" value="67.06287271359783" />
-      <entry key="M15" value="86.52136474140957" />
-      <entry key="M30" value="132.9979263702943" />
-      <entry key="H1" value="200.9549415365736" />
-      <entry key="H2" value="304.2122983575195" />
-      <entry key="H4" value="443.4498203681064" />
-      <entry key="D1" value="1345.6938637532398" />
-      <entry key="W1" value="5053.393916366461" />
+      <entry key="MS100" value="0.001039424006302109" />
+      <entry key="MS500" value="0.2531387018376232" />
+      <entry key="S2" value="0.7093158053708505" />
+      <entry key="S5" value="0.8716410110851294" />
+      <entry key="S10" value="0.9382516267590361" />
+      <entry key="S30" value="1.7637511273211661" />
+      <entry key="S60" value="4.077803128224874" />
+      <entry key="M2" value="7.434819547769129" />
+      <entry key="M5" value="11.49865331461558" />
+      <entry key="M10" value="14.695662935801252" />
+      <entry key="M15" value="18.84816841208007" />
+      <entry key="M30" value="32.7421479002697" />
+      <entry key="H1" value="50.45767127504503" />
+      <entry key="H2" value="70.50456490064481" />
+      <entry key="H4" value="135.39977585473795" />
+      <entry key="D1" value="1105.9140392732438" />
+      <entry key="W1" value="5036.5083281868365" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -118,7 +115,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.main.executor": "Debug",
+    "Python.main.executor": "Run",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -141,6 +138,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/sliding_window" />
       <recent name="$PROJECT_DIR$/strings" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/problems/arrays" />
@@ -224,14 +222,6 @@
       <workItem from="1781109273355" duration="5645000" />
       <workItem from="1781630564940" duration="11502000" />
       <workItem from="1781808114140" duration="16000" />
-    </task>
-    <task id="LOCAL-00014" summary="correct_brackets.py">
-      <option name="closed" value="true" />
-      <created>1775543292082</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1775543292082</updated>
     </task>
     <task id="LOCAL-00015" summary="correct capitalization">
       <option name="closed" value="true" />
@@ -617,7 +607,15 @@
       <option name="project" value="LOCAL" />
       <updated>1782121192277</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="solving easy questions related to two-pointers pattern">
+      <option name="closed" value="true" />
+      <created>1782667994352</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1782667994352</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -635,7 +633,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="linked list and recursion session will start" />
     <MESSAGE value="the fist linked list problem is in progress" />
     <MESSAGE value="linked list" />
     <MESSAGE value="finding middle of linked list" />
@@ -660,7 +657,8 @@
     <MESSAGE value="solving graph problems" />
     <MESSAGE value="improving two pointer &amp; sliding window patterns" />
     <MESSAGE value="solving some easy problems" />
-    <option name="LAST_COMMIT_MESSAGE" value="solving some easy problems" />
+    <MESSAGE value="solving easy questions related to two-pointers pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="solving easy questions related to two-pointers pattern" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1456,42 +1454,42 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/two_pointers/move_zeroes.py</url>
-          <line>4</line>
+          <line>3</line>
           <option name="timeStamp" value="262" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/two_pointers/move_zeroes.py</url>
-          <line>5</line>
+          <line>4</line>
           <option name="timeStamp" value="263" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/two_pointers/move_zeroes.py</url>
-          <line>7</line>
+          <line>6</line>
           <option name="timeStamp" value="264" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/two_pointers/move_zeroes.py</url>
-          <line>8</line>
+          <line>7</line>
           <option name="timeStamp" value="265" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/two_pointers/move_zeroes.py</url>
-          <line>9</line>
+          <line>8</line>
           <option name="timeStamp" value="266" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/two_pointers/move_zeroes.py</url>
-          <line>10</line>
+          <line>9</line>
           <option name="timeStamp" value="267" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/two_pointers/move_zeroes.py</url>
-          <line>12</line>
+          <line>11</line>
           <option name="timeStamp" value="268" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/two_pointers/move_zeroes.py</url>
-          <line>13</line>
+          <line>12</line>
           <option name="timeStamp" value="269" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -1623,6 +1621,176 @@
           <url>file://$PROJECT_DIR$/arrays/minimum_index.py</url>
           <line>10</line>
           <option name="timeStamp" value="339" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/max_average.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="340" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/max_average.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="341" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/max_average.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="342" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/max_average.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="343" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/max_average.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="344" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/max_average.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="345" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/max_average.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="346" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/max_average.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="347" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/max_vowels.py</url>
+          <line>43</line>
+          <option name="timeStamp" value="348" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/max_vowels.py</url>
+          <line>56</line>
+          <option name="timeStamp" value="357" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/max_vowels.py</url>
+          <line>44</line>
+          <option name="timeStamp" value="367" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/max_vowels.py</url>
+          <line>46</line>
+          <option name="timeStamp" value="368" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/max_vowels.py</url>
+          <line>47</line>
+          <option name="timeStamp" value="369" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/max_vowels.py</url>
+          <line>49</line>
+          <option name="timeStamp" value="370" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/max_vowels.py</url>
+          <line>50</line>
+          <option name="timeStamp" value="371" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/max_vowels.py</url>
+          <line>51</line>
+          <option name="timeStamp" value="372" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/max_vowels.py</url>
+          <line>52</line>
+          <option name="timeStamp" value="373" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/max_vowels.py</url>
+          <line>53</line>
+          <option name="timeStamp" value="374" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/max_vowels.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="375" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/max_vowels.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="376" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/max_vowels.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="377" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/max_vowels.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="378" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/max_vowels.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="379" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/max_vowels.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="380" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/max_vowels.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="381" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/max_vowels.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="383" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/max_vowels.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="384" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/max_vowels.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="385" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/max_vowels.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="386" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/max_vowels.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="387" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/max_vowels.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="388" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/max_vowels.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="389" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/max_vowels.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="390" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/max_vowels.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="391" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
