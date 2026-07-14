@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8efb1a0-c606-444b-98ce-804d0c93fb25" name="Changes" comment="solving easy questions related to two-pointers pattern">
-      <change afterPath="$PROJECT_DIR$/sliding_window/max_average.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sliding_window/max_vowels.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sliding_window/examples.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sliding_window/maximum_subarray.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/two_pointers/move_zeroes.py" beforeDir="false" afterPath="$PROJECT_DIR$/two_pointers/move_zeroes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/two_sum/is_palindrome.py" beforeDir="false" afterPath="$PROJECT_DIR$/two_pointers/is_palindrome.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,61 +44,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0000000000000027" />
-      <entry key="S5" value="1.0000019623702712" />
-      <entry key="S10" value="1.0027810524971992" />
-      <entry key="S30" value="1.5412789453460443" />
-      <entry key="S60" value="3.1959562307097515" />
-      <entry key="M2" value="5.554854679722908" />
-      <entry key="M5" value="8.237906621988316" />
-      <entry key="M10" value="10.242983552377279" />
-      <entry key="M15" value="12.87591875787426" />
-      <entry key="M30" value="21.830431977471893" />
-      <entry key="H1" value="33.36855246238566" />
-      <entry key="H2" value="46.76669214003933" />
-      <entry key="H4" value="91.74735498666911" />
-      <entry key="D1" value="791.689763653998" />
-      <entry key="W1" value="3717.12502477917" />
+      <entry key="MS100" value="2.217447886300104" />
+      <entry key="MS500" value="3.6521598699529934" />
+      <entry key="S2" value="5.666321017528386" />
+      <entry key="S5" value="8.29030649920647" />
+      <entry key="S10" value="11.852983570387446" />
+      <entry key="S30" value="18.041770845656483" />
+      <entry key="S60" value="20.668245827378268" />
+      <entry key="M2" value="22.233762408329895" />
+      <entry key="M5" value="23.26764579990924" />
+      <entry key="M10" value="23.629355475077972" />
+      <entry key="M15" value="23.75189884603411" />
+      <entry key="M30" value="23.875443973521538" />
+      <entry key="H1" value="23.937602046548673" />
+      <entry key="H2" value="23.99106087880651" />
+      <entry key="H4" value="25.79280123847616" />
+      <entry key="D1" value="413.346958571687" />
+      <entry key="W1" value="3395.1786637357473" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="4.196386374010029E-290" />
-      <entry key="MS500" value="1.3322173755081939E-58" />
-      <entry key="S2" value="3.41163375270721E-15" />
-      <entry key="S5" value="1.903469694230474E-6" />
-      <entry key="S10" value="0.0020132771204230807" />
-      <entry key="S30" value="0.25263674011852394" />
-      <entry key="S60" value="0.9069227104024606" />
-      <entry key="M2" value="1.899444004906443" />
-      <entry key="M5" value="3.2718992788104853" />
-      <entry key="M10" value="4.45955999801602" />
-      <entry key="M15" value="5.977936322090428" />
-      <entry key="M30" value="10.916387504060404" />
-      <entry key="H1" value="17.09262179608462" />
-      <entry key="H2" value="23.740354990001116" />
-      <entry key="H4" value="43.65517409537299" />
-      <entry key="D1" value="314.2289126792601" />
-      <entry key="W1" value="1319.38625254148" />
+      <entry key="MS100" value="1.0123753288967533E-87" />
+      <entry key="MS500" value="3.990876703242201E-18" />
+      <entry key="S2" value="4.469583732055517E-5" />
+      <entry key="S5" value="0.01820148537533251" />
+      <entry key="S10" value="0.13491288068725135" />
+      <entry key="S30" value="0.5128824106800092" />
+      <entry key="S60" value="0.7161580905638151" />
+      <entry key="M2" value="0.8462612425036461" />
+      <entry key="M5" value="0.9354095091255045" />
+      <entry key="M10" value="0.9671657092378253" />
+      <entry key="M15" value="0.9779889026769513" />
+      <entry key="M30" value="0.9889332144677919" />
+      <entry key="H1" value="0.9944535462494111" />
+      <entry key="H2" value="1.0050705422479302" />
+      <entry key="H4" value="1.7040005058755876" />
+      <entry key="D1" value="153.2550997771987" />
+      <entry key="W1" value="1195.4210926505318" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.001039424006302109" />
-      <entry key="MS500" value="0.2531387018376232" />
-      <entry key="S2" value="0.7093158053708505" />
-      <entry key="S5" value="0.8716410110851294" />
-      <entry key="S10" value="0.9382516267590361" />
-      <entry key="S30" value="1.7637511273211661" />
-      <entry key="S60" value="4.077803128224874" />
-      <entry key="M2" value="7.434819547769129" />
-      <entry key="M5" value="11.49865331461558" />
-      <entry key="M10" value="14.695662935801252" />
-      <entry key="M15" value="18.84816841208007" />
-      <entry key="M30" value="32.7421479002697" />
-      <entry key="H1" value="50.45767127504503" />
-      <entry key="H2" value="70.50456490064481" />
-      <entry key="H4" value="135.39977585473795" />
-      <entry key="D1" value="1105.9140392732438" />
-      <entry key="W1" value="5036.5083281868365" />
+      <entry key="MS100" value="1.2839053496932868" />
+      <entry key="MS500" value="2.9794933655961127" />
+      <entry key="S2" value="5.303485355146803" />
+      <entry key="S5" value="8.066353603182476" />
+      <entry key="S10" value="11.78725068179021" />
+      <entry key="S30" value="18.433836672595344" />
+      <entry key="S60" value="21.31166986476352" />
+      <entry key="M2" value="23.03989609491866" />
+      <entry key="M5" value="24.18599856038344" />
+      <entry key="M10" value="24.587815808207036" />
+      <entry key="M15" value="24.724044106169416" />
+      <entry key="M30" value="24.861435153323672" />
+      <entry key="H1" value="24.930579486300797" />
+      <entry key="H2" value="24.99539058822033" />
+      <entry key="H4" value="27.49637282729863" />
+      <entry key="D1" value="566.5997183781708" />
+      <entry key="W1" value="4590.5970715941785" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -112,32 +112,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.main.executor": "Run",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "ai.playground.ignore.import.keys.banner.in.settings": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "/Users/samandar/PycharmProjects/data-structures-and-algorithms",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.examples.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;ai.playground.ignore.import.keys.banner.in.settings&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/samandar/PycharmProjects/data-structures-and-algorithms&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/two_pointers" />
       <recent name="$PROJECT_DIR$/sliding_window" />
       <recent name="$PROJECT_DIR$/strings" />
       <recent name="$PROJECT_DIR$" />
@@ -222,14 +224,6 @@
       <workItem from="1781109273355" duration="5645000" />
       <workItem from="1781630564940" duration="11502000" />
       <workItem from="1781808114140" duration="16000" />
-    </task>
-    <task id="LOCAL-00015" summary="correct capitalization">
-      <option name="closed" value="true" />
-      <created>1775589169522</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1775589169522</updated>
     </task>
     <task id="LOCAL-00016" summary="correct capitalization">
       <option name="closed" value="true" />
@@ -615,7 +609,15 @@
       <option name="project" value="LOCAL" />
       <updated>1782667994352</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="solving easy questions related to two-pointers pattern">
+      <option name="closed" value="true" />
+      <created>1782733369327</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1782733369328</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -633,7 +635,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="the fist linked list problem is in progress" />
     <MESSAGE value="linked list" />
     <MESSAGE value="finding middle of linked list" />
     <MESSAGE value="reverse linked list" />
@@ -658,7 +659,8 @@
     <MESSAGE value="improving two pointer &amp; sliding window patterns" />
     <MESSAGE value="solving some easy problems" />
     <MESSAGE value="solving easy questions related to two-pointers pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="solving easy questions related to two-pointers pattern" />
+    <MESSAGE value="solving sliding window problems" />
+    <option name="LAST_COMMIT_MESSAGE" value="solving sliding window problems" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -668,62 +670,62 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/two_sum/is_palindrome.py</url>
+          <url>file://$PROJECT_DIR$/two_pointers/is_palindrome.py</url>
           <line>2</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/two_sum/is_palindrome.py</url>
+          <url>file://$PROJECT_DIR$/two_pointers/is_palindrome.py</url>
           <line>4</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/two_sum/is_palindrome.py</url>
+          <url>file://$PROJECT_DIR$/two_pointers/is_palindrome.py</url>
           <line>6</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/two_sum/is_palindrome.py</url>
+          <url>file://$PROJECT_DIR$/two_pointers/is_palindrome.py</url>
           <line>7</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/two_sum/is_palindrome.py</url>
+          <url>file://$PROJECT_DIR$/two_pointers/is_palindrome.py</url>
           <line>9</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/two_sum/is_palindrome.py</url>
+          <url>file://$PROJECT_DIR$/two_pointers/is_palindrome.py</url>
           <line>10</line>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/two_sum/is_palindrome.py</url>
+          <url>file://$PROJECT_DIR$/two_pointers/is_palindrome.py</url>
           <line>11</line>
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/two_sum/is_palindrome.py</url>
+          <url>file://$PROJECT_DIR$/two_pointers/is_palindrome.py</url>
           <line>13</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/two_sum/is_palindrome.py</url>
+          <url>file://$PROJECT_DIR$/two_pointers/is_palindrome.py</url>
           <line>15</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/two_sum/is_palindrome.py</url>
+          <url>file://$PROJECT_DIR$/two_pointers/is_palindrome.py</url>
           <line>16</line>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/two_sum/is_palindrome.py</url>
+          <url>file://$PROJECT_DIR$/two_pointers/is_palindrome.py</url>
           <line>18</line>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/two_sum/is_palindrome.py</url>
+          <url>file://$PROJECT_DIR$/two_pointers/is_palindrome.py</url>
           <line>1</line>
           <option name="timeStamp" value="24" />
         </line-breakpoint>
