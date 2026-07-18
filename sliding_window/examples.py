@@ -1,5 +1,6 @@
-from typing import List
+# Example sliding window solution
 
+from typing import List
 
 def max_sub_array_sum_size_k(nums: List[int], k: int) -> int:
     current_sum = sum(nums[:k])
@@ -10,9 +11,6 @@ def max_sub_array_sum_size_k(nums: List[int], k: int) -> int:
         max_sum = max(max_sum, current_sum)
 
     return max_sum
-
-
-
 
 if __name__ == '__main__':
     print(max_sub_array_sum_size_k([4, 2, 1, -9, 8, 4, 3], 3))

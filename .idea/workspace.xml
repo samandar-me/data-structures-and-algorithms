@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8efb1a0-c606-444b-98ce-804d0c93fb25" name="Changes" comment="solving easy questions related to two-pointers pattern">
-      <change afterPath="$PROJECT_DIR$/sliding_window/examples.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sliding_window/maximum_subarray.py" afterDir="false" />
+    <list default="true" id="d8efb1a0-c606-444b-98ce-804d0c93fb25" name="Changes" comment="solding sliding window problems">
+      <change afterPath="$PROJECT_DIR$/sliding_window/contains_duplicate2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/two_sum/is_palindrome.py" beforeDir="false" afterPath="$PROJECT_DIR$/two_pointers/is_palindrome.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sliding_window/examples.py" beforeDir="false" afterPath="$PROJECT_DIR$/sliding_window/examples.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,67 +37,70 @@
     &quot;accountId&quot;: &quot;a59c70be-b0ce-41e0-9014-48882411a3aa&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/sliding_window/contains_duplicate2.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="2.217447886300104" />
-      <entry key="MS500" value="3.6521598699529934" />
-      <entry key="S2" value="5.666321017528386" />
-      <entry key="S5" value="8.29030649920647" />
-      <entry key="S10" value="11.852983570387446" />
-      <entry key="S30" value="18.041770845656483" />
-      <entry key="S60" value="20.668245827378268" />
-      <entry key="M2" value="22.233762408329895" />
-      <entry key="M5" value="23.26764579990924" />
-      <entry key="M10" value="23.629355475077972" />
-      <entry key="M15" value="23.75189884603411" />
-      <entry key="M30" value="23.875443973521538" />
-      <entry key="H1" value="23.937602046548673" />
-      <entry key="H2" value="23.99106087880651" />
-      <entry key="H4" value="25.79280123847616" />
-      <entry key="D1" value="413.346958571687" />
-      <entry key="W1" value="3395.1786637357473" />
+      <entry key="MS100" value="1.0050863492697297" />
+      <entry key="MS500" value="1.47790923973213" />
+      <entry key="S2" value="2.420714026928877" />
+      <entry key="S5" value="3.459899110772964" />
+      <entry key="S10" value="5.370580683718516" />
+      <entry key="S30" value="12.740026887567216" />
+      <entry key="S60" value="19.509377228012244" />
+      <entry key="M2" value="25.95762221531723" />
+      <entry key="M5" value="37.03388226365596" />
+      <entry key="M10" value="48.76389417795661" />
+      <entry key="M15" value="56.662306743204404" />
+      <entry key="M30" value="74.44009135398629" />
+      <entry key="H1" value="102.45958866565655" />
+      <entry key="H2" value="137.42048061122236" />
+      <entry key="H4" value="169.43788957338725" />
+      <entry key="D1" value="555.7723781385122" />
+      <entry key="W1" value="3533.780452897313" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0123753288967533E-87" />
-      <entry key="MS500" value="3.990876703242201E-18" />
-      <entry key="S2" value="4.469583732055517E-5" />
-      <entry key="S5" value="0.01820148537533251" />
-      <entry key="S10" value="0.13491288068725135" />
-      <entry key="S30" value="0.5128824106800092" />
-      <entry key="S60" value="0.7161580905638151" />
-      <entry key="M2" value="0.8462612425036461" />
-      <entry key="M5" value="0.9354095091255045" />
-      <entry key="M10" value="0.9671657092378253" />
-      <entry key="M15" value="0.9779889026769513" />
-      <entry key="M30" value="0.9889332144677919" />
-      <entry key="H1" value="0.9944535462494111" />
-      <entry key="H2" value="1.0050705422479302" />
-      <entry key="H4" value="1.7040005058755876" />
-      <entry key="D1" value="153.2550997771987" />
-      <entry key="W1" value="1195.4210926505318" />
+      <entry key="MS100" value="8.899901594125505E-59" />
+      <entry key="MS500" value="2.7414042445276167E-12" />
+      <entry key="S2" value="0.0019837975195002885" />
+      <entry key="S5" value="0.12502632244130174" />
+      <entry key="S10" value="0.521557906408295" />
+      <entry key="S30" value="1.6996316078333649" />
+      <entry key="S60" value="2.528884443469508" />
+      <entry key="M2" value="3.3647606585089487" />
+      <entry key="M5" value="5.670886294780638" />
+      <entry key="M10" value="8.540707897980361" />
+      <entry key="M15" value="10.552985763308095" />
+      <entry key="M30" value="15.45421481039172" />
+      <entry key="H1" value="23.376041752219606" />
+      <entry key="H2" value="32.41631554813757" />
+      <entry key="H4" value="40.05530766244856" />
+      <entry key="D1" value="184.29695969127084" />
+      <entry key="W1" value="1225.365950356708" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.2839053496932868" />
-      <entry key="MS500" value="2.9794933655961127" />
-      <entry key="S2" value="5.303485355146803" />
-      <entry key="S5" value="8.066353603182476" />
-      <entry key="S10" value="11.78725068179021" />
-      <entry key="S30" value="18.433836672595344" />
-      <entry key="S60" value="21.31166986476352" />
-      <entry key="M2" value="23.03989609491866" />
-      <entry key="M5" value="24.18599856038344" />
-      <entry key="M10" value="24.587815808207036" />
-      <entry key="M15" value="24.724044106169416" />
-      <entry key="M30" value="24.861435153323672" />
-      <entry key="H1" value="24.930579486300797" />
-      <entry key="H2" value="24.99539058822033" />
-      <entry key="H4" value="27.49637282729863" />
-      <entry key="D1" value="566.5997183781708" />
-      <entry key="W1" value="4590.5970715941785" />
+      <entry key="MS100" value="0.05876328566546845" />
+      <entry key="MS500" value="0.7680070954204533" />
+      <entry key="S2" value="2.0250736999780026" />
+      <entry key="S5" value="3.3289294702160563" />
+      <entry key="S10" value="5.684243784996872" />
+      <entry key="S30" value="14.280801859692808" />
+      <entry key="S60" value="21.92024554975155" />
+      <entry key="M2" value="29.244873047244223" />
+      <entry key="M5" value="42.65976959628376" />
+      <entry key="M10" value="57.27454078398977" />
+      <entry key="M15" value="67.1918441696084" />
+      <entry key="M30" value="89.87848263392792" />
+      <entry key="H1" value="125.82440643994302" />
+      <entry key="H2" value="169.8292626258612" />
+      <entry key="H4" value="209.48861020624105" />
+      <entry key="D1" value="740.0663853610166" />
+      <entry key="W1" value="4759.143634327775" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -112,31 +114,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.examples.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;ai.playground.ignore.import.keys.banner.in.settings&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/samandar/PycharmProjects/data-structures-and-algorithms&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.examples.executor": "Run",
+    "Python.main.executor": "Debug",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "ai.playground.ignore.import.keys.banner.in.settings": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "/Users/samandar/PycharmProjects/data-structures-and-algorithms",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/two_pointers" />
@@ -224,14 +226,6 @@
       <workItem from="1781109273355" duration="5645000" />
       <workItem from="1781630564940" duration="11502000" />
       <workItem from="1781808114140" duration="16000" />
-    </task>
-    <task id="LOCAL-00016" summary="correct capitalization">
-      <option name="closed" value="true" />
-      <created>1775589200382</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1775589200382</updated>
     </task>
     <task id="LOCAL-00017" summary="longest_common_prefix.py">
       <option name="closed" value="true" />
@@ -617,7 +611,15 @@
       <option name="project" value="LOCAL" />
       <updated>1782733369328</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="solding sliding window problems">
+      <option name="closed" value="true" />
+      <created>1784051622530</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1784051622530</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -635,7 +637,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="linked list" />
     <MESSAGE value="finding middle of linked list" />
     <MESSAGE value="reverse linked list" />
     <MESSAGE value="find if linked list is palindrome" />
@@ -660,7 +661,8 @@
     <MESSAGE value="solving some easy problems" />
     <MESSAGE value="solving easy questions related to two-pointers pattern" />
     <MESSAGE value="solving sliding window problems" />
-    <option name="LAST_COMMIT_MESSAGE" value="solving sliding window problems" />
+    <MESSAGE value="solding sliding window problems" />
+    <option name="LAST_COMMIT_MESSAGE" value="solding sliding window problems" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1793,6 +1795,101 @@
           <url>file://$PROJECT_DIR$/sliding_window/max_vowels.py</url>
           <line>24</line>
           <option name="timeStamp" value="391" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/contains_duplicate2.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="415" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/contains_duplicate2.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="416" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/contains_duplicate2.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="417" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/contains_duplicate2.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="418" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/contains_duplicate2.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="419" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/contains_duplicate2.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="420" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/contains_duplicate2.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="421" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/contains_duplicate2.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="422" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/contains_duplicate2.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="423" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/contains_duplicate2.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="424" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/contains_duplicate2.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="425" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/contains_duplicate2.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="426" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/contains_duplicate2.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="427" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/contains_duplicate2.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="428" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/contains_duplicate2.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="429" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/contains_duplicate2.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="430" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/contains_duplicate2.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="431" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/contains_duplicate2.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="432" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/contains_duplicate2.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="433" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
