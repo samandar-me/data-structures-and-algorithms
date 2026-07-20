@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8efb1a0-c606-444b-98ce-804d0c93fb25" name="Changes" comment="solding sliding window problems">
-      <change afterPath="$PROJECT_DIR$/sliding_window/count_good_substrings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sliding_window/num_of_subarrays.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -45,61 +45,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0000021608045297" />
-      <entry key="MS500" value="1.0736079232376847" />
-      <entry key="S2" value="1.5432074875853776" />
-      <entry key="S5" value="1.988932444222149" />
-      <entry key="S10" value="2.345220424629085" />
-      <entry key="S30" value="2.7434598020853858" />
-      <entry key="S60" value="3.154044266364711" />
-      <entry key="M2" value="5.775605476722782" />
-      <entry key="M5" value="18.229953871642586" />
-      <entry key="M10" value="35.08518745520435" />
-      <entry key="M15" value="49.00743020961508" />
-      <entry key="M30" value="82.82241660402023" />
-      <entry key="H1" value="130.5688742749546" />
-      <entry key="H2" value="187.2414966819636" />
-      <entry key="H4" value="239.69859793107867" />
-      <entry key="D1" value="643.7842248825981" />
-      <entry key="W1" value="3624.1792630542272" />
+      <entry key="MS100" value="1.8891135722315857" />
+      <entry key="MS500" value="2.1797325504991916" />
+      <entry key="S2" value="2.9701591925973507" />
+      <entry key="S5" value="3.4767303867885486" />
+      <entry key="S10" value="3.7609027513505655" />
+      <entry key="S30" value="4.314118512640788" />
+      <entry key="S60" value="4.880448297040166" />
+      <entry key="M2" value="5.834203685334173" />
+      <entry key="M5" value="10.13514524344589" />
+      <entry key="M10" value="17.727138512627178" />
+      <entry key="M15" value="23.26455919498618" />
+      <entry key="M30" value="32.63967393511852" />
+      <entry key="H1" value="40.2848891824437" />
+      <entry key="H2" value="52.020476974197564" />
+      <entry key="H4" value="94.25104388164219" />
+      <entry key="D1" value="540.1075875385377" />
+      <entry key="W1" value="3536.1500443409172" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="4.2507351737539756E-4" />
-      <entry key="MS500" value="0.21497512048878764" />
-      <entry key="S2" value="1.1593623779883597" />
-      <entry key="S5" value="2.2817988320084304" />
-      <entry key="S10" value="2.9892593549854585" />
-      <entry key="S30" value="3.6236989575205025" />
-      <entry key="S60" value="3.90201997149248" />
-      <entry key="M2" value="4.949347475687293" />
-      <entry key="M5" value="9.710101047636893" />
-      <entry key="M10" value="16.61285154775146" />
-      <entry key="M15" value="22.30936270258748" />
-      <entry key="M30" value="34.639548811073965" />
-      <entry key="H1" value="49.78718324687129" />
-      <entry key="H2" value="65.98280051089537" />
-      <entry key="H4" value="79.83467263437731" />
-      <entry key="D1" value="227.84360713503833" />
-      <entry key="W1" value="1269.5893064930438" />
+      <entry key="MS100" value="1.162598420774203E-9" />
+      <entry key="MS500" value="0.016333751565705695" />
+      <entry key="S2" value="0.3574962465904226" />
+      <entry key="S5" value="0.6626872192550871" />
+      <entry key="S10" value="0.8140730695556081" />
+      <entry key="S30" value="0.9594599417594545" />
+      <entry key="S60" value="1.1327873147019765" />
+      <entry key="M2" value="1.6566560378999633" />
+      <entry key="M5" value="4.499527867248057" />
+      <entry key="M10" value="8.053413911483082" />
+      <entry key="M15" value="10.019907466987028" />
+      <entry key="M30" value="12.599996864585396" />
+      <entry key="H1" value="14.251839800846918" />
+      <entry key="H2" value="17.532357812719265" />
+      <entry key="H4" value="30.97752676657505" />
+      <entry key="D1" value="189.21504545408794" />
+      <entry key="W1" value="1236.9019789619747" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.024244057049883118" />
-      <entry key="MS500" value="0.6849462242595084" />
-      <entry key="S2" value="2.3766690003675084" />
-      <entry key="S5" value="4.037971091608635" />
-      <entry key="S10" value="5.177184424346707" />
-      <entry key="S30" value="6.295418103700552" />
-      <entry key="S60" value="6.976501127514584" />
-      <entry key="M2" value="10.60816066661126" />
-      <entry key="M5" value="27.825517342711283" />
-      <entry key="M10" value="51.613585276744594" />
-      <entry key="M15" value="71.24959901513891" />
-      <entry key="M30" value="117.41799225934001" />
-      <entry key="H1" value="180.3278427279168" />
-      <entry key="H2" value="253.20681051416818" />
-      <entry key="H4" value="319.5230638012135" />
-      <entry key="D1" value="871.6238662193496" />
-      <entry key="W1" value="4893.765654291253" />
+      <entry key="MS100" value="1.2980778904332277" />
+      <entry key="MS500" value="1.9638008848885415" />
+      <entry key="S2" value="3.1488209572879295" />
+      <entry key="S5" value="4.02589085380623" />
+      <entry key="S10" value="4.50743738081594" />
+      <entry key="S30" value="5.2477232112765035" />
+      <entry key="S60" value="5.998939499406973" />
+      <entry key="M2" value="7.4812932931524525" />
+      <entry key="M5" value="14.62326149955719" />
+      <entry key="M10" value="25.768560363318063" />
+      <entry key="M15" value="33.27369809503968" />
+      <entry key="M30" value="45.232168291662944" />
+      <entry key="H1" value="54.53217990678388" />
+      <entry key="H2" value="69.54969161496706" />
+      <entry key="H4" value="125.22528555951958" />
+      <entry key="D1" value="729.3193887381599" />
+      <entry key="W1" value="4773.049187012067" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -117,7 +117,7 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.examples.executor": "Run",
-    "Python.main.executor": "Debug",
+    "Python.main.executor": "Run",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -225,14 +225,6 @@
       <workItem from="1781109273355" duration="5645000" />
       <workItem from="1781630564940" duration="11502000" />
       <workItem from="1781808114140" duration="16000" />
-    </task>
-    <task id="LOCAL-00018" summary="longest_palindrome.py in progress">
-      <option name="closed" value="true" />
-      <created>1775821752232</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1775821752232</updated>
     </task>
     <task id="LOCAL-00019" summary="longest_palindrome in progress">
       <option name="closed" value="true" />
@@ -618,7 +610,15 @@
       <option name="project" value="LOCAL" />
       <updated>1784411355001</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="solding sliding window problems">
+      <option name="closed" value="true" />
+      <created>1784489012637</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1784489012637</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1907,17 +1907,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/sliding_window/count_good_substrings.py</url>
-          <line>10</line>
+          <line>7</line>
           <option name="timeStamp" value="439" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/sliding_window/count_good_substrings.py</url>
-          <line>21</line>
+          <line>18</line>
           <option name="timeStamp" value="444" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/sliding_window/count_good_substrings.py</url>
-          <line>20</line>
+          <line>17</line>
           <option name="timeStamp" value="448" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -1927,48 +1927,98 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/sliding_window/count_good_substrings.py</url>
-          <line>7</line>
-          <option name="timeStamp" value="456" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/sliding_window/count_good_substrings.py</url>
-          <line>8</line>
-          <option name="timeStamp" value="457" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/sliding_window/count_good_substrings.py</url>
           <line>5</line>
           <option name="timeStamp" value="458" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/sliding_window/count_good_substrings.py</url>
-          <line>11</line>
+          <line>8</line>
           <option name="timeStamp" value="460" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/sliding_window/count_good_substrings.py</url>
-          <line>12</line>
+          <line>9</line>
           <option name="timeStamp" value="461" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/sliding_window/count_good_substrings.py</url>
-          <line>15</line>
+          <line>12</line>
           <option name="timeStamp" value="462" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/sliding_window/count_good_substrings.py</url>
-          <line>16</line>
+          <line>13</line>
           <option name="timeStamp" value="463" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/sliding_window/count_good_substrings.py</url>
-          <line>18</line>
+          <line>15</line>
           <option name="timeStamp" value="464" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/sliding_window/count_good_substrings.py</url>
-          <line>13</line>
+          <line>10</line>
           <option name="timeStamp" value="468" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/num_of_subarrays.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="469" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/num_of_subarrays.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="470" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/num_of_subarrays.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="471" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/num_of_subarrays.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="472" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/num_of_subarrays.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="473" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/num_of_subarrays.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="476" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/num_of_subarrays.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="477" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/num_of_subarrays.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="478" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/num_of_subarrays.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="481" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/num_of_subarrays.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="482" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/num_of_subarrays.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="483" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/num_of_subarrays.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="484" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
