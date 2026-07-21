@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8efb1a0-c606-444b-98ce-804d0c93fb25" name="Changes" comment="solding sliding window problems">
-      <change afterPath="$PROJECT_DIR$/sliding_window/num_of_subarrays.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/two_pointers/find_the_difference.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -37,6 +37,7 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_HOME_DIR$/plugins/python-ce/helpers/typeshed/stdlib/builtins.pyi" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/sliding_window/contains_duplicate2.py" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="McpProjectServerCommands">
@@ -45,61 +46,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.8891135722315857" />
-      <entry key="MS500" value="2.1797325504991916" />
-      <entry key="S2" value="2.9701591925973507" />
-      <entry key="S5" value="3.4767303867885486" />
-      <entry key="S10" value="3.7609027513505655" />
-      <entry key="S30" value="4.314118512640788" />
-      <entry key="S60" value="4.880448297040166" />
-      <entry key="M2" value="5.834203685334173" />
-      <entry key="M5" value="10.13514524344589" />
-      <entry key="M10" value="17.727138512627178" />
-      <entry key="M15" value="23.26455919498618" />
-      <entry key="M30" value="32.63967393511852" />
-      <entry key="H1" value="40.2848891824437" />
-      <entry key="H2" value="52.020476974197564" />
-      <entry key="H4" value="94.25104388164219" />
-      <entry key="D1" value="540.1075875385377" />
-      <entry key="W1" value="3536.1500443409172" />
+      <entry key="MS100" value="1.0106347630292238" />
+      <entry key="MS500" value="1.532181801413704" />
+      <entry key="S2" value="2.4782905389589214" />
+      <entry key="S5" value="3.5381259782652275" />
+      <entry key="S10" value="5.456742053665269" />
+      <entry key="S30" value="10.261716973155075" />
+      <entry key="S60" value="13.680541805494043" />
+      <entry key="M2" value="19.01465570170574" />
+      <entry key="M5" value="30.4450723198528" />
+      <entry key="M10" value="48.89827285159532" />
+      <entry key="M15" value="67.9365629355621" />
+      <entry key="M30" value="111.38988946743518" />
+      <entry key="H1" value="154.6990000590135" />
+      <entry key="H2" value="191.83395417605814" />
+      <entry key="H4" value="246.62890913391877" />
+      <entry key="D1" value="703.5111696828818" />
+      <entry key="W1" value="3702.245200649958" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.162598420774203E-9" />
-      <entry key="MS500" value="0.016333751565705695" />
-      <entry key="S2" value="0.3574962465904226" />
-      <entry key="S5" value="0.6626872192550871" />
-      <entry key="S10" value="0.8140730695556081" />
-      <entry key="S30" value="0.9594599417594545" />
-      <entry key="S60" value="1.1327873147019765" />
-      <entry key="M2" value="1.6566560378999633" />
-      <entry key="M5" value="4.499527867248057" />
-      <entry key="M10" value="8.053413911483082" />
-      <entry key="M15" value="10.019907466987028" />
-      <entry key="M30" value="12.599996864585396" />
-      <entry key="H1" value="14.251839800846918" />
-      <entry key="H2" value="17.532357812719265" />
-      <entry key="H4" value="30.97752676657505" />
-      <entry key="D1" value="189.21504545408794" />
-      <entry key="W1" value="1236.9019789619747" />
+      <entry key="MS100" value="1.1756810003439896E-7" />
+      <entry key="MS500" value="0.041121780028969934" />
+      <entry key="S2" value="0.494802190293797" />
+      <entry key="S5" value="1.2336705744080723" />
+      <entry key="S10" value="2.1854393070114884" />
+      <entry key="S30" value="3.6786410055310066" />
+      <entry key="S60" value="4.361056903008902" />
+      <entry key="M2" value="5.4915495398605945" />
+      <entry key="M5" value="8.862060791357145" />
+      <entry key="M10" value="14.287236076512968" />
+      <entry key="M15" value="19.718866464336074" />
+      <entry key="M30" value="32.05212274315218" />
+      <entry key="H1" value="44.13618247773709" />
+      <entry key="H2" value="54.65093490946047" />
+      <entry key="H4" value="71.48997658399797" />
+      <entry key="D1" value="232.31494991251273" />
+      <entry key="W1" value="1280.7683499181312" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.2980778904332277" />
-      <entry key="MS500" value="1.9638008848885415" />
-      <entry key="S2" value="3.1488209572879295" />
-      <entry key="S5" value="4.02589085380623" />
-      <entry key="S10" value="4.50743738081594" />
-      <entry key="S30" value="5.2477232112765035" />
-      <entry key="S60" value="5.998939499406973" />
-      <entry key="M2" value="7.4812932931524525" />
-      <entry key="M5" value="14.62326149955719" />
-      <entry key="M10" value="25.768560363318063" />
-      <entry key="M15" value="33.27369809503968" />
-      <entry key="M30" value="45.232168291662944" />
-      <entry key="H1" value="54.53217990678388" />
-      <entry key="H2" value="69.54969161496706" />
-      <entry key="H4" value="125.22528555951958" />
-      <entry key="D1" value="729.3193887381599" />
-      <entry key="W1" value="4773.049187012067" />
+      <entry key="MS100" value="0.07721022743536687" />
+      <entry key="MS500" value="0.8944593655338253" />
+      <entry key="S2" value="2.5630882232829144" />
+      <entry key="S5" value="4.4669197384080555" />
+      <entry key="S10" value="7.384242069090805" />
+      <entry key="S30" value="13.786629629538893" />
+      <entry key="S60" value="17.94318976740788" />
+      <entry key="M2" value="24.436617764528183" />
+      <entry key="M5" value="39.259947892813805" />
+      <entry key="M10" value="63.14836578171537" />
+      <entry key="M15" value="87.62178896345594" />
+      <entry key="M30" value="143.41511961346873" />
+      <entry key="H1" value="198.8167434505621" />
+      <entry key="H2" value="246.47336788048597" />
+      <entry key="H4" value="318.11109710007554" />
+      <entry key="D1" value="935.8220729864227" />
+      <entry key="W1" value="4983.010597007049" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -225,14 +226,6 @@
       <workItem from="1781109273355" duration="5645000" />
       <workItem from="1781630564940" duration="11502000" />
       <workItem from="1781808114140" duration="16000" />
-    </task>
-    <task id="LOCAL-00019" summary="longest_palindrome in progress">
-      <option name="closed" value="true" />
-      <created>1775931835739</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1775931835739</updated>
     </task>
     <task id="LOCAL-00020" summary="longest_palindrome solved">
       <option name="closed" value="true" />
@@ -618,7 +611,15 @@
       <option name="project" value="LOCAL" />
       <updated>1784489012637</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="solding sliding window problems">
+      <option name="closed" value="true" />
+      <created>1784522767502</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1784522767502</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -2019,6 +2020,71 @@
           <url>file://$PROJECT_DIR$/sliding_window/num_of_subarrays.py</url>
           <line>2</line>
           <option name="timeStamp" value="484" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/two_pointers/find_the_difference.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="492" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/two_pointers/find_the_difference.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="493" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/two_pointers/find_the_difference.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="495" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/two_pointers/find_the_difference.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="496" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/two_pointers/find_the_difference.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="497" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/two_pointers/find_the_difference.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="498" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/two_pointers/find_the_difference.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="499" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/two_pointers/find_the_difference.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="500" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/two_pointers/find_the_difference.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="501" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/two_pointers/find_the_difference.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="502" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/two_pointers/find_the_difference.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="503" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/two_pointers/find_the_difference.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="506" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/two_pointers/find_the_difference.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="507" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
