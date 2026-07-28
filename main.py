@@ -1,5 +1,5 @@
-from two_pointers.find_the_difference import Solution
+from arrays.merge_strings_alternately import Solution
 
 if __name__ == '__main__':
     s = Solution()
-    print(s.findTheDifference(s = "a", t = "aa"))
+    print(s.mergeAlternately(word1 = "ab", word2 = "pqrs"))

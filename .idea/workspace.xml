@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8efb1a0-c606-444b-98ce-804d0c93fb25" name="Changes" comment="solding sliding window problems">
-      <change afterPath="$PROJECT_DIR$/two_pointers/find_the_difference.py" afterDir="false" />
+    <list default="true" id="d8efb1a0-c606-444b-98ce-804d0c93fb25" name="Changes" comment="random easy problem solved">
+      <change afterPath="$PROJECT_DIR$/arrays/merge_strings_alternately.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sliding_window/defuse_the_bomb.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -46,61 +47,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0106347630292238" />
-      <entry key="MS500" value="1.532181801413704" />
-      <entry key="S2" value="2.4782905389589214" />
-      <entry key="S5" value="3.5381259782652275" />
-      <entry key="S10" value="5.456742053665269" />
-      <entry key="S30" value="10.261716973155075" />
-      <entry key="S60" value="13.680541805494043" />
-      <entry key="M2" value="19.01465570170574" />
-      <entry key="M5" value="30.4450723198528" />
-      <entry key="M10" value="48.89827285159532" />
-      <entry key="M15" value="67.9365629355621" />
-      <entry key="M30" value="111.38988946743518" />
-      <entry key="H1" value="154.6990000590135" />
-      <entry key="H2" value="191.83395417605814" />
-      <entry key="H4" value="246.62890913391877" />
-      <entry key="D1" value="703.5111696828818" />
-      <entry key="W1" value="3702.245200649958" />
+      <entry key="MS100" value="1.0000000000000058" />
+      <entry key="MS500" value="1.001421864794246" />
+      <entry key="S2" value="1.1954755465701732" />
+      <entry key="S5" value="1.6663564074534225" />
+      <entry key="S10" value="2.693331324309246" />
+      <entry key="S30" value="6.017666197041413" />
+      <entry key="S60" value="8.008353346994234" />
+      <entry key="M2" value="9.361125543681359" />
+      <entry key="M5" value="11.246310813556159" />
+      <entry key="M10" value="17.292443579733188" />
+      <entry key="M15" value="24.404573904373898" />
+      <entry key="M30" value="40.389276123921775" />
+      <entry key="H1" value="56.42488465926018" />
+      <entry key="H2" value="68.95982435261125" />
+      <entry key="H4" value="80.2096366859561" />
+      <entry key="D1" value="447.3019570586732" />
+      <entry key="W1" value="3475.2940074186577" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.1756810003439896E-7" />
-      <entry key="MS500" value="0.041121780028969934" />
-      <entry key="S2" value="0.494802190293797" />
-      <entry key="S5" value="1.2336705744080723" />
-      <entry key="S10" value="2.1854393070114884" />
-      <entry key="S30" value="3.6786410055310066" />
-      <entry key="S60" value="4.361056903008902" />
-      <entry key="M2" value="5.4915495398605945" />
-      <entry key="M5" value="8.862060791357145" />
-      <entry key="M10" value="14.287236076512968" />
-      <entry key="M15" value="19.718866464336074" />
-      <entry key="M30" value="32.05212274315218" />
-      <entry key="H1" value="44.13618247773709" />
-      <entry key="H2" value="54.65093490946047" />
-      <entry key="H4" value="71.48997658399797" />
-      <entry key="D1" value="232.31494991251273" />
-      <entry key="W1" value="1280.7683499181312" />
+      <entry key="MS100" value="3.514931720457531E-7" />
+      <entry key="MS500" value="0.05173068540936059" />
+      <entry key="S2" value="0.6736291859731695" />
+      <entry key="S5" value="1.711555104609528" />
+      <entry key="S10" value="2.8981418654975153" />
+      <entry key="S30" value="4.930504441576112" />
+      <entry key="S60" value="5.828125641462222" />
+      <entry key="M2" value="6.380291857358187" />
+      <entry key="M5" value="7.3402255276107296" />
+      <entry key="M10" value="10.557625378037821" />
+      <entry key="M15" value="14.004210375246329" />
+      <entry key="M30" value="21.001416031007892" />
+      <entry key="H1" value="27.152310449832722" />
+      <entry key="H2" value="31.44180258968307" />
+      <entry key="H4" value="34.995014571736974" />
+      <entry key="D1" value="157.68075942346417" />
+      <entry key="W1" value="1211.1784182393833" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.07721022743536687" />
-      <entry key="MS500" value="0.8944593655338253" />
-      <entry key="S2" value="2.5630882232829144" />
-      <entry key="S5" value="4.4669197384080555" />
-      <entry key="S10" value="7.384242069090805" />
-      <entry key="S30" value="13.786629629538893" />
-      <entry key="S60" value="17.94318976740788" />
-      <entry key="M2" value="24.436617764528183" />
-      <entry key="M5" value="39.259947892813805" />
-      <entry key="M10" value="63.14836578171537" />
-      <entry key="M15" value="87.62178896345594" />
-      <entry key="M30" value="143.41511961346873" />
-      <entry key="H1" value="198.8167434505621" />
-      <entry key="H2" value="246.47336788048597" />
-      <entry key="H4" value="318.11109710007554" />
-      <entry key="D1" value="935.8220729864227" />
-      <entry key="W1" value="4983.010597007049" />
+      <entry key="MS100" value="0.7422618207556628" />
+      <entry key="MS500" value="0.97611818826484" />
+      <entry key="S2" value="1.7683897571437661" />
+      <entry key="S5" value="3.257683946404062" />
+      <entry key="S10" value="5.459474484095416" />
+      <entry key="S30" value="10.842018634200246" />
+      <entry key="S60" value="13.766441674930116" />
+      <entry key="M2" value="15.700811182760559" />
+      <entry key="M5" value="18.567129040503307" />
+      <entry key="M10" value="27.83511173819302" />
+      <entry key="M15" value="38.39475969645799" />
+      <entry key="M30" value="61.37926058673937" />
+      <entry key="H1" value="83.56935820590617" />
+      <entry key="H2" value="100.39690928728567" />
+      <entry key="H4" value="115.20192016836225" />
+      <entry key="D1" value="604.9800135584553" />
+      <entry key="W1" value="4686.469611624134" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -226,14 +227,6 @@
       <workItem from="1781109273355" duration="5645000" />
       <workItem from="1781630564940" duration="11502000" />
       <workItem from="1781808114140" duration="16000" />
-    </task>
-    <task id="LOCAL-00020" summary="longest_palindrome solved">
-      <option name="closed" value="true" />
-      <created>1776015396643</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1776015396643</updated>
     </task>
     <task id="LOCAL-00021" summary="longest_palindrome solved">
       <option name="closed" value="true" />
@@ -619,7 +612,15 @@
       <option name="project" value="LOCAL" />
       <updated>1784522767502</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="random easy problem solved">
+      <option name="closed" value="true" />
+      <created>1784668668931</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1784668668932</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -637,7 +638,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="finding middle of linked list" />
     <MESSAGE value="reverse linked list" />
     <MESSAGE value="find if linked list is palindrome" />
     <MESSAGE value="merge two linked lists" />
@@ -662,7 +662,8 @@
     <MESSAGE value="solving easy questions related to two-pointers pattern" />
     <MESSAGE value="solving sliding window problems" />
     <MESSAGE value="solding sliding window problems" />
-    <option name="LAST_COMMIT_MESSAGE" value="solding sliding window problems" />
+    <MESSAGE value="random easy problem solved" />
+    <option name="LAST_COMMIT_MESSAGE" value="random easy problem solved" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
