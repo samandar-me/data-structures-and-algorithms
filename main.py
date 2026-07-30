@@ -1,5 +1,5 @@
-from arrays.kids_with_candies import Solution
+from two_pointers.is_subsequence import Solution
 
 if __name__ == '__main__':
     s = Solution()
-    print(s.kidsWithCandies(candies = [4,2,1,1,2], extraCandies = 1))
+    print(s.isSubsequence(s = "axc", t = "ahbgdc"))
