@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8efb1a0-c606-444b-98ce-804d0c93fb25" name="Changes" comment="solving some two pointer problems">
-      <change afterPath="$PROJECT_DIR$/sliding_window/product_except_self.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/strings/reverse_word_in_string.py" afterDir="false" />
+    <list default="true" id="d8efb1a0-c606-444b-98ce-804d0c93fb25" name="Changes" comment="doing 75 problems">
+      <change afterPath="$PROJECT_DIR$/arrays/can_place_flower.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/arrays/gcd_of_string.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/arrays/increasing_triplet.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/two_pointers/is_subsequence.py" beforeDir="false" afterPath="$PROJECT_DIR$/two_pointers/is_subsequence.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,61 +48,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0006905339817074" />
-      <entry key="MS500" value="1.240167674308253" />
-      <entry key="S2" value="2.0571017804781473" />
-      <entry key="S5" value="3.0070778423615128" />
-      <entry key="S10" value="3.744690508104817" />
-      <entry key="S30" value="4.68206567339451" />
-      <entry key="S60" value="5.873280976675621" />
-      <entry key="M2" value="10.037259168478878" />
-      <entry key="M5" value="20.501257844194406" />
-      <entry key="M10" value="29.266119537608386" />
-      <entry key="M15" value="36.24971718301296" />
-      <entry key="M30" value="56.09666238539913" />
-      <entry key="H1" value="96.00090611128724" />
-      <entry key="H2" value="178.0520628136765" />
-      <entry key="H4" value="294.4971863509328" />
-      <entry key="D1" value="801.9621221107783" />
-      <entry key="W1" value="3854.945868611034" />
+      <entry key="MS100" value="1.0000000003529057" />
+      <entry key="MS500" value="1.0137780602354447" />
+      <entry key="S2" value="1.6396625156467237" />
+      <entry key="S5" value="3.140237420371962" />
+      <entry key="S10" value="5.225125401752376" />
+      <entry key="S30" value="9.90950662025507" />
+      <entry key="S60" value="12.63148337298818" />
+      <entry key="M2" value="14.542328785423113" />
+      <entry key="M5" value="16.27751929678608" />
+      <entry key="M10" value="20.57147853842082" />
+      <entry key="M15" value="27.126028241200245" />
+      <entry key="M30" value="49.40350498553545" />
+      <entry key="H1" value="91.88519445577175" />
+      <entry key="H2" value="174.34032983945656" />
+      <entry key="H4" value="313.28598565677504" />
+      <entry key="D1" value="916.3256273936712" />
+      <entry key="W1" value="3999.590854214695" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="1.1272764524604352E-183" />
-      <entry key="S2" value="1.8323465249328722E-46" />
-      <entry key="S5" value="5.073302299507694E-19" />
-      <entry key="S10" value="7.285227100878704E-10" />
-      <entry key="S30" value="0.001409142553420678" />
-      <entry key="S60" value="0.06910811338828382" />
-      <entry key="M2" value="0.5156239072557536" />
-      <entry key="M5" value="1.7644192964687324" />
-      <entry key="M10" value="3.0304945731574167" />
-      <entry key="M15" value="4.424933249571336" />
-      <entry key="M30" value="9.209525930557108" />
-      <entry key="H1" value="20.52778286497859" />
-      <entry key="H2" value="46.06558156010146" />
-      <entry key="H4" value="83.04249346814366" />
-      <entry key="D1" value="249.43283512245543" />
-      <entry key="W1" value="1309.3321719720682" />
+      <entry key="MS100" value="1.3763824424475893E-99" />
+      <entry key="MS500" value="1.6894599015916743E-20" />
+      <entry key="S2" value="1.1776050034715244E-5" />
+      <entry key="S5" value="0.01581763024351241" />
+      <entry key="S10" value="0.24468848714119895" />
+      <entry key="S30" value="1.9107673971294445" />
+      <entry key="S60" value="3.34437114921507" />
+      <entry key="M2" value="4.464697810178536" />
+      <entry key="M5" value="5.327922367107182" />
+      <entry key="M10" value="5.784471909925634" />
+      <entry key="M15" value="6.453727059956576" />
+      <entry key="M30" value="10.069070963969393" />
+      <entry key="H1" value="19.380241102491418" />
+      <entry key="H2" value="40.75398634006393" />
+      <entry key="H4" value="80.55341779309164" />
+      <entry key="D1" value="271.19675703115917" />
+      <entry key="W1" value="1338.5989657918906" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.19761369043358662" />
-      <entry key="MS500" value="0.8874211601979107" />
-      <entry key="S2" value="1.8925120402496405" />
-      <entry key="S5" value="2.9220344052809617" />
-      <entry key="S10" value="3.6973789499839853" />
-      <entry key="S30" value="4.664038375080547" />
-      <entry key="S60" value="5.925728048962708" />
-      <entry key="M2" value="10.530523945972025" />
-      <entry key="M5" value="22.243055779445452" />
-      <entry key="M10" value="32.27976739443416" />
-      <entry key="M15" value="40.660523520704224" />
-      <entry key="M30" value="65.29491939923875" />
-      <entry key="H1" value="116.51837817844037" />
-      <entry key="H2" value="224.10731568540413" />
-      <entry key="H4" value="377.5307853382552" />
-      <entry key="D1" value="1051.3905285874987" />
-      <entry key="W1" value="5164.274958191811" />
+      <entry key="MS100" value="0.009420373672510387" />
+      <entry key="MS500" value="0.4009968820439002" />
+      <entry key="S2" value="1.30405108319775" />
+      <entry key="S5" value="2.8453615844139106" />
+      <entry key="S10" value="5.183786399674764" />
+      <entry key="S30" value="11.607794216191111" />
+      <entry key="S60" value="15.830557217001504" />
+      <entry key="M2" value="18.919926558306877" />
+      <entry key="M5" value="21.565893678505272" />
+      <entry key="M10" value="26.333233300163613" />
+      <entry key="M15" value="33.561742060893735" />
+      <entry key="M30" value="59.45812083615327" />
+      <entry key="H1" value="111.25273582386006" />
+      <entry key="H2" value="215.08276336401622" />
+      <entry key="H4" value="393.82925473883336" />
+      <entry key="D1" value="1187.5172836824806" />
+      <entry key="W1" value="5338.186618291601" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -228,14 +228,6 @@
       <workItem from="1781109273355" duration="5645000" />
       <workItem from="1781630564940" duration="11502000" />
       <workItem from="1781808114140" duration="16000" />
-    </task>
-    <task id="LOCAL-00024" summary="the fist linked list problem is in progress">
-      <option name="closed" value="true" />
-      <created>1776153631366</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1776153631366</updated>
     </task>
     <task id="LOCAL-00025" summary="the fist linked list problem is in progress">
       <option name="closed" value="true" />
@@ -621,7 +613,15 @@
       <option name="project" value="LOCAL" />
       <updated>1785444100329</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="doing 75 problems">
+      <option name="closed" value="true" />
+      <created>1785607143008</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1785607143009</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -639,7 +639,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="merge two linked lists" />
     <MESSAGE value="merge two linked lists in progress" />
     <MESSAGE value="merge_two_list.py in progress" />
     <MESSAGE value="add two linked_lists" />
@@ -664,7 +663,8 @@
     <MESSAGE value="random easy problem solved" />
     <MESSAGE value="came back to easy problems again" />
     <MESSAGE value="solving some two pointer problems" />
-    <option name="LAST_COMMIT_MESSAGE" value="solving some two pointer problems" />
+    <MESSAGE value="doing 75 problems" />
+    <option name="LAST_COMMIT_MESSAGE" value="doing 75 problems" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2197,36 +2197,6 @@
           <url>file://$PROJECT_DIR$/sliding_window/product_except_self.py</url>
           <line>19</line>
           <option name="timeStamp" value="567" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>4</line>
-          <option name="timeStamp" value="568" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>5</line>
-          <option name="timeStamp" value="569" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>6</line>
-          <option name="timeStamp" value="570" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>7</line>
-          <option name="timeStamp" value="571" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>8</line>
-          <option name="timeStamp" value="572" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>10</line>
-          <option name="timeStamp" value="573" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
