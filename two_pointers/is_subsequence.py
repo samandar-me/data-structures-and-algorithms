@@ -6,12 +6,11 @@ class Solution:
             return False
 
         sn = len(s)
-        s = s + "#"
 
         counter = 0
 
         for i in range(len(t)):
-            if t[i] == s[counter]:
+            if counter < sn and t[i] == s[counter]:
                 counter += 1
 
         return counter == sn

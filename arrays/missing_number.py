@@ -26,3 +26,15 @@ class Solution:
     #             return nums[i] + 1
     #
     #     return nums[n - 1] + 1
+
+    # from typing import List
+    #
+    # from sliding_window.product_except_self import Solution
+    #
+    # def missingNumber(nums: List[int]) -> int:
+    #     n = len(nums)
+    #     s = (1 + n) * n // 2
+    #     for num in nums:
+    #         s -= num
+    #
+    #     return s
