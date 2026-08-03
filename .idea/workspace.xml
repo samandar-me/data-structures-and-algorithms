@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8efb1a0-c606-444b-98ce-804d0c93fb25" name="Changes" comment="doing 75 problems">
-      <change afterPath="$PROJECT_DIR$/arrays/can_place_flower.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arrays/gcd_of_string.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arrays/increasing_triplet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/two_pointers/max_operations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/two_pointers/max_water.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/increasing_triplet.py" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/increasing_triplet.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,61 +48,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0000000003529057" />
-      <entry key="MS500" value="1.0137780602354447" />
-      <entry key="S2" value="1.6396625156467237" />
-      <entry key="S5" value="3.140237420371962" />
-      <entry key="S10" value="5.225125401752376" />
-      <entry key="S30" value="9.90950662025507" />
-      <entry key="S60" value="12.63148337298818" />
-      <entry key="M2" value="14.542328785423113" />
-      <entry key="M5" value="16.27751929678608" />
-      <entry key="M10" value="20.57147853842082" />
-      <entry key="M15" value="27.126028241200245" />
-      <entry key="M30" value="49.40350498553545" />
-      <entry key="H1" value="91.88519445577175" />
-      <entry key="H2" value="174.34032983945656" />
-      <entry key="H4" value="313.28598565677504" />
-      <entry key="D1" value="916.3256273936712" />
-      <entry key="W1" value="3999.590854214695" />
+      <entry key="MS100" value="4.052529904913866E-72" />
+      <entry key="MS500" value="5.26678082409701E-15" />
+      <entry key="S2" value="2.6939300293993143E-4" />
+      <entry key="S5" value="0.03733829860569082" />
+      <entry key="S10" value="0.19323120506232727" />
+      <entry key="S30" value="0.5783509218745455" />
+      <entry key="S60" value="0.7752011541907772" />
+      <entry key="M2" value="0.9938717002048808" />
+      <entry key="M5" value="1.4316640749729157" />
+      <entry key="M10" value="3.0016805416554764" />
+      <entry key="M15" value="6.197860641665382" />
+      <entry key="M30" value="17.06326574050604" />
+      <entry key="H1" value="30.446480962478596" />
+      <entry key="H2" value="41.52732503937402" />
+      <entry key="H4" value="58.20360361249117" />
+      <entry key="D1" value="533.1609081905308" />
+      <entry key="W1" value="3780.9259279862563" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.3763824424475893E-99" />
-      <entry key="MS500" value="1.6894599015916743E-20" />
-      <entry key="S2" value="1.1776050034715244E-5" />
-      <entry key="S5" value="0.01581763024351241" />
-      <entry key="S10" value="0.24468848714119895" />
-      <entry key="S30" value="1.9107673971294445" />
-      <entry key="S60" value="3.34437114921507" />
-      <entry key="M2" value="4.464697810178536" />
-      <entry key="M5" value="5.327922367107182" />
-      <entry key="M10" value="5.784471909925634" />
-      <entry key="M15" value="6.453727059956576" />
-      <entry key="M30" value="10.069070963969393" />
-      <entry key="H1" value="19.380241102491418" />
-      <entry key="H2" value="40.75398634006393" />
-      <entry key="H4" value="80.55341779309164" />
-      <entry key="D1" value="271.19675703115917" />
-      <entry key="W1" value="1338.5989657918906" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0000000245024288" />
+      <entry key="S5" value="1.000902991482533" />
+      <entry key="S10" value="1.0300498166805294" />
+      <entry key="S30" value="1.3109155061746858" />
+      <entry key="S60" value="1.5620918953639547" />
+      <entry key="M2" value="1.814162025622144" />
+      <entry key="M5" value="2.3531071525220417" />
+      <entry key="M10" value="4.018865799101285" />
+      <entry key="M15" value="6.692326461807606" />
+      <entry key="M30" value="14.824807846080061" />
+      <entry key="H1" value="24.33606213717136" />
+      <entry key="H2" value="31.892490413542795" />
+      <entry key="H4" value="39.34847447045749" />
+      <entry key="D1" value="179.20817082639533" />
+      <entry key="W1" value="1268.02682439595" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.009420373672510387" />
-      <entry key="MS500" value="0.4009968820439002" />
-      <entry key="S2" value="1.30405108319775" />
-      <entry key="S5" value="2.8453615844139106" />
-      <entry key="S10" value="5.183786399674764" />
-      <entry key="S30" value="11.607794216191111" />
-      <entry key="S60" value="15.830557217001504" />
-      <entry key="M2" value="18.919926558306877" />
-      <entry key="M5" value="21.565893678505272" />
-      <entry key="M10" value="26.333233300163613" />
-      <entry key="M15" value="33.561742060893735" />
-      <entry key="M30" value="59.45812083615327" />
-      <entry key="H1" value="111.25273582386006" />
-      <entry key="H2" value="215.08276336401622" />
-      <entry key="H4" value="393.82925473883336" />
-      <entry key="D1" value="1187.5172836824806" />
-      <entry key="W1" value="5338.186618291601" />
+      <entry key="MS100" value="0.07432544468767008" />
+      <entry key="MS500" value="0.5946035575013632" />
+      <entry key="S2" value="0.8783515368895888" />
+      <entry key="S5" value="0.9849705173502855" />
+      <entry key="S10" value="1.1901028993703464" />
+      <entry key="S30" value="1.871179605035338" />
+      <entry key="S60" value="2.326010610064107" />
+      <entry key="M2" value="2.801274138236945" />
+      <entry key="M5" value="3.7811739182073447" />
+      <entry key="M10" value="7.016992311635141" />
+      <entry key="M15" value="12.885700651267864" />
+      <entry key="M30" value="31.882529559069738" />
+      <entry key="H1" value="54.77784046122132" />
+      <entry key="H2" value="73.41668482613545" />
+      <entry key="H4" value="97.5499314208378" />
+      <entry key="D1" value="712.3660472368799" />
+      <entry key="W1" value="5048.949719051487" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -228,14 +228,6 @@
       <workItem from="1781109273355" duration="5645000" />
       <workItem from="1781630564940" duration="11502000" />
       <workItem from="1781808114140" duration="16000" />
-    </task>
-    <task id="LOCAL-00025" summary="the fist linked list problem is in progress">
-      <option name="closed" value="true" />
-      <created>1776259427049</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1776259427049</updated>
     </task>
     <task id="LOCAL-00026" summary="linked list">
       <option name="closed" value="true" />
@@ -621,7 +613,15 @@
       <option name="project" value="LOCAL" />
       <updated>1785607143009</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="doing 75 problems">
+      <option name="closed" value="true" />
+      <created>1785620474688</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1785620474688</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -2197,6 +2197,290 @@
           <url>file://$PROJECT_DIR$/sliding_window/product_except_self.py</url>
           <line>19</line>
           <option name="timeStamp" value="567" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arrays/increasing_triplet.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="587" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arrays/increasing_triplet.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="588" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arrays/increasing_triplet.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="589" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arrays/increasing_triplet.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="591" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arrays/increasing_triplet.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="592" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arrays/increasing_triplet.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="593" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arrays/increasing_triplet.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="594" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arrays/increasing_triplet.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="595" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arrays/increasing_triplet.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="596" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arrays/increasing_triplet.py</url>
+          <line>31</line>
+          <option name="timeStamp" value="597" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arrays/increasing_triplet.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="598" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arrays/increasing_triplet.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="599" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arrays/increasing_triplet.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="600" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arrays/increasing_triplet.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="601" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arrays/increasing_triplet.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="602" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arrays/increasing_triplet.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="603" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arrays/increasing_triplet.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="604" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arrays/increasing_triplet.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="605" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arrays/increasing_triplet.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="606" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arrays/increasing_triplet.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="607" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arrays/increasing_triplet.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="608" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arrays/increasing_triplet.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="609" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arrays/increasing_triplet.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="610" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arrays/increasing_triplet.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="611" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/hashtable/two_sum.py</url>
+          <option name="timeStamp" value="612" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/hashtable/two_sum.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="613" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/hashtable/two_sum.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="614" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/hashtable/two_sum.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="616" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/hashtable/two_sum.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="617" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/hashtable/two_sum.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="618" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/hashtable/two_sum.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="619" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/two_pointers/max_operations.py</url>
+          <line>56</line>
+          <option name="timeStamp" value="620" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/two_pointers/max_operations.py</url>
+          <line>40</line>
+          <option name="timeStamp" value="642" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/two_pointers/max_operations.py</url>
+          <line>39</line>
+          <option name="timeStamp" value="643" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/two_pointers/max_operations.py</url>
+          <line>42</line>
+          <option name="timeStamp" value="644" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/two_pointers/max_operations.py</url>
+          <line>43</line>
+          <option name="timeStamp" value="645" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/two_pointers/max_operations.py</url>
+          <line>44</line>
+          <option name="timeStamp" value="646" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/two_pointers/max_operations.py</url>
+          <line>46</line>
+          <option name="timeStamp" value="647" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/two_pointers/max_operations.py</url>
+          <line>47</line>
+          <option name="timeStamp" value="648" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/two_pointers/max_operations.py</url>
+          <line>48</line>
+          <option name="timeStamp" value="649" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/two_pointers/max_operations.py</url>
+          <line>51</line>
+          <option name="timeStamp" value="650" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/two_pointers/max_operations.py</url>
+          <line>52</line>
+          <option name="timeStamp" value="651" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/two_pointers/max_operations.py</url>
+          <line>53</line>
+          <option name="timeStamp" value="652" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/two_pointers/max_operations.py</url>
+          <line>54</line>
+          <option name="timeStamp" value="653" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/two_pointers/max_operations.py</url>
+          <line>49</line>
+          <option name="timeStamp" value="655" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/two_pointers/max_operations.py</url>
+          <line>50</line>
+          <option name="timeStamp" value="656" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/two_pointers/max_operations.py</url>
+          <line>38</line>
+          <option name="timeStamp" value="657" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/two_pointers/max_operations.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="659" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/two_pointers/max_operations.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="660" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/two_pointers/max_operations.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="661" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/two_pointers/max_operations.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="662" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/two_pointers/max_operations.py</url>
+          <line>31</line>
+          <option name="timeStamp" value="663" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/two_pointers/max_operations.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="664" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/two_pointers/max_operations.py</url>
+          <line>32</line>
+          <option name="timeStamp" value="665" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/two_pointers/max_operations.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="666" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/two_pointers/max_operations.py</url>
+          <line>34</line>
+          <option name="timeStamp" value="667" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/two_pointers/max_operations.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="668" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
