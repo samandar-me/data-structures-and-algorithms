@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8efb1a0-c606-444b-98ce-804d0c93fb25" name="Changes" comment="doing 75 problems">
-      <change afterPath="$PROJECT_DIR$/two_pointers/max_operations.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/two_pointers/max_water.py" afterDir="false" />
+    <list default="true" id="d8efb1a0-c606-444b-98ce-804d0c93fb25" name="Changes" comment="solving most common patterns">
+      <change afterPath="$PROJECT_DIR$/arrays/compress.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arrays/increasing_triplet.py" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/increasing_triplet.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/two_pointers/max_water.py" beforeDir="false" afterPath="$PROJECT_DIR$/two_pointers/max_water.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,61 +47,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="4.052529904913866E-72" />
-      <entry key="MS500" value="5.26678082409701E-15" />
-      <entry key="S2" value="2.6939300293993143E-4" />
-      <entry key="S5" value="0.03733829860569082" />
-      <entry key="S10" value="0.19323120506232727" />
-      <entry key="S30" value="0.5783509218745455" />
-      <entry key="S60" value="0.7752011541907772" />
-      <entry key="M2" value="0.9938717002048808" />
-      <entry key="M5" value="1.4316640749729157" />
-      <entry key="M10" value="3.0016805416554764" />
-      <entry key="M15" value="6.197860641665382" />
-      <entry key="M30" value="17.06326574050604" />
-      <entry key="H1" value="30.446480962478596" />
-      <entry key="H2" value="41.52732503937402" />
-      <entry key="H4" value="58.20360361249117" />
-      <entry key="D1" value="533.1609081905308" />
-      <entry key="W1" value="3780.9259279862563" />
+      <entry key="MS100" value="4.9019808817616145E-287" />
+      <entry key="MS500" value="5.824609543376682E-58" />
+      <entry key="S2" value="7.409775318138313E-15" />
+      <entry key="S5" value="3.7611896395315347E-6" />
+      <entry key="S10" value="0.0033092657220293183" />
+      <entry key="S30" value="0.3465988682955327" />
+      <entry key="S60" value="1.159836578585167" />
+      <entry key="M2" value="2.1894307949771474" />
+      <entry key="M5" value="4.235342298803779" />
+      <entry key="M10" value="7.41022051541814" />
+      <entry key="M15" value="9.898737665876112" />
+      <entry key="M30" value="15.833015071940572" />
+      <entry key="H1" value="28.872281629382137" />
+      <entry key="H2" value="52.046700313071824" />
+      <entry key="H4" value="84.36545203504517" />
+      <entry key="D1" value="520.6360380651603" />
+      <entry key="W1" value="3761.745298004896" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="1.0" />
       <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0000000245024288" />
-      <entry key="S5" value="1.000902991482533" />
-      <entry key="S10" value="1.0300498166805294" />
-      <entry key="S30" value="1.3109155061746858" />
-      <entry key="S60" value="1.5620918953639547" />
-      <entry key="M2" value="1.814162025622144" />
-      <entry key="M5" value="2.3531071525220417" />
-      <entry key="M10" value="4.018865799101285" />
-      <entry key="M15" value="6.692326461807606" />
-      <entry key="M30" value="14.824807846080061" />
-      <entry key="H1" value="24.33606213717136" />
-      <entry key="H2" value="31.892490413542795" />
-      <entry key="H4" value="39.34847447045749" />
-      <entry key="D1" value="179.20817082639533" />
-      <entry key="W1" value="1268.02682439595" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0" />
+      <entry key="S10" value="1.0" />
+      <entry key="S30" value="1.0000000069686938" />
+      <entry key="S60" value="1.0001203707886037" />
+      <entry key="M2" value="1.0169262211534187" />
+      <entry key="M5" value="1.382390170541632" />
+      <entry key="M10" value="2.2442934264530754" />
+      <entry key="M15" value="2.978644500583833" />
+      <entry key="M30" value="5.280265259131415" />
+      <entry key="H1" value="11.227186180295913" />
+      <entry key="H2" value="22.098865457382384" />
+      <entry key="H4" value="38.34168510300294" />
+      <entry key="D1" value="181.38848954556116" />
+      <entry key="W1" value="1268.3383061216696" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.07432544468767008" />
-      <entry key="MS500" value="0.5946035575013632" />
-      <entry key="S2" value="0.8783515368895888" />
-      <entry key="S5" value="0.9849705173502855" />
-      <entry key="S10" value="1.1901028993703464" />
-      <entry key="S30" value="1.871179605035338" />
-      <entry key="S60" value="2.326010610064107" />
-      <entry key="M2" value="2.801274138236945" />
-      <entry key="M5" value="3.7811739182073447" />
-      <entry key="M10" value="7.016992311635141" />
-      <entry key="M15" value="12.885700651267864" />
-      <entry key="M30" value="31.882529559069738" />
-      <entry key="H1" value="54.77784046122132" />
-      <entry key="H2" value="73.41668482613545" />
-      <entry key="H4" value="97.5499314208378" />
-      <entry key="D1" value="712.3660472368799" />
-      <entry key="W1" value="5048.949719051487" />
+      <entry key="MS100" value="0.0025241266223388526" />
+      <entry key="MS500" value="0.30228891895834037" />
+      <entry key="S2" value="0.7414904413795788" />
+      <entry key="S5" value="0.8872454158959427" />
+      <entry key="S10" value="0.9449793100720822" />
+      <entry key="S30" value="1.3182950725908005" />
+      <entry key="S60" value="2.13634901115359" />
+      <entry key="M2" value="3.1889510098795575" />
+      <entry key="M5" value="5.607154486133878" />
+      <entry key="M10" value="9.646759583443556" />
+      <entry key="M15" value="12.87096046525633" />
+      <entry key="M30" value="21.10848828450348" />
+      <entry key="H1" value="40.09526036400882" />
+      <entry key="H2" value="74.14188579509903" />
+      <entry key="H4" value="122.70419517632372" />
+      <entry key="D1" value="702.0215736372156" />
+      <entry key="W1" value="5030.080586478872" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -228,14 +227,6 @@
       <workItem from="1781109273355" duration="5645000" />
       <workItem from="1781630564940" duration="11502000" />
       <workItem from="1781808114140" duration="16000" />
-    </task>
-    <task id="LOCAL-00026" summary="linked list">
-      <option name="closed" value="true" />
-      <created>1776364864191</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1776364864191</updated>
     </task>
     <task id="LOCAL-00027" summary="finding middle of linked list">
       <option name="closed" value="true" />
@@ -621,7 +612,15 @@
       <option name="project" value="LOCAL" />
       <updated>1785620474688</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="solving most common patterns">
+      <option name="closed" value="true" />
+      <created>1785775986883</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1785775986883</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -639,7 +638,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="merge two linked lists in progress" />
     <MESSAGE value="merge_two_list.py in progress" />
     <MESSAGE value="add two linked_lists" />
     <MESSAGE value="binary search implemented" />
@@ -664,7 +662,8 @@
     <MESSAGE value="came back to easy problems again" />
     <MESSAGE value="solving some two pointer problems" />
     <MESSAGE value="doing 75 problems" />
-    <option name="LAST_COMMIT_MESSAGE" value="doing 75 problems" />
+    <MESSAGE value="solving most common patterns" />
+    <option name="LAST_COMMIT_MESSAGE" value="solving most common patterns" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2481,6 +2480,116 @@
           <url>file://$PROJECT_DIR$/two_pointers/max_operations.py</url>
           <line>36</line>
           <option name="timeStamp" value="668" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arrays/compress.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="704" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arrays/compress.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="706" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arrays/compress.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="707" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arrays/compress.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="709" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arrays/compress.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="710" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arrays/compress.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="712" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arrays/compress.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="713" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arrays/compress.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="714" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arrays/compress.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="715" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arrays/compress.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="718" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arrays/compress.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="719" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arrays/compress.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="724" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arrays/compress.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="725" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arrays/compress.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="727" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arrays/compress.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="728" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arrays/compress.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="729" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arrays/compress.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="731" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arrays/compress.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="733" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arrays/compress.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="734" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arrays/compress.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="735" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arrays/compress.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="736" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arrays/compress.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="742" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
