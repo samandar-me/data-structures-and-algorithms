@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8efb1a0-c606-444b-98ce-804d0c93fb25" name="Changes" comment="solving most common patterns">
-      <change afterPath="$PROJECT_DIR$/arrays/compress.py" afterDir="false" />
+    <list default="true" id="d8efb1a0-c606-444b-98ce-804d0c93fb25" name="Changes" comment="solving Compress String problem">
+      <change afterPath="$PROJECT_DIR$/arrays/find_missing_elements.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prefix_sum/largest_altitude.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/compress.py" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/compress.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/two_pointers/max_water.py" beforeDir="false" afterPath="$PROJECT_DIR$/two_pointers/max_water.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sliding_window/max_average.py" beforeDir="false" afterPath="$PROJECT_DIR$/sliding_window/max_average.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,61 +49,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="4.9019808817616145E-287" />
-      <entry key="MS500" value="5.824609543376682E-58" />
-      <entry key="S2" value="7.409775318138313E-15" />
-      <entry key="S5" value="3.7611896395315347E-6" />
-      <entry key="S10" value="0.0033092657220293183" />
-      <entry key="S30" value="0.3465988682955327" />
-      <entry key="S60" value="1.159836578585167" />
-      <entry key="M2" value="2.1894307949771474" />
-      <entry key="M5" value="4.235342298803779" />
-      <entry key="M10" value="7.41022051541814" />
-      <entry key="M15" value="9.898737665876112" />
-      <entry key="M30" value="15.833015071940572" />
-      <entry key="H1" value="28.872281629382137" />
-      <entry key="H2" value="52.046700313071824" />
-      <entry key="H4" value="84.36545203504517" />
-      <entry key="D1" value="520.6360380651603" />
-      <entry key="W1" value="3761.745298004896" />
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="4.357712386231381E-174" />
+      <entry key="S2" value="5.231421281148605E-44" />
+      <entry key="S5" value="9.129902742236264E-18" />
+      <entry key="S10" value="7.573677676264005E-9" />
+      <entry key="S30" value="0.01090713133500348" />
+      <entry key="S60" value="0.4755960343367479" />
+      <entry key="M2" value="3.9897710026288102" />
+      <entry key="M5" value="17.320717492837165" />
+      <entry key="M10" value="30.27722607997752" />
+      <entry key="M15" value="39.54695541581627" />
+      <entry key="M30" value="65.71432608010481" />
+      <entry key="H1" value="103.12128494470649" />
+      <entry key="H2" value="137.78706063625086" />
+      <entry key="H4" value="162.63939653521257" />
+      <entry key="D1" value="349.8455560441796" />
+      <entry key="W1" value="3348.500214305742" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="1.0" />
       <entry key="MS500" value="1.0" />
       <entry key="S2" value="1.0" />
       <entry key="S5" value="1.0" />
-      <entry key="S10" value="1.0" />
-      <entry key="S30" value="1.0000000069686938" />
-      <entry key="S60" value="1.0001203707886037" />
-      <entry key="M2" value="1.0169262211534187" />
-      <entry key="M5" value="1.382390170541632" />
-      <entry key="M10" value="2.2442934264530754" />
-      <entry key="M15" value="2.978644500583833" />
-      <entry key="M30" value="5.280265259131415" />
-      <entry key="H1" value="11.227186180295913" />
-      <entry key="H2" value="22.098865457382384" />
-      <entry key="H4" value="38.34168510300294" />
-      <entry key="D1" value="181.38848954556116" />
-      <entry key="W1" value="1268.3383061216696" />
+      <entry key="S10" value="1.0000000059511085" />
+      <entry key="S30" value="1.0079949888030932" />
+      <entry key="S60" value="1.2969999855002827" />
+      <entry key="M2" value="2.9040867114504456" />
+      <entry key="M5" value="7.130359866035547" />
+      <entry key="M10" value="10.334437305283716" />
+      <entry key="M15" value="12.202996677196928" />
+      <entry key="M30" value="16.66343116110299" />
+      <entry key="H1" value="22.700033360066502" />
+      <entry key="H2" value="28.268798029258267" />
+      <entry key="H4" value="32.40778290859194" />
+      <entry key="D1" value="92.9051409696654" />
+      <entry key="W1" value="1101.816988241337" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.0025241266223388526" />
-      <entry key="MS500" value="0.30228891895834037" />
-      <entry key="S2" value="0.7414904413795788" />
-      <entry key="S5" value="0.8872454158959427" />
-      <entry key="S10" value="0.9449793100720822" />
-      <entry key="S30" value="1.3182950725908005" />
-      <entry key="S60" value="2.13634901115359" />
-      <entry key="M2" value="3.1889510098795575" />
-      <entry key="M5" value="5.607154486133878" />
-      <entry key="M10" value="9.646759583443556" />
-      <entry key="M15" value="12.87096046525633" />
-      <entry key="M30" value="21.10848828450348" />
-      <entry key="H1" value="40.09526036400882" />
-      <entry key="H2" value="74.14188579509903" />
-      <entry key="H4" value="122.70419517632372" />
-      <entry key="D1" value="702.0215736372156" />
-      <entry key="W1" value="5030.080586478872" />
+      <entry key="MS100" value="0.14161048566197482" />
+      <entry key="MS500" value="0.6764241155251373" />
+      <entry key="S2" value="0.906890328933143" />
+      <entry key="S5" value="0.9616607887129919" />
+      <entry key="S10" value="0.980643061504504" />
+      <entry key="S30" value="1.0121295285312795" />
+      <entry key="S60" value="1.7639368864806604" />
+      <entry key="M2" value="6.873283235230791" />
+      <entry key="M5" value="24.42311170008863" />
+      <entry key="M10" value="40.58919576792794" />
+      <entry key="M15" value="51.73102995829318" />
+      <entry key="M30" value="82.36262580799846" />
+      <entry key="H1" value="125.80963190211521" />
+      <entry key="H2" value="166.04809238114544" />
+      <entry key="H4" value="195.04260378109095" />
+      <entry key="D1" value="442.74891965926304" />
+      <entry key="W1" value="4450.314547454008" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -227,14 +229,6 @@
       <workItem from="1781109273355" duration="5645000" />
       <workItem from="1781630564940" duration="11502000" />
       <workItem from="1781808114140" duration="16000" />
-    </task>
-    <task id="LOCAL-00027" summary="finding middle of linked list">
-      <option name="closed" value="true" />
-      <created>1776367042369</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1776367042369</updated>
     </task>
     <task id="LOCAL-00028" summary="finding middle of linked list">
       <option name="closed" value="true" />
@@ -620,7 +614,15 @@
       <option name="project" value="LOCAL" />
       <updated>1785775986883</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="solving Compress String problem">
+      <option name="closed" value="true" />
+      <created>1785864091974</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1785864091975</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -638,7 +640,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="merge_two_list.py in progress" />
     <MESSAGE value="add two linked_lists" />
     <MESSAGE value="binary search implemented" />
     <MESSAGE value="hash table, hash set implemented. &#10;&#10;contains_duplicate.py" />
@@ -663,7 +664,8 @@
     <MESSAGE value="solving some two pointer problems" />
     <MESSAGE value="doing 75 problems" />
     <MESSAGE value="solving most common patterns" />
-    <option name="LAST_COMMIT_MESSAGE" value="solving most common patterns" />
+    <MESSAGE value="solving Compress String problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="solving Compress String problem" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1628,46 +1630,6 @@
           <option name="timeStamp" value="339" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/sliding_window/max_average.py</url>
-          <line>4</line>
-          <option name="timeStamp" value="340" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/sliding_window/max_average.py</url>
-          <line>5</line>
-          <option name="timeStamp" value="341" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/sliding_window/max_average.py</url>
-          <line>7</line>
-          <option name="timeStamp" value="342" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/sliding_window/max_average.py</url>
-          <line>9</line>
-          <option name="timeStamp" value="343" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/sliding_window/max_average.py</url>
-          <line>10</line>
-          <option name="timeStamp" value="344" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/sliding_window/max_average.py</url>
-          <line>11</line>
-          <option name="timeStamp" value="345" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/sliding_window/max_average.py</url>
-          <line>12</line>
-          <option name="timeStamp" value="346" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/sliding_window/max_average.py</url>
-          <line>14</line>
-          <option name="timeStamp" value="347" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/sliding_window/max_vowels.py</url>
           <line>43</line>
           <option name="timeStamp" value="348" />
@@ -2483,113 +2445,168 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/arrays/compress.py</url>
-          <line>3</line>
+          <line>4</line>
           <option name="timeStamp" value="704" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/arrays/compress.py</url>
-          <line>9</line>
+          <line>11</line>
           <option name="timeStamp" value="706" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/arrays/compress.py</url>
-          <line>12</line>
+          <line>14</line>
           <option name="timeStamp" value="707" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/arrays/compress.py</url>
-          <line>16</line>
+          <line>18</line>
           <option name="timeStamp" value="709" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/arrays/compress.py</url>
-          <line>17</line>
+          <line>19</line>
           <option name="timeStamp" value="710" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/arrays/compress.py</url>
-          <line>19</line>
+          <line>21</line>
           <option name="timeStamp" value="712" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/arrays/compress.py</url>
-          <line>20</line>
+          <line>24</line>
           <option name="timeStamp" value="713" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/arrays/compress.py</url>
-          <line>21</line>
+          <line>25</line>
           <option name="timeStamp" value="714" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/arrays/compress.py</url>
-          <line>22</line>
+          <line>26</line>
           <option name="timeStamp" value="715" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/arrays/compress.py</url>
-          <line>23</line>
+          <line>27</line>
           <option name="timeStamp" value="718" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/arrays/compress.py</url>
-          <line>29</line>
+          <line>33</line>
           <option name="timeStamp" value="719" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/arrays/compress.py</url>
-          <line>18</line>
+          <line>20</line>
           <option name="timeStamp" value="724" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/arrays/compress.py</url>
-          <line>4</line>
+          <line>5</line>
           <option name="timeStamp" value="725" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/arrays/compress.py</url>
-          <line>24</line>
+          <line>28</line>
           <option name="timeStamp" value="727" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/arrays/compress.py</url>
-          <line>26</line>
+          <line>30</line>
           <option name="timeStamp" value="728" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/arrays/compress.py</url>
-          <line>27</line>
+          <line>31</line>
           <option name="timeStamp" value="729" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/arrays/compress.py</url>
-          <line>10</line>
+          <line>12</line>
           <option name="timeStamp" value="731" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/arrays/compress.py</url>
-          <line>13</line>
+          <line>15</line>
           <option name="timeStamp" value="733" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/arrays/compress.py</url>
-          <line>14</line>
+          <line>16</line>
           <option name="timeStamp" value="734" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/arrays/compress.py</url>
-          <line>6</line>
+          <line>7</line>
           <option name="timeStamp" value="735" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/arrays/compress.py</url>
-          <line>7</line>
+          <line>9</line>
           <option name="timeStamp" value="736" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/arrays/compress.py</url>
-          <line>25</line>
+          <line>29</line>
           <option name="timeStamp" value="742" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arrays/compress.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="743" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arrays/compress.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="746" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/prefix_sum/largest_altitude.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="780" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/prefix_sum/largest_altitude.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="781" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/prefix_sum/largest_altitude.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="782" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/prefix_sum/largest_altitude.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="783" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/prefix_sum/largest_altitude.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="784" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/prefix_sum/largest_altitude.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="785" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/prefix_sum/largest_altitude.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="786" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/prefix_sum/largest_altitude.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="787" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/prefix_sum/largest_altitude.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="788" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
