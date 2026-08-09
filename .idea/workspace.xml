@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8efb1a0-c606-444b-98ce-804d0c93fb25" name="Changes" comment="started stack problems">
-      <change afterPath="$PROJECT_DIR$/hashtable/equal_pairs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stack/remove_starts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stack/valid_parenthesis.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/my_stack.py" beforeDir="false" afterPath="$PROJECT_DIR$/stack/my_stack.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,61 +48,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0010811830356008" />
-      <entry key="MS500" value="1.3502895831527888" />
-      <entry key="S2" value="2.55314157427423" />
-      <entry key="S5" value="3.2728098125209746" />
-      <entry key="S10" value="3.6046156038515105" />
-      <entry key="S30" value="3.8612468126731976" />
-      <entry key="S60" value="4.014520767668701" />
-      <entry key="M2" value="4.82585283243772" />
-      <entry key="M5" value="7.709436189661692" />
-      <entry key="M10" value="12.131758888193318" />
-      <entry key="M15" value="17.68128860651407" />
-      <entry key="M30" value="35.350943318334" />
-      <entry key="H1" value="60.640697717929456" />
-      <entry key="H2" value="87.70778876437322" />
-      <entry key="H4" value="112.40451677587104" />
-      <entry key="D1" value="330.70853567338366" />
-      <entry key="W1" value="3132.29261959235" />
+      <entry key="MS100" value="1.0000000000778777" />
+      <entry key="MS500" value="1.0095122345208045" />
+      <entry key="S2" value="1.312308924076125" />
+      <entry key="S5" value="1.6422065451333598" />
+      <entry key="S10" value="2.0965109887777906" />
+      <entry key="S30" value="5.372778550398506" />
+      <entry key="S60" value="8.59937218392281" />
+      <entry key="M2" value="11.25070724397934" />
+      <entry key="M5" value="13.348266408810199" />
+      <entry key="M10" value="14.253850874735264" />
+      <entry key="M15" value="14.713778558392294" />
+      <entry key="M30" value="15.47200548036856" />
+      <entry key="H1" value="16.089476036149883" />
+      <entry key="H2" value="16.518268453369643" />
+      <entry key="H4" value="18.40828178920746" />
+      <entry key="D1" value="180.95358429796912" />
+      <entry key="W1" value="2850.652477001687" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="2.1635965093933357E-147" />
-      <entry key="MS500" value="4.941975191792745E-30" />
-      <entry key="S2" value="6.97595916218501E-8" />
-      <entry key="S5" value="0.002051525652667759" />
-      <entry key="S10" value="0.06390449645864102" />
-      <entry key="S30" value="0.6349053533889552" />
-      <entry key="S60" value="1.1758035397012354" />
-      <entry key="M2" value="1.9870178077194967" />
-      <entry key="M5" value="3.9018925316425714" />
-      <entry key="M10" value="6.7636911536047934" />
-      <entry key="M15" value="10.153431444805085" />
-      <entry key="M30" value="19.86499889710191" />
-      <entry key="H1" value="31.854624358232847" />
-      <entry key="H2" value="42.47491046417804" />
-      <entry key="H4" value="50.65996375863875" />
-      <entry key="D1" value="113.99081696538028" />
-      <entry key="W1" value="1039.5498685087298" />
+      <entry key="MS100" value="1.5785474192728377E-4" />
+      <entry key="MS500" value="0.21317451840346602" />
+      <entry key="S2" value="1.1149880911004135" />
+      <entry key="S5" value="1.856177266298844" />
+      <entry key="S10" value="2.5449428951315176" />
+      <entry key="S30" value="4.039322882809663" />
+      <entry key="S60" value="5.089499588993702" />
+      <entry key="M2" value="5.8966829693618585" />
+      <entry key="M5" value="6.525376694815154" />
+      <entry key="M10" value="6.917116744622291" />
+      <entry key="M15" value="7.2688167878099526" />
+      <entry key="M30" value="8.060033361570778" />
+      <entry key="H1" value="8.810674891555873" />
+      <entry key="H2" value="9.345980707027188" />
+      <entry key="H4" value="10.402413431047414" />
+      <entry key="D1" value="66.46702002917466" />
+      <entry key="W1" value="950.430085873303" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.0018587219008251413" />
-      <entry key="MS500" value="0.45276772483785477" />
-      <entry key="S2" value="1.9222535278954522" />
-      <entry key="S5" value="2.9175165000999788" />
-      <entry key="S10" value="3.462246447655364" />
-      <entry key="S30" value="4.411823932864623" />
-      <entry key="S60" value="5.136054301924423" />
-      <entry key="M2" value="6.755756021525389" />
-      <entry key="M5" value="11.553593999693877" />
-      <entry key="M10" value="18.851021302053553" />
-      <entry key="M15" value="27.797582381780508" />
-      <entry key="M30" value="55.18870224180778" />
-      <entry key="H1" value="92.47656449459106" />
-      <entry key="H2" value="130.17090206436256" />
-      <entry key="H4" value="163.05759605618164" />
-      <entry key="D1" value="444.6970360481886" />
-      <entry key="W1" value="4171.8399345661555" />
+      <entry key="MS100" value="0.1731391619115828" />
+      <entry key="MS500" value="0.7887933984929553" />
+      <entry key="S2" value="2.0776801545543604" />
+      <entry key="S5" value="3.262108934889085" />
+      <entry key="S10" value="4.462143952154753" />
+      <entry key="S30" value="9.282566152431928" />
+      <entry key="S60" value="13.59746114335434" />
+      <entry key="M2" value="17.091493218153428" />
+      <entry key="M5" value="19.84816051810542" />
+      <entry key="M10" value="21.157492357130796" />
+      <entry key="M15" value="21.973305122709192" />
+      <entry key="M30" value="23.527099641333734" />
+      <entry key="H1" value="24.897551043070195" />
+      <entry key="H2" value="25.86290199932626" />
+      <entry key="H4" value="28.809907426638244" />
+      <entry key="D1" value="247.41933926957105" />
+      <entry key="W1" value="3801.080236134952" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -141,11 +143,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/stack" />
       <recent name="$PROJECT_DIR$/two_pointers" />
       <recent name="$PROJECT_DIR$/sliding_window" />
       <recent name="$PROJECT_DIR$/strings" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/problems/arrays" />
     </key>
   </component>
   <component name="RunManager">
@@ -226,14 +228,6 @@
       <workItem from="1781109273355" duration="5645000" />
       <workItem from="1781630564940" duration="11502000" />
       <workItem from="1781808114140" duration="16000" />
-    </task>
-    <task id="LOCAL-00031" summary="reverse linked list">
-      <option name="closed" value="true" />
-      <created>1776706379402</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1776706379402</updated>
     </task>
     <task id="LOCAL-00032" summary="find if linked list is palindrome">
       <option name="closed" value="true" />
@@ -619,7 +613,15 @@
       <option name="project" value="LOCAL" />
       <updated>1786108301988</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="started stack problems">
+      <option name="closed" value="true" />
+      <created>1786207703845</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1786207703846</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -2559,6 +2561,66 @@
           <url>file://$PROJECT_DIR$/arrays/compress.py</url>
           <line>23</line>
           <option name="timeStamp" value="746" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/stack/valid_parenthesis.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="862" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/stack/valid_parenthesis.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="863" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/stack/valid_parenthesis.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="864" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/stack/valid_parenthesis.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="865" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/stack/valid_parenthesis.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="866" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/stack/valid_parenthesis.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="867" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/stack/valid_parenthesis.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="868" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/stack/valid_parenthesis.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="869" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/stack/valid_parenthesis.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="870" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/stack/valid_parenthesis.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="871" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/stack/valid_parenthesis.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="872" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/stack/valid_parenthesis.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="873" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
