@@ -1,5 +1,5 @@
-from stack.valid_parenthesis import Solution
+from stack.asteroid_collision import Solution
 
 if __name__ == '__main__':
     s = Solution()
-    print(s.isValid("([)]"))
+    print(s.asteroidCollision(asteroids = [3,5,-6,2,-1,4]))
