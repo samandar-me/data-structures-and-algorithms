@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8efb1a0-c606-444b-98ce-804d0c93fb25" name="Changes" comment="started stack problems">
-      <change afterPath="$PROJECT_DIR$/stack/asteroid_collision.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stack/decode_string.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack/decode_string.py" beforeDir="false" afterPath="$PROJECT_DIR$/stack/decode_string.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,61 +46,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="4.800341815181649E-12" />
-      <entry key="MS500" value="0.005449626187721228" />
-      <entry key="S2" value="0.3264744477465498" />
-      <entry key="S5" value="1.2431500965028555" />
-      <entry key="S10" value="2.706976065983698" />
-      <entry key="S30" value="8.49038232171891" />
-      <entry key="S60" value="14.754879052921925" />
-      <entry key="M2" value="21.35316837408715" />
-      <entry key="M5" value="28.586767681254813" />
-      <entry key="M10" value="34.03382383826393" />
-      <entry key="M15" value="38.30524274127058" />
-      <entry key="M30" value="49.59641325274438" />
-      <entry key="H1" value="71.03695121837505" />
-      <entry key="H2" value="101.78201944073267" />
-      <entry key="H4" value="131.3087412052955" />
-      <entry key="D1" value="263.69868483903514" />
-      <entry key="W1" value="2723.900167823131" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0000820910264139" />
+      <entry key="S5" value="1.0431507778617348" />
+      <entry key="S10" value="1.4711822103669834" />
+      <entry key="S30" value="5.82038743157031" />
+      <entry key="S60" value="13.008503338696777" />
+      <entry key="M2" value="21.879295149261324" />
+      <entry key="M5" value="31.11761391474066" />
+      <entry key="M10" value="35.492461670855164" />
+      <entry key="M15" value="38.25756938769773" />
+      <entry key="M30" value="48.213452356217246" />
+      <entry key="H1" value="70.86987695885846" />
+      <entry key="H2" value="107.58434800174184" />
+      <entry key="H4" value="147.12251295892298" />
+      <entry key="D1" value="294.9505755217277" />
+      <entry key="W1" value="2750.852755446613" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0468562611479177" />
-      <entry key="MS500" value="1.745500743829337" />
-      <entry key="S2" value="2.9993523005293063" />
-      <entry key="S5" value="4.140288085380244" />
-      <entry key="S10" value="5.639731987808052" />
-      <entry key="S30" value="9.6904511566374" />
-      <entry key="S60" value="12.761668904472398" />
-      <entry key="M2" value="15.618672688681336" />
-      <entry key="M5" value="19.03030838127058" />
-      <entry key="M10" value="23.094546050431063" />
-      <entry key="M15" value="27.155548931152158" />
-      <entry key="M30" value="38.933427854696596" />
-      <entry key="H1" value="60.66419216809342" />
-      <entry key="H2" value="89.8230973156768" />
-      <entry key="H4" value="116.62032198585418" />
-      <entry key="D1" value="191.9486174694586" />
-      <entry key="W1" value="1022.8833232606961" />
+      <entry key="MS100" value="9.266718597088911E-27" />
+      <entry key="MS500" value="6.225198956072638E-6" />
+      <entry key="S2" value="0.060688499615991126" />
+      <entry key="S5" value="0.5459645506560081" />
+      <entry key="S10" value="1.5752527651218697" />
+      <entry key="S30" value="5.746719717080379" />
+      <entry key="S60" value="10.049481672070751" />
+      <entry key="M2" value="14.168210289609702" />
+      <entry key="M5" value="17.83038236752846" />
+      <entry key="M10" value="19.512159129373625" />
+      <entry key="M15" value="20.9453194489969" />
+      <entry key="M30" value="28.18434299200043" />
+      <entry key="H1" value="47.7948555088364" />
+      <entry key="H2" value="80.87359115714416" />
+      <entry key="H4" value="116.25629250116428" />
+      <entry key="D1" value="206.59457143584885" />
+      <entry key="W1" value="1038.9839074863144" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.2999414295340444" />
-      <entry key="MS500" value="1.1517757655375145" />
-      <entry key="S2" value="2.954032319833158" />
-      <entry key="S5" value="5.125445920262742" />
-      <entry key="S10" value="8.130356610596925" />
-      <entry key="S30" value="18.01057799009645" />
-      <entry key="S60" value="27.38909217748511" />
-      <entry key="M2" value="36.88790358242914" />
-      <entry key="M5" value="47.57478675666823" />
-      <entry key="M10" value="57.103263663606825" />
-      <entry key="M15" value="65.4415189366353" />
-      <entry key="M30" value="88.5164909149405" />
-      <entry key="H1" value="131.69093236197023" />
-      <entry key="H2" value="191.59752932690563" />
-      <entry key="H4" value="247.92408696460933" />
-      <entry key="D1" value="455.645544535652" />
-      <entry key="W1" value="3746.781236762003" />
+      <entry key="MS100" value="0.5212328804205607" />
+      <entry key="MS500" value="0.8778264041176955" />
+      <entry key="S2" value="1.0190601971175177" />
+      <entry key="S5" value="1.5112743164166678" />
+      <entry key="S10" value="2.930762365820855" />
+      <entry key="S30" value="11.424147249590842" />
+      <entry key="S60" value="22.92303949510509" />
+      <entry key="M2" value="35.944851024786075" />
+      <entry key="M5" value="48.89309812680691" />
+      <entry key="M10" value="54.97398274858723" />
+      <entry key="M15" value="59.181102591086365" />
+      <entry key="M30" value="76.38424291526556" />
+      <entry key="H1" value="118.6546292679835" />
+      <entry key="H2" value="188.45007213524352" />
+      <entry key="H4" value="263.37333284549544" />
+      <entry key="D1" value="501.54321223223803" />
+      <entry key="W1" value="3789.8343858079575" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -227,14 +226,6 @@
       <workItem from="1781109273355" duration="5645000" />
       <workItem from="1781630564940" duration="11502000" />
       <workItem from="1781808114140" duration="16000" />
-    </task>
-    <task id="LOCAL-00033" summary="merge two linked lists">
-      <option name="closed" value="true" />
-      <created>1776797937933</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1776797937933</updated>
     </task>
     <task id="LOCAL-00034" summary="merge two linked lists in progress">
       <option name="closed" value="true" />
@@ -620,7 +611,15 @@
       <option name="project" value="LOCAL" />
       <updated>1786277383742</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="started stack problems">
+      <option name="closed" value="true" />
+      <created>1786474401972</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1786474401972</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -2805,6 +2804,81 @@
           <url>file://$PROJECT_DIR$/stack/asteroid_collision.py</url>
           <line>53</line>
           <option name="timeStamp" value="1046" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/stack/decode_string.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="1067" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/stack/decode_string.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="1068" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/stack/decode_string.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="1069" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/stack/decode_string.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="1070" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/stack/decode_string.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="1071" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/stack/decode_string.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="1072" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/stack/decode_string.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="1073" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/stack/decode_string.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="1074" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/stack/decode_string.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="1075" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/stack/decode_string.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="1076" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/stack/decode_string.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="1077" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/stack/decode_string.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="1078" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/stack/decode_string.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="1079" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/stack/decode_string.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="1080" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/stack/decode_string.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="1081" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
