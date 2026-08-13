@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8efb1a0-c606-444b-98ce-804d0c93fb25" name="Changes" comment="started stack problems">
+      <change afterPath="$PROJECT_DIR$/arrays/length_of_longest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/queue/number_of_calls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linked_list/reverse_linked_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/linked_list/reverse_linked_list.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stack/decode_string.py" beforeDir="false" afterPath="$PROJECT_DIR$/stack/decode_string.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,61 +48,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0000820910264139" />
-      <entry key="S5" value="1.0431507778617348" />
-      <entry key="S10" value="1.4711822103669834" />
-      <entry key="S30" value="5.82038743157031" />
-      <entry key="S60" value="13.008503338696777" />
-      <entry key="M2" value="21.879295149261324" />
-      <entry key="M5" value="31.11761391474066" />
-      <entry key="M10" value="35.492461670855164" />
-      <entry key="M15" value="38.25756938769773" />
-      <entry key="M30" value="48.213452356217246" />
-      <entry key="H1" value="70.86987695885846" />
-      <entry key="H2" value="107.58434800174184" />
-      <entry key="H4" value="147.12251295892298" />
-      <entry key="D1" value="294.9505755217277" />
-      <entry key="W1" value="2750.852755446613" />
+      <entry key="MS100" value="2.2778054679322172E-12" />
+      <entry key="MS500" value="0.006172964491857669" />
+      <entry key="S2" value="0.5017637057807219" />
+      <entry key="S5" value="1.5804374161313552" />
+      <entry key="S10" value="2.933092299950219" />
+      <entry key="S30" value="7.415694509900789" />
+      <entry key="S60" value="12.603916999133936" />
+      <entry key="M2" value="20.619741201333902" />
+      <entry key="M5" value="36.485573693881804" />
+      <entry key="M10" value="48.16801969484924" />
+      <entry key="M15" value="53.488560850707564" />
+      <entry key="M30" value="61.12190322744187" />
+      <entry key="H1" value="75.47981175735137" />
+      <entry key="H2" value="109.86553794319605" />
+      <entry key="H4" value="160.96901606279792" />
+      <entry key="D1" value="341.0262625638622" />
+      <entry key="W1" value="2789.298384271519" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="9.266718597088911E-27" />
-      <entry key="MS500" value="6.225198956072638E-6" />
-      <entry key="S2" value="0.060688499615991126" />
-      <entry key="S5" value="0.5459645506560081" />
-      <entry key="S10" value="1.5752527651218697" />
-      <entry key="S30" value="5.746719717080379" />
-      <entry key="S60" value="10.049481672070751" />
-      <entry key="M2" value="14.168210289609702" />
-      <entry key="M5" value="17.83038236752846" />
-      <entry key="M10" value="19.512159129373625" />
-      <entry key="M15" value="20.9453194489969" />
-      <entry key="M30" value="28.18434299200043" />
-      <entry key="H1" value="47.7948555088364" />
-      <entry key="H2" value="80.87359115714416" />
-      <entry key="H4" value="116.25629250116428" />
-      <entry key="D1" value="206.59457143584885" />
-      <entry key="W1" value="1038.9839074863144" />
+      <entry key="MS100" value="1.0000000000606795" />
+      <entry key="MS500" value="1.0094552280261178" />
+      <entry key="S2" value="1.4503817567547357" />
+      <entry key="S5" value="2.0881701732604117" />
+      <entry key="S10" value="2.6306664091004937" />
+      <entry key="S30" value="4.724254455360917" />
+      <entry key="S60" value="7.170048354108896" />
+      <entry key="M2" value="10.699035883902942" />
+      <entry key="M5" value="16.579085738053752" />
+      <entry key="M10" value="20.373734720517287" />
+      <entry key="M15" value="22.02135219665019" />
+      <entry key="M30" value="24.71349340753653" />
+      <entry key="H1" value="33.188606427478405" />
+      <entry key="H2" value="59.125771889431135" />
+      <entry key="H4" value="100.74883203283656" />
+      <entry key="D1" value="218.00673521995597" />
+      <entry key="W1" value="1054.2011979340487" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.5212328804205607" />
-      <entry key="MS500" value="0.8778264041176955" />
-      <entry key="S2" value="1.0190601971175177" />
-      <entry key="S5" value="1.5112743164166678" />
-      <entry key="S10" value="2.930762365820855" />
-      <entry key="S30" value="11.424147249590842" />
-      <entry key="S60" value="22.92303949510509" />
-      <entry key="M2" value="35.944851024786075" />
-      <entry key="M5" value="48.89309812680691" />
-      <entry key="M10" value="54.97398274858723" />
-      <entry key="M15" value="59.181102591086365" />
-      <entry key="M30" value="76.38424291526556" />
-      <entry key="H1" value="118.6546292679835" />
-      <entry key="H2" value="188.45007213524352" />
-      <entry key="H4" value="263.37333284549544" />
-      <entry key="D1" value="501.54321223223803" />
-      <entry key="W1" value="3789.8343858079575" />
+      <entry key="MS100" value="2.9969106703507923E-10" />
+      <entry key="MS500" value="0.022080312888895913" />
+      <entry key="S2" value="1.173130412962868" />
+      <entry key="S5" value="3.192113436098097" />
+      <entry key="S10" value="5.26842181311108" />
+      <entry key="S30" value="11.982728155017178" />
+      <entry key="S60" value="19.65833119343747" />
+      <entry key="M2" value="31.22599087684929" />
+      <entry key="M5" value="52.99519885283935" />
+      <entry key="M10" value="68.4946645861841" />
+      <entry key="M15" value="75.47475140981548" />
+      <entry key="M30" value="85.81521041488415" />
+      <entry key="H1" value="108.65615212633445" />
+      <entry key="H2" value="168.9826103683371" />
+      <entry key="H4" value="261.71156200081776" />
+      <entry key="D1" value="559.0307341566935" />
+      <entry key="W1" value="3843.497262109605" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -114,31 +116,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.examples.executor": "Run",
-    "Python.main.executor": "Debug",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "ai.playground.ignore.import.keys.banner.in.settings": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "/Users/samandar/PycharmProjects/data-structures-and-algorithms",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.examples.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;ai.playground.ignore.import.keys.banner.in.settings&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/samandar/PycharmProjects/data-structures-and-algorithms&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/stack" />
@@ -226,14 +228,6 @@
       <workItem from="1781109273355" duration="5645000" />
       <workItem from="1781630564940" duration="11502000" />
       <workItem from="1781808114140" duration="16000" />
-    </task>
-    <task id="LOCAL-00034" summary="merge two linked lists in progress">
-      <option name="closed" value="true" />
-      <created>1776802379911</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1776802379911</updated>
     </task>
     <task id="LOCAL-00035" summary="merge_two_list.py in progress">
       <option name="closed" value="true" />
@@ -619,7 +613,15 @@
       <option name="project" value="LOCAL" />
       <updated>1786474401972</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="started stack problems">
+      <option name="closed" value="true" />
+      <created>1786476593362</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1786476593363</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -2879,6 +2881,61 @@
           <url>file://$PROJECT_DIR$/stack/decode_string.py</url>
           <line>18</line>
           <option name="timeStamp" value="1081" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arrays/length_of_longest.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="1083" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arrays/length_of_longest.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="1084" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arrays/length_of_longest.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="1085" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arrays/length_of_longest.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="1086" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arrays/length_of_longest.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="1087" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arrays/length_of_longest.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="1088" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arrays/length_of_longest.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="1089" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arrays/length_of_longest.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="1090" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arrays/length_of_longest.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="1091" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arrays/length_of_longest.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="1092" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arrays/length_of_longest.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="1093" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

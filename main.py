@@ -1,5 +1,5 @@
-from stack.decode_string import Solution
+from arrays.length_of_longest import Solution
 
 if __name__ == '__main__':
     s = Solution()
-    print(s.decodeString(s="3[a2[c]]"))
+    print(s.lengthOfLongestSubstring(s = "pwwkew"))
