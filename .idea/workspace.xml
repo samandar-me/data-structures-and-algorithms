@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8efb1a0-c606-444b-98ce-804d0c93fb25" name="Changes" comment="started stack problems">
-      <change afterPath="$PROJECT_DIR$/arrays/length_of_longest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/queue/number_of_calls.py" afterDir="false" />
+    <list default="true" id="d8efb1a0-c606-444b-98ce-804d0c93fb25" name="Changes" comment="solving queue problems">
+      <change afterPath="$PROJECT_DIR$/linked_list/delete_middle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m_queue/dota2_senate.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linked_list/reverse_linked_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/linked_list/reverse_linked_list.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/queue/number_of_calls.py" beforeDir="false" afterPath="$PROJECT_DIR$/m_queue/number_of_calls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trees/same_tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/trees/same_tree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trees/symmetric_tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/trees/symmetric_tree.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,61 +50,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="2.2778054679322172E-12" />
-      <entry key="MS500" value="0.006172964491857669" />
-      <entry key="S2" value="0.5017637057807219" />
-      <entry key="S5" value="1.5804374161313552" />
-      <entry key="S10" value="2.933092299950219" />
-      <entry key="S30" value="7.415694509900789" />
-      <entry key="S60" value="12.603916999133936" />
-      <entry key="M2" value="20.619741201333902" />
-      <entry key="M5" value="36.485573693881804" />
-      <entry key="M10" value="48.16801969484924" />
-      <entry key="M15" value="53.488560850707564" />
-      <entry key="M30" value="61.12190322744187" />
-      <entry key="H1" value="75.47981175735137" />
-      <entry key="H2" value="109.86553794319605" />
-      <entry key="H4" value="160.96901606279792" />
-      <entry key="D1" value="341.0262625638622" />
-      <entry key="W1" value="2789.298384271519" />
+      <entry key="MS100" value="1.0012275521235565" />
+      <entry key="MS500" value="1.261702570493644" />
+      <entry key="S2" value="1.7152403336412285" />
+      <entry key="S5" value="1.8745422566887961" />
+      <entry key="S10" value="1.9351696405940455" />
+      <entry key="S30" value="1.9779064014080816" />
+      <entry key="S60" value="1.9949102067272362" />
+      <entry key="M2" value="2.501673922085826" />
+      <entry key="M5" value="9.63160037708365" />
+      <entry key="M10" value="21.989337742515016" />
+      <entry key="M15" value="32.03743202757003" />
+      <entry key="M30" value="63.60603833962385" />
+      <entry key="H1" value="124.87583734992413" />
+      <entry key="H2" value="198.25819408964375" />
+      <entry key="H4" value="260.8765388762332" />
+      <entry key="D1" value="545.2759168792321" />
+      <entry key="W1" value="2953.7203664720046" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0000000000606795" />
-      <entry key="MS500" value="1.0094552280261178" />
-      <entry key="S2" value="1.4503817567547357" />
-      <entry key="S5" value="2.0881701732604117" />
-      <entry key="S10" value="2.6306664091004937" />
-      <entry key="S30" value="4.724254455360917" />
-      <entry key="S60" value="7.170048354108896" />
-      <entry key="M2" value="10.699035883902942" />
-      <entry key="M5" value="16.579085738053752" />
-      <entry key="M10" value="20.373734720517287" />
-      <entry key="M15" value="22.02135219665019" />
-      <entry key="M30" value="24.71349340753653" />
-      <entry key="H1" value="33.188606427478405" />
-      <entry key="H2" value="59.125771889431135" />
-      <entry key="H4" value="100.74883203283656" />
-      <entry key="D1" value="218.00673521995597" />
-      <entry key="W1" value="1054.2011979340487" />
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="2.584741068163138E-103" />
+      <entry key="S5" value="1.892902787135198E-41" />
+      <entry key="S10" value="8.475201703004182E-21" />
+      <entry key="S30" value="6.237808528673635E-7" />
+      <entry key="S60" value="0.0023290765646326868" />
+      <entry key="M2" value="0.15951142799801943" />
+      <entry key="M5" value="2.154928561346405" />
+      <entry key="M10" value="5.462115347229756" />
+      <entry key="M15" value="8.204695113907952" />
+      <entry key="M30" value="17.692533941352885" />
+      <entry key="H1" value="36.75887861911903" />
+      <entry key="H2" value="59.44571150380803" />
+      <entry key="H4" value="79.40417087917399" />
+      <entry key="D1" value="227.93929540497453" />
+      <entry key="W1" value="1099.9817099347424" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="2.9969106703507923E-10" />
-      <entry key="MS500" value="0.022080312888895913" />
-      <entry key="S2" value="1.173130412962868" />
-      <entry key="S5" value="3.192113436098097" />
-      <entry key="S10" value="5.26842181311108" />
-      <entry key="S30" value="11.982728155017178" />
-      <entry key="S60" value="19.65833119343747" />
-      <entry key="M2" value="31.22599087684929" />
-      <entry key="M5" value="52.99519885283935" />
-      <entry key="M10" value="68.4946645861841" />
-      <entry key="M15" value="75.47475140981548" />
-      <entry key="M30" value="85.81521041488415" />
-      <entry key="H1" value="108.65615212633445" />
-      <entry key="H2" value="168.9826103683371" />
-      <entry key="H4" value="261.71156200081776" />
-      <entry key="D1" value="559.0307341566935" />
-      <entry key="W1" value="3843.497262109605" />
+      <entry key="MS100" value="0.0013810686677882844" />
+      <entry key="MS500" value="0.28284898361137883" />
+      <entry key="S2" value="1.0688785329681765" />
+      <entry key="S5" value="1.533257308957915" />
+      <entry key="S10" value="1.7466126621009952" />
+      <entry key="S30" value="1.91059150808272" />
+      <entry key="S60" value="1.9629488759056812" />
+      <entry key="M2" value="2.642266128738355" />
+      <entry key="M5" value="11.76973779374238" />
+      <entry key="M10" value="27.43454394144337" />
+      <entry key="M15" value="40.225725892846356" />
+      <entry key="M30" value="81.28164616586687" />
+      <entry key="H1" value="161.617854964279" />
+      <entry key="H2" value="257.6905754814628" />
+      <entry key="H4" value="340.271978071248" />
+      <entry key="D1" value="773.2120182931134" />
+      <entry key="W1" value="4053.6996384998683" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -116,31 +118,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.examples.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;ai.playground.ignore.import.keys.banner.in.settings&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/samandar/PycharmProjects/data-structures-and-algorithms&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.examples.executor": "Run",
+    "Python.main.executor": "Run",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "ai.playground.ignore.import.keys.banner.in.settings": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "/Users/samandar/PycharmProjects/data-structures-and-algorithms",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/stack" />
@@ -228,14 +230,6 @@
       <workItem from="1781109273355" duration="5645000" />
       <workItem from="1781630564940" duration="11502000" />
       <workItem from="1781808114140" duration="16000" />
-    </task>
-    <task id="LOCAL-00035" summary="merge_two_list.py in progress">
-      <option name="closed" value="true" />
-      <created>1776942657959</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1776942657959</updated>
     </task>
     <task id="LOCAL-00036" summary="add two linked_lists">
       <option name="closed" value="true" />
@@ -621,7 +615,15 @@
       <option name="project" value="LOCAL" />
       <updated>1786476593363</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="solving queue problems">
+      <option name="closed" value="true" />
+      <created>1786645181654</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1786645181654</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -639,7 +641,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="two sum logic implemented" />
     <MESSAGE value="few problems solved" />
     <MESSAGE value="valid brackets" />
     <MESSAGE value="few linked list problmes solved" />
@@ -664,7 +665,8 @@
     <MESSAGE value="solving prefix sum problems" />
     <MESSAGE value="hashmap is the solution!" />
     <MESSAGE value="started stack problems" />
-    <option name="LAST_COMMIT_MESSAGE" value="started stack problems" />
+    <MESSAGE value="solving queue problems" />
+    <option name="LAST_COMMIT_MESSAGE" value="solving queue problems" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2936,6 +2938,81 @@
           <url>file://$PROJECT_DIR$/arrays/length_of_longest.py</url>
           <line>11</line>
           <option name="timeStamp" value="1093" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/m_queue/dota2_senate.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="1094" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/m_queue/dota2_senate.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="1096" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/m_queue/dota2_senate.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="1097" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/m_queue/dota2_senate.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="1098" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/m_queue/dota2_senate.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="1099" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/m_queue/dota2_senate.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="1100" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/m_queue/dota2_senate.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="1101" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/m_queue/dota2_senate.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="1102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/m_queue/dota2_senate.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="1103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/m_queue/dota2_senate.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="1104" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/m_queue/dota2_senate.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="1105" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/m_queue/dota2_senate.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="1106" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/m_queue/dota2_senate.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="1108" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/m_queue/dota2_senate.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="1109" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/m_queue/dota2_senate.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="1110" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

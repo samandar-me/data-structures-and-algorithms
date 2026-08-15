@@ -35,15 +35,15 @@ class Solution:
     #
     #     result = []
     #
-    #     queue = deque([root])
+    #     m_queue = deque([root])
     #
-    #     while queue:
-    #         node = queue.popleft()
+    #     while m_queue:
+    #         node = m_queue.popleft()
     #
     #         if node:
     #             result.append(node.val)
-    #             queue.append(node.left)
-    #             queue.append(node.right)
+    #             m_queue.append(node.left)
+    #             m_queue.append(node.right)
     #         else:
     #             result.append(None)
     #
