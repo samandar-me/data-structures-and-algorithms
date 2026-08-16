@@ -1,35 +1,34 @@
-from linked_list.remove_elements import Solution, ListNode
+from trees.leaf_similar import Solution, TreeNode
 
 if __name__ == '__main__':
     s = Solution()
 
-    # head = ListNode(7)
-    # node1 = ListNode(7)
-    # node2 = ListNode(7)
-    # node3 = ListNode(7)
-    #
-    # head.next = node1
-    # node1.next = node2
-    # node2.next = node3
+    root1 = TreeNode(3)
 
-    head = ListNode(1)
-    node1 = ListNode(2)
-    node2 = ListNode(6)
-    node3 = ListNode(3)
-    node4 = ListNode(4)
-    node5 = ListNode(5)
-    node6 = ListNode(6)
+    root1.left = TreeNode(5)
+    root1.right = TreeNode(1)
 
-    head.next = node1
-    node1.next = node2
-    node2.next = node3
-    node3.next = node4
-    node4.next = node5
-    node5.next = node6
+    root1.left.left = TreeNode(6)
+    root1.left.right = TreeNode(2)
 
-    curr = s.removeElements(head, 6)
-    # curr = s.removeElements(head, 7)
+    root1.right.left = TreeNode(9)
+    root1.right.right = TreeNode(8)
 
-    while curr:
-        print(curr.val)
-        curr = curr.next
+    root1.left.right.left = TreeNode(7)
+    root1.left.right.right = TreeNode(4)
+
+    root2 = TreeNode(3)
+
+    root2.left = TreeNode(5)
+    root2.right = TreeNode(1)
+
+    root2.left.left = TreeNode(6)
+    root2.left.right = TreeNode(7)
+
+    root2.right.left = TreeNode(4)
+    root2.right.right = TreeNode(2)
+
+    root2.right.right.left = TreeNode(9)
+    root2.right.right.right = TreeNode(8)
+
+    print(s.leafSimilar(root1, root2))
