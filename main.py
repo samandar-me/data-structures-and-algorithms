@@ -1,34 +1,20 @@
-from trees.leaf_similar import Solution, TreeNode
+from trees.right_side_view import Solution, TreeNode
 
 if __name__ == '__main__':
     s = Solution()
 
-    root1 = TreeNode(3)
+    root = TreeNode(1)
 
-    root1.left = TreeNode(5)
-    root1.right = TreeNode(1)
+    node2 = TreeNode(2)
+    node3 = TreeNode(3)
+    node4 = TreeNode(4)
+    node5 = TreeNode(5)
 
-    root1.left.left = TreeNode(6)
-    root1.left.right = TreeNode(2)
+    root.left = node2
+    root.right = node3
 
-    root1.right.left = TreeNode(9)
-    root1.right.right = TreeNode(8)
+    node2.left = node4
 
-    root1.left.right.left = TreeNode(7)
-    root1.left.right.right = TreeNode(4)
+    node4.left = node5
 
-    root2 = TreeNode(3)
-
-    root2.left = TreeNode(5)
-    root2.right = TreeNode(1)
-
-    root2.left.left = TreeNode(6)
-    root2.left.right = TreeNode(7)
-
-    root2.right.left = TreeNode(4)
-    root2.right.right = TreeNode(2)
-
-    root2.right.right.left = TreeNode(9)
-    root2.right.right.right = TreeNode(8)
-
-    print(s.leafSimilar(root1, root2))
+    print(s.rightSideView(root))
