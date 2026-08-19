@@ -1,20 +1,21 @@
-from trees.right_side_view import Solution, TreeNode
+from trees.max_level_sum import Solution, TreeNode
 
 if __name__ == '__main__':
     s = Solution()
 
-    root = TreeNode(1)
+    root = TreeNode(989)
 
-    node2 = TreeNode(2)
-    node3 = TreeNode(3)
-    node4 = TreeNode(4)
-    node5 = TreeNode(5)
+    node2 = TreeNode(10250)
 
-    root.left = node2
-    root.right = node3
+    node3 = TreeNode(98693)
+    node4 = TreeNode(-89388)
+    node5 = TreeNode(-32127)
 
-    node2.left = node4
+    root.right = node2
 
-    node4.left = node5
+    node2.left = node3
+    node2.right = node4
 
-    print(s.rightSideView(root))
+    node4.right = node5
+
+    print(s.maxLevelSum(root))
