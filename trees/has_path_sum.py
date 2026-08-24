@@ -8,22 +8,50 @@ class TreeNode:
 
 class Solution:
     def hasPathSum(self, root: Optional[TreeNode], targetSum: int) -> bool:
-        if not root:
-            return False
+        path = []
 
-        stack = [(root, 0)]
+        def dfs(node: Optional[TreeNode]):
+            if not node:
+                return False
 
-        while stack:
-            node, curr_sum = stack.pop()
+            path.append(node.val)
 
             if not node.left and not node.right:
-                total_sum = node.val + curr_sum
-                if total_sum == targetSum:
-                    return True
+                result = sum(path) == targetSum
+                path.pop()
+                return result
 
-            if node.right:
-                stack.append((node.right, node.val + curr_sum))
-            if node.left:
-                stack.append((node.left, node.val + curr_sum))
+            if dfs(node.left):
+                path.pop()
+                return True
 
-        return False
+            if dfs(node.right):
+                path.pop()
+                return True
+
+            path.pop()
+            return False
+
+
+        return dfs(root)
+
+    # def hasPathSum(self, root: Optional[TreeNode], targetSum: int) -> bool:
+    #     if not root:
+    #         return False
+    #
+    #     stack = [(root, 0)]
+    #
+    #     while stack:
+    #         node, curr_sum = stack.pop()
+    #
+    #         if not node.left and not node.right:
+    #             total_sum = node.val + curr_sum
+    #             if total_sum == targetSum:
+    #                 return True
+    #
+    #         if node.right:
+    #             stack.append((node.right, node.val + curr_sum))
+    #         if node.left:
+    #             stack.append((node.left, node.val + curr_sum))
+    #
+    #     return False

@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8efb1a0-c606-444b-98ce-804d0c93fb25" name="Changes" comment="solved binary search tree">
-      <change afterPath="$PROJECT_DIR$/trees/delete_node_bst.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trees/good_nodes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trees/has_path_sum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trees/path_sum_2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trees/has_path_sum.py" beforeDir="false" afterPath="$PROJECT_DIR$/trees/has_path_sum.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -228,14 +227,6 @@
       <workItem from="1781109273355" duration="5645000" />
       <workItem from="1781630564940" duration="11502000" />
       <workItem from="1781808114140" duration="16000" />
-    </task>
-    <task id="LOCAL-00041" summary="hash table, hash set implemented. &#10;&#10;contains_duplicate.py">
-      <option name="closed" value="true" />
-      <created>1779631314195</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1779631314195</updated>
     </task>
     <task id="LOCAL-00042" summary="two sum logic implemented">
       <option name="closed" value="true" />
@@ -621,7 +612,15 @@
       <option name="project" value="LOCAL" />
       <updated>1787566939462</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="solved binary search tree">
+      <option name="closed" value="true" />
+      <created>1787594376015</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1787594376015</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

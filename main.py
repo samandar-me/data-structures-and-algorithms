@@ -1,4 +1,4 @@
-from trees.has_path_sum import Solution, TreeNode
+from trees.path_sum_2 import Solution, TreeNode
 
 if __name__ == '__main__':
     s = Solution()
@@ -16,6 +16,7 @@ if __name__ == '__main__':
     root.right.left = TreeNode(13)
     root.right.right = TreeNode(4)
 
+    root.right.right.left = TreeNode(5)
     root.right.right.right = TreeNode(1)
 
-    print(s.hasPathSum(root, 22))
+    print(s.pathSum(root, 22))
