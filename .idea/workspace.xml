@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8efb1a0-c606-444b-98ce-804d0c93fb25" name="Changes" comment="solved binary search tree">
-      <change afterPath="$PROJECT_DIR$/trees/path_sum_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trees/path_sum_3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trees/has_path_sum.py" beforeDir="false" afterPath="$PROJECT_DIR$/trees/has_path_sum.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -227,14 +226,6 @@
       <workItem from="1781109273355" duration="5645000" />
       <workItem from="1781630564940" duration="11502000" />
       <workItem from="1781808114140" duration="16000" />
-    </task>
-    <task id="LOCAL-00042" summary="two sum logic implemented">
-      <option name="closed" value="true" />
-      <created>1779633684305</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1779633684305</updated>
     </task>
     <task id="LOCAL-00043" summary="few problems solved">
       <option name="closed" value="true" />
@@ -620,7 +611,15 @@
       <option name="project" value="LOCAL" />
       <updated>1787594376015</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <task id="LOCAL-00091" summary="solved binary search tree">
+      <option name="closed" value="true" />
+      <created>1787600297134</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1787600297134</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -3006,6 +3005,16 @@
           <url>file://$PROJECT_DIR$/m_queue/dota2_senate.py</url>
           <line>21</line>
           <option name="timeStamp" value="1110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/trees/path_sum_3.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="1117" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/trees/path_sum_3.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="1118" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
