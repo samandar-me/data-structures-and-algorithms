@@ -1,21 +1,14 @@
-from trees.max_level_sum import Solution, TreeNode
+from trees.search_bst import Solution, TreeNode
 
 if __name__ == '__main__':
     s = Solution()
 
-    root = TreeNode(989)
+    root = TreeNode(4)
 
-    node2 = TreeNode(10250)
+    root.left = TreeNode(2)
+    root.right = TreeNode(7)
 
-    node3 = TreeNode(98693)
-    node4 = TreeNode(-89388)
-    node5 = TreeNode(-32127)
+    root.left.left = TreeNode(1)
+    root.left.right = TreeNode(3)
 
-    root.right = node2
-
-    node2.left = node3
-    node2.right = node4
-
-    node4.right = node5
-
-    print(s.maxLevelSum(root))
+    print(s.searchBST(root, 2))
