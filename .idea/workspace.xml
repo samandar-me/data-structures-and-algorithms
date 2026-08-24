@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8efb1a0-c606-444b-98ce-804d0c93fb25" name="Changes" comment="solving binary tree problems">
-      <change afterPath="$PROJECT_DIR$/trees/search_bst.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/data-structures-and-algorithms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/data-structures-and-algorithms.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="d8efb1a0-c606-444b-98ce-804d0c93fb25" name="Changes" comment="solved binary search tree">
+      <change afterPath="$PROJECT_DIR$/trees/delete_node_bst.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trees/good_nodes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trees/has_path_sum.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -32,12 +32,12 @@
     &quot;assignee&quot;: &quot;samandar-me&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/samandar-me/data-structures-and-algorithms.git&quot;,
-    &quot;accountId&quot;: &quot;a59c70be-b0ce-41e0-9014-48882411a3aa&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/samandar-me/data-structures-and-algorithms.git",
+    "accountId": "05d135a1-f083-436c-b57d-ef5c185973ed"
   }
-}</component>
+}]]></component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_HOME_DIR$/plugins/python-ce/helpers/typeshed/stdlib/builtins.pyi" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/sliding_window/contains_duplicate2.py" root0="FORCE_HIGHLIGHTING" />
@@ -228,14 +228,6 @@
       <workItem from="1781109273355" duration="5645000" />
       <workItem from="1781630564940" duration="11502000" />
       <workItem from="1781808114140" duration="16000" />
-    </task>
-    <task id="LOCAL-00040" summary="binary search implemented">
-      <option name="closed" value="true" />
-      <created>1777899418094</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1777899418094</updated>
     </task>
     <task id="LOCAL-00041" summary="hash table, hash set implemented. &#10;&#10;contains_duplicate.py">
       <option name="closed" value="true" />
@@ -621,7 +613,15 @@
       <option name="project" value="LOCAL" />
       <updated>1787159481122</updated>
     </task>
-    <option name="localTasksCounter" value="89" />
+    <task id="LOCAL-00089" summary="solved binary search tree">
+      <option name="closed" value="true" />
+      <created>1787566939461</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1787566939462</updated>
+    </task>
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -639,7 +639,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="count_leaves.py" />
     <MESSAGE value="invert binary tree in progress" />
     <MESSAGE value="." />
     <MESSAGE value="learning binary tree" />
@@ -664,7 +663,8 @@
     <MESSAGE value="solved some linked list problems" />
     <MESSAGE value="starting binary tree" />
     <MESSAGE value="solving binary tree problems" />
-    <option name="LAST_COMMIT_MESSAGE" value="solving binary tree problems" />
+    <MESSAGE value="solved binary search tree" />
+    <option name="LAST_COMMIT_MESSAGE" value="solved binary search tree" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
