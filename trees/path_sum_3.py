@@ -16,8 +16,10 @@ class Solution:
             if not node: return
 
             path.append(node.val)
+            print(path)
 
-
+            if sum(path) == targetSum:
+                print(path)
 
             dfs(node.left, path)
             dfs(node.right, path)
