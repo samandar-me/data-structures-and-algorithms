@@ -6,22 +6,26 @@ class Solution:
             return []
 
         n, m = len(image), len(image[0])
+        original_pixel = image[sr][sc]
 
         def dfs(i, j):
-            neighbors = [(
-                i + 1, j,
-                i - 1, j,
-                i, j + 1,
-                i, j - 1
-            )]
+            image[i][j] = color
+            neighbors = [
+                (i + 1, j),
+                (i - 1, j),
+                (i, j + 1),
+                (i, j - 1)
+            ]
 
             for ni, nj in neighbors:
-                if 0 <= ni < n and 0 <= nj < m and image[ni][nj] != color:
-                    image[ni][nj] = color
-                    dfs(ni, nj)
+                if 0 <= ni < n and 0 <= nj < m:
+                    current = image[ni][nj]
+                    print(current)
+                    if image[ni][nj] == original_pixel and image[ni][nj] != color:
+                        image[ni][nj] = color
+                        dfs(ni, nj)
 
-        for i in range(n):
-            for j in range(m):
-                dfs(i, j)
+
+        dfs(sr, sc)
 
         return image
