@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8efb1a0-c606-444b-98ce-804d0c93fb25" name="Changes" comment="solving graph problems">
-      <change afterPath="$PROJECT_DIR$/arrays/minimum_deletions.py" afterDir="false" />
+    <list default="true" id="d8efb1a0-c606-444b-98ce-804d0c93fb25" name="Changes" comment="solved daily problem - array">
+      <change afterPath="$PROJECT_DIR$/graphs/rotten_oranges.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphs/word_exists.py" beforeDir="false" afterPath="$PROJECT_DIR$/graphs/word_exists.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,12 +31,12 @@
     &quot;assignee&quot;: &quot;samandar-me&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/samandar-me/data-structures-and-algorithms.git",
-    "accountId": "05d135a1-f083-436c-b57d-ef5c185973ed"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/samandar-me/data-structures-and-algorithms.git&quot;,
+    &quot;accountId&quot;: &quot;05d135a1-f083-436c-b57d-ef5c185973ed&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_HOME_DIR$/plugins/python-ce/helpers/typeshed/stdlib/builtins.pyi" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/sliding_window/contains_duplicate2.py" root0="FORCE_HIGHLIGHTING" />
@@ -47,60 +48,60 @@
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
       <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0" />
-      <entry key="S5" value="1.000000000000848" />
-      <entry key="S10" value="1.0000018304886715" />
-      <entry key="S30" value="1.0325359538210568" />
-      <entry key="S60" value="1.4083301859827388" />
-      <entry key="M2" value="2.778227449288934" />
-      <entry key="M5" value="9.236125112042615" />
-      <entry key="M10" value="26.67454727936704" />
-      <entry key="M15" value="49.267487731516184" />
-      <entry key="M30" value="125.51076686311171" />
-      <entry key="H1" value="264.5815928883335" />
-      <entry key="H2" value="466.72015689061004" />
-      <entry key="H4" value="687.4314244636143" />
-      <entry key="D1" value="1256.2954214198403" />
-      <entry key="W1" value="3722.273799411781" />
+      <entry key="MS500" value="1.0005871431879392" />
+      <entry key="S2" value="1.1559154542681538" />
+      <entry key="S5" value="1.5303212057279212" />
+      <entry key="S10" value="2.0213800856033446" />
+      <entry key="S30" value="3.000457378083357" />
+      <entry key="S60" value="3.7252139136743545" />
+      <entry key="M2" value="5.222369607485636" />
+      <entry key="M5" value="11.628622166398026" />
+      <entry key="M10" value="28.851650888122354" />
+      <entry key="M15" value="51.2694246196655" />
+      <entry key="M30" value="127.25167993340315" />
+      <entry key="H1" value="266.25783397974806" />
+      <entry key="H2" value="468.55344524000975" />
+      <entry key="H4" value="689.5723753626745" />
+      <entry key="D1" value="1259.033837714066" />
+      <entry key="W1" value="3725.1631390415673" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="6.358666483573264E-129" />
-      <entry key="MS500" value="2.2948655845021147E-26" />
-      <entry key="S2" value="4.651472828024199E-7" />
-      <entry key="S5" value="0.004878438044957662" />
-      <entry key="S10" value="0.11778935365858782" />
-      <entry key="S30" value="1.0316369097596854" />
-      <entry key="S60" value="2.0245329386114124" />
-      <entry key="M2" value="3.81976217857788" />
-      <entry key="M5" value="10.173331202685915" />
-      <entry key="M10" value="21.979315829894652" />
-      <entry key="M15" value="33.70317165917516" />
-      <entry key="M30" value="65.98512836969032" />
-      <entry key="H1" value="114.20726207260908" />
-      <entry key="H2" value="172.32960973919816" />
-      <entry key="H4" value="229.71045508229832" />
-      <entry key="D1" value="410.5350049903452" />
-      <entry key="W1" value="1307.495197070875" />
+      <entry key="MS100" value="5.4987955299666686E-207" />
+      <entry key="MS500" value="5.5993492649223936E-42" />
+      <entry key="S2" value="5.8134717253414244E-11" />
+      <entry key="S5" value="1.3397347567078177E-4" />
+      <entry key="S10" value="0.01951978608359306" />
+      <entry key="S30" value="0.5666521535296818" />
+      <entry key="S60" value="1.5004436258030212" />
+      <entry key="M2" value="3.2883932053466087" />
+      <entry key="M5" value="9.581690770518126" />
+      <entry key="M10" value="21.330628560114036" />
+      <entry key="M15" value="33.0367331012357" />
+      <entry key="M30" value="65.3294838735078" />
+      <entry key="H1" value="113.63844983050627" />
+      <entry key="H2" value="171.89992800718605" />
+      <entry key="H4" value="229.42389960120158" />
+      <entry key="D1" value="410.4496059971192" />
+      <entry key="W1" value="1307.456338811745" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.08362047217413199" />
-      <entry key="MS500" value="0.6087830093314931" />
-      <entry key="S2" value="0.8833153752899169" />
-      <entry key="S5" value="0.9558631092995615" />
-      <entry key="S10" value="1.0861276410782814" />
-      <entry key="S30" value="2.034935834184328" />
-      <entry key="S60" value="3.4070179435983463" />
-      <entry key="M2" value="6.574330171229732" />
-      <entry key="M5" value="19.383647651642242" />
-      <entry key="M10" value="48.622935100581984" />
-      <entry key="M15" value="82.937048488293" />
-      <entry key="M30" value="191.46001312889933" />
-      <entry key="H1" value="378.75523771978794" />
-      <entry key="H2" value="639.0222740949796" />
-      <entry key="H4" value="917.1224128935489" />
-      <entry key="D1" value="1666.8243773435565" />
-      <entry key="W1" value="5029.766117391205" />
+      <entry key="MS100" value="2.2154827528926665E-16" />
+      <entry key="MS500" value="0.0011833517730977753" />
+      <entry key="S2" value="0.31062465521499266" />
+      <entry key="S5" value="1.002583906795773" />
+      <entry key="S10" value="1.7232024078412598" />
+      <entry key="S30" value="3.4332283992699617" />
+      <entry key="S60" value="5.145648857733032" />
+      <entry key="M2" value="8.459460317133088" />
+      <entry key="M5" value="21.173506735576712" />
+      <entry key="M10" value="50.14599395106237" />
+      <entry key="M15" value="84.26902654634596" />
+      <entry key="M30" value="192.54354343971877" />
+      <entry key="H1" value="379.8617860129512" />
+      <entry key="H2" value="640.4254251201719" />
+      <entry key="H4" value="918.9765704879308" />
+      <entry key="D1" value="1669.477352213165" />
+      <entry key="W1" value="5032.616592605913" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -228,14 +229,7 @@
       <workItem from="1781109273355" duration="5645000" />
       <workItem from="1781630564940" duration="11502000" />
       <workItem from="1781808114140" duration="16000" />
-    </task>
-    <task id="LOCAL-00050" summary="learning binary tree">
-      <option name="closed" value="true" />
-      <created>1780511224133</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1780511224133</updated>
+      <workItem from="1788263328903" duration="1838000" />
     </task>
     <task id="LOCAL-00051" summary="binary tree problems">
       <option name="closed" value="true" />
@@ -621,7 +615,15 @@
       <option name="project" value="LOCAL" />
       <updated>1788005425230</updated>
     </task>
-    <option name="localTasksCounter" value="99" />
+    <task id="LOCAL-00099" summary="solved daily problem - array">
+      <option name="closed" value="true" />
+      <created>1788102888210</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1788102888210</updated>
+    </task>
+    <option name="localTasksCounter" value="100" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -639,7 +641,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="." />
     <MESSAGE value="learning binary tree" />
     <MESSAGE value="binary tree problems" />
     <MESSAGE value="improving two pointer &amp; sliding window patterns" />
@@ -664,7 +665,8 @@
     <MESSAGE value="solved binary search tree" />
     <MESSAGE value="grinding binary tree" />
     <MESSAGE value="solving graph problems" />
-    <option name="LAST_COMMIT_MESSAGE" value="solving graph problems" />
+    <MESSAGE value="solved daily problem - array" />
+    <option name="LAST_COMMIT_MESSAGE" value="solved daily problem - array" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3173,10 +3175,170 @@
           <line>21</line>
           <option name="timeStamp" value="1197" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/graphs/rotten_oranges.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="1242" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/graphs/rotten_oranges.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="1243" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/graphs/rotten_oranges.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="1244" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/graphs/rotten_oranges.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="1245" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/graphs/rotten_oranges.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="1246" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/graphs/rotten_oranges.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="1248" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/graphs/rotten_oranges.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="1249" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/graphs/rotten_oranges.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="1250" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/graphs/rotten_oranges.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="1251" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/graphs/rotten_oranges.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="1252" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/graphs/rotten_oranges.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="1253" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/graphs/rotten_oranges.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="1254" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/graphs/rotten_oranges.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="1255" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/graphs/rotten_oranges.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="1256" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/graphs/rotten_oranges.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="1258" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/graphs/rotten_oranges.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="1259" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/graphs/rotten_oranges.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="1260" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/graphs/rotten_oranges.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="1261" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/graphs/rotten_oranges.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="1262" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/graphs/rotten_oranges.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="1263" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/graphs/rotten_oranges.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="1265" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/graphs/rotten_oranges.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="1266" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/graphs/rotten_oranges.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="1268" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/graphs/rotten_oranges.py</url>
+          <line>31</line>
+          <option name="timeStamp" value="1269" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/graphs/rotten_oranges.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="1270" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/graphs/rotten_oranges.py</url>
+          <line>34</line>
+          <option name="timeStamp" value="1271" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/graphs/rotten_oranges.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="1272" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/graphs/rotten_oranges.py</url>
+          <line>35</line>
+          <option name="timeStamp" value="1273" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/graphs/rotten_oranges.py</url>
+          <line>37</line>
+          <option name="timeStamp" value="1274" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/graphs/rotten_oranges.py</url>
+          <line>39</line>
+          <option name="timeStamp" value="1275" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/graphs/rotten_oranges.py</url>
+          <line>40</line>
+          <option name="timeStamp" value="1276" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/graphs/rotten_oranges.py</url>
+          <line>42</line>
+          <option name="timeStamp" value="1277" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/data_structures_and_algorithms$main.coverage" NAME="main Coverage Results" MODIFIED="1781643104355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/data_structures_and_algorithms$main.coverage" NAME="main Coverage Results" MODIFIED="1788263528780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
