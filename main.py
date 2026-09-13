@@ -1,6 +1,6 @@
-from heaps.relative_ranks import Solution
+from heaps.kth_largest_element import KthLargest
 
 if __name__ == '__main__':
-    s = Solution()
+    k = KthLargest(3, [4, 5, 8, 2])
 
-    print(s.findRelativeRanks(score = [1]))
+    print(k.add(3))
