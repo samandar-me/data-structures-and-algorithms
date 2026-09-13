@@ -1,6 +1,6 @@
-from graphs.word_exists import Solution
+from heaps.last_stone_weight import Solution
 
 if __name__ == '__main__':
     s = Solution()
 
-    print(s.exist(board = [["C","A","A"],["A","A","A"],["B","C","D"]], word = "AAB"))
+    print(s.lastStoneWeight(stones = [1]))
