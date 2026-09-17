@@ -1,30 +1,8 @@
-from heaps.infinite_set import SmallestInfiniteSet
+from heaps.total_cost import Solution
 
 if __name__ == '__main__':
-    smallestInfiniteSet = SmallestInfiniteSet()
+    s = Solution()
 
-    smallestInfiniteSet.addBack(2)
-    # 2 is already in the set, so no change is made.
-
-    print(smallestInfiniteSet.popSmallest())
-    # return 1, since 1 is the smallest number,
-    # and remove it from the set.
-
-    print(smallestInfiniteSet.popSmallest())
-    # return 2, and remove it from the set.
-
-    print(smallestInfiniteSet.popSmallest())
-    # return 3, and remove it from the set.
-
-    smallestInfiniteSet.addBack(1)
-    # 1 is added back to the set.
-
-    print(smallestInfiniteSet.popSmallest())
-    # return 1, since 1 was added back to the set
-    # and is the smallest number, then remove it.
-
-    print(smallestInfiniteSet.popSmallest())
-    # return 4, and remove it from the set.
-
-    print(smallestInfiniteSet.popSmallest())
-    # return 5, and remove it from the set.
+    #print(s.totalCost(costs = [17,12,10,2,7,2,11,20,8], k = 3, candidates = 4))
+    #print(s.totalCost(costs = [1,2,4,1], k = 3, candidates = 3))
+    print(s.totalCost(costs = [47,48,46,63,91,56,3,55,40,93,97,37,31,31,37,58,41,10,74,40,17,58,58,33,78,53,88,1,15,44,82,74,56,41,48,96,71,35,89,57,71,34,43,4], k = 35, candidates = 15))
