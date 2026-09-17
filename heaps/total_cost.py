@@ -9,7 +9,7 @@ class Solution:
         left = 0
         right = n - 1
 
-        if  n <= candidates * 2:
+        if n <= candidates * 2:
             for i in range(n):
                 heapq.heappush(heap, (costs[i], i, ""))
         else:

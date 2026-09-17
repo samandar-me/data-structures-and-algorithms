@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8efb1a0-c606-444b-98ce-804d0c93fb25" name="Changes" comment="4th problem solved in heap">
-      <change afterPath="$PROJECT_DIR$/heaps/total_cost.py" afterDir="false" />
+    <list default="true" id="d8efb1a0-c606-444b-98ce-804d0c93fb25" name="Changes" comment="heap problem solved">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heaps/total_cost.py" beforeDir="false" afterPath="$PROJECT_DIR$/heaps/total_cost.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,61 +45,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0354026241505832" />
-      <entry key="MS500" value="1.54325377330378" />
-      <entry key="S2" value="2.963761516875544" />
-      <entry key="S5" value="4.598126674406331" />
-      <entry key="S10" value="5.595777759556113" />
-      <entry key="S30" value="6.47652813023522" />
-      <entry key="S60" value="6.731119804525164" />
-      <entry key="M2" value="6.916966509261975" />
-      <entry key="M5" value="8.567342468446203" />
-      <entry key="M10" value="14.033243375504217" />
-      <entry key="M15" value="19.47522950729337" />
-      <entry key="M30" value="31.05150542776047" />
-      <entry key="H1" value="43.46527193941783" />
-      <entry key="H2" value="56.96522562403204" />
-      <entry key="H4" value="83.53330435963507" />
-      <entry key="D1" value="444.4770337823629" />
-      <entry key="W1" value="3262.0692094587757" />
+      <entry key="MS100" value="1.045857836558883" />
+      <entry key="MS500" value="1.8321393030968594" />
+      <entry key="S2" value="4.019979170841452" />
+      <entry key="S5" value="6.331499341597278" />
+      <entry key="S10" value="7.810167169217067" />
+      <entry key="S30" value="9.448795003574821" />
+      <entry key="S60" value="10.970593239446568" />
+      <entry key="M2" value="12.936665064094381" />
+      <entry key="M5" value="16.170618943230004" />
+      <entry key="M10" value="21.950358001569025" />
+      <entry key="M15" value="27.51071608867982" />
+      <entry key="M30" value="39.453835295286225" />
+      <entry key="H1" value="52.33555110426014" />
+      <entry key="H2" value="66.22126630620465" />
+      <entry key="H4" value="92.98692743410217" />
+      <entry key="D1" value="453.99251272931093" />
+      <entry key="W1" value="3271.5612586810344" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
-      <entry key="S2" value="4.925751755179012E-99" />
-      <entry key="S5" value="7.163254798870271E-40" />
-      <entry key="S10" value="3.781375496480514E-20" />
-      <entry key="S30" value="5.326922079766551E-7" />
-      <entry key="S60" value="0.0010321495419196975" />
-      <entry key="M2" value="0.04554788896203893" />
-      <entry key="M5" value="0.5094640614526681" />
-      <entry key="M10" value="1.5728083414342229" />
-      <entry key="M15" value="2.6343504988010262" />
-      <entry key="M30" value="5.1943384107378625" />
-      <entry key="H1" value="8.524630392999388" />
-      <entry key="H2" value="12.909120395685086" />
-      <entry key="H4" value="23.172897494145264" />
-      <entry key="D1" value="139.8674868512171" />
-      <entry key="W1" value="1111.2630291496887" />
+      <entry key="S2" value="1.7482431100230027E-119" />
+      <entry key="S5" value="4.7332791831337056E-48" />
+      <entry key="S10" value="3.0738004266050278E-24" />
+      <entry key="S30" value="2.307552715165764E-8" />
+      <entry key="S60" value="2.1482274794536757E-4" />
+      <entry key="M2" value="0.020779594818228546" />
+      <entry key="M5" value="0.37220403949359865" />
+      <entry key="M10" value="1.3443413841313052" />
+      <entry key="M15" value="2.372626626989393" />
+      <entry key="M30" value="4.929560055965919" />
+      <entry key="H1" value="8.30451968448516" />
+      <entry key="H2" value="12.74137012041474" />
+      <entry key="H4" value="23.02184262007888" />
+      <entry key="D1" value="139.71511574768604" />
+      <entry key="W1" value="1111.0900046819422" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.0063808298627412" />
-      <entry key="MS500" value="1.5176757070549756" />
-      <entry key="S2" value="2.8244949219394146" />
-      <entry key="S5" value="4.478353123409134" />
-      <entry key="S10" value="5.5176242843642065" />
-      <entry key="S30" value="6.445307376805586" />
-      <entry key="S60" value="6.715805799186684" />
-      <entry key="M2" value="6.954014815393001" />
-      <entry key="M5" value="9.072231455892819" />
-      <entry key="M10" value="15.601479854214377" />
-      <entry key="M15" value="22.104724884372175" />
-      <entry key="M30" value="36.241156915657186" />
-      <entry key="H1" value="51.986186945999336" />
-      <entry key="H2" value="69.87165375555114" />
-      <entry key="H4" value="106.70384561531506" />
-      <entry key="D1" value="584.3421171367255" />
-      <entry key="W1" value="4373.329701260361" />
+      <entry key="MS100" value="1.017569043782702" />
+      <entry key="MS500" value="1.8231990889176197" />
+      <entry key="S2" value="4.01555365063547" />
+      <entry key="S5" value="6.328774534740965" />
+      <entry key="S10" value="7.808485178339293" />
+      <entry key="S30" value="9.44678657217236" />
+      <entry key="S60" value="10.967063404781058" />
+      <entry key="M2" value="12.953391941472782" />
+      <entry key="M5" value="16.539409545124077" />
+      <entry key="M10" value="23.29075598293583" />
+      <entry key="M15" value="29.878946149164946" />
+      <entry key="M30" value="44.3789354219984" />
+      <entry key="H1" value="60.63644537140578" />
+      <entry key="H2" value="78.95997616438633" />
+      <entry key="H4" value="116.00642768318363" />
+      <entry key="D1" value="593.7052273498117" />
+      <entry key="W1" value="4382.648726374408" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -232,15 +231,7 @@
       <workItem from="1788360637678" duration="3055000" />
       <workItem from="1788692253402" duration="599000" />
       <workItem from="1789148067136" duration="25436000" />
-      <workItem from="1789491632338" duration="18782000" />
-    </task>
-    <task id="LOCAL-00057" summary="improving two pointer &amp; sliding window patterns">
-      <option name="closed" value="true" />
-      <created>1781970906478</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1781970906478</updated>
+      <workItem from="1789491632338" duration="25665000" />
     </task>
     <task id="LOCAL-00058" summary="improving two pointer &amp; sliding window patterns">
       <option name="closed" value="true" />
@@ -626,7 +617,15 @@
       <option name="project" value="LOCAL" />
       <updated>1789407510855</updated>
     </task>
-    <option name="localTasksCounter" value="106" />
+    <task id="LOCAL-00106" summary="heap problem solved">
+      <option name="closed" value="true" />
+      <created>1789629461689</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1789629461689</updated>
+    </task>
+    <option name="localTasksCounter" value="107" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -644,7 +643,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="solving some easy problems" />
     <MESSAGE value="solving easy questions related to two-pointers pattern" />
     <MESSAGE value="solving sliding window problems" />
     <MESSAGE value="solding sliding window problems" />
@@ -669,7 +667,8 @@
     <MESSAGE value="solving some graph problems" />
     <MESSAGE value="starting heap &amp; priority queue" />
     <MESSAGE value="4th problem solved in heap" />
-    <option name="LAST_COMMIT_MESSAGE" value="4th problem solved in heap" />
+    <MESSAGE value="heap problem solved" />
+    <option name="LAST_COMMIT_MESSAGE" value="heap problem solved" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
