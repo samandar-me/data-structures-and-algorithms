@@ -23,7 +23,7 @@ class Solution:
 
            if current == success:
                return pn - mid
-           if previous <= success <= next:
+           elif previous <= success <= next:
                return pn - mid
            elif current > success:
                right = mid - 1
