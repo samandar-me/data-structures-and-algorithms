@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8efb1a0-c606-444b-98ce-804d0c93fb25" name="Changes" comment="started soling binary search problems">
-      <change afterPath="$PROJECT_DIR$/binary_search/find_peak.py" afterDir="false" />
+    <list default="true" id="d8efb1a0-c606-444b-98ce-804d0c93fb25" name="Changes" comment="solved find peak with binary search algorithm">
+      <change afterPath="$PROJECT_DIR$/binary_search/successful_pairs.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -46,61 +46,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0022280570351698" />
-      <entry key="MS500" value="1.3150092578877564" />
-      <entry key="S2" value="2.428587111191235" />
-      <entry key="S5" value="4.692406990700604" />
-      <entry key="S10" value="8.357592730838348" />
-      <entry key="S30" value="17.072464387918952" />
-      <entry key="S60" value="21.879230464038635" />
-      <entry key="M2" value="25.080610438103903" />
-      <entry key="M5" value="27.33502944644907" />
-      <entry key="M10" value="28.150284172171112" />
-      <entry key="M15" value="28.4296134191979" />
-      <entry key="M30" value="28.712831517406048" />
-      <entry key="H1" value="28.855919320658995" />
-      <entry key="H2" value="28.934035491603066" />
-      <entry key="H4" value="29.568952611685173" />
-      <entry key="D1" value="205.76424053415226" />
-      <entry key="W1" value="2880.375431799145" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0000000446117814" />
+      <entry key="S2" value="1.014536688066652" />
+      <entry key="S5" value="1.2026792380475615" />
+      <entry key="S10" value="1.780122260749903" />
+      <entry key="S30" value="4.352984590100137" />
+      <entry key="S60" value="7.00038419275836" />
+      <entry key="M2" value="12.805230727128263" />
+      <entry key="M5" value="27.93976874928222" />
+      <entry key="M10" value="45.98331934619455" />
+      <entry key="M15" value="61.47685099289846" />
+      <entry key="M30" value="94.75987366873585" />
+      <entry key="H1" value="126.2758747702983" />
+      <entry key="H2" value="149.56974603048332" />
+      <entry key="H4" value="168.6999666500579" />
+      <entry key="D1" value="335.7254333875359" />
+      <entry key="W1" value="2945.22831797794" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0494783099430008E-88" />
-      <entry key="MS500" value="2.5362653789662847E-18" />
-      <entry key="S2" value="3.990696254079467E-5" />
-      <entry key="S5" value="0.017394801186188094" />
-      <entry key="S10" value="0.131889352057655" />
-      <entry key="S30" value="0.5090220295539355" />
-      <entry key="S60" value="0.7134577980188707" />
-      <entry key="M2" value="0.8446643108471381" />
-      <entry key="M5" value="0.9347030456907479" />
-      <entry key="M10" value="0.9668004166790313" />
-      <entry key="M15" value="0.977742633564535" />
-      <entry key="M30" value="0.9888086941186275" />
-      <entry key="H1" value="0.9943891313491978" />
-      <entry key="H2" value="0.9996584825577685" />
-      <entry key="H4" value="1.2106185938253955" />
-      <entry key="D1" value="56.595441966406305" />
-      <entry key="W1" value="970.738904254215" />
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="2.990575783065321E-161" />
+      <entry key="S2" value="7.395008987605642E-41" />
+      <entry key="S5" value="8.870265466196633E-17" />
+      <entry key="S10" value="9.798085935252129E-9" />
+      <entry key="S30" value="0.003355128142241655" />
+      <entry key="S60" value="0.10754729869201576" />
+      <entry key="M2" value="0.70109776823573" />
+      <entry key="M5" value="2.6321031177133127" />
+      <entry key="M10" value="5.517746817499523" />
+      <entry key="M15" value="8.254081790627378" />
+      <entry key="M30" value="14.245377252477596" />
+      <entry key="H1" value="19.911962347408693" />
+      <entry key="H2" value="23.933477275351233" />
+      <entry key="H4" value="26.48498391614186" />
+      <entry key="D1" value="69.89618097780865" />
+      <entry key="W1" value="957.1696314019199" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.10586033128966463" />
-      <entry key="MS500" value="0.7615700121638901" />
-      <entry key="S2" value="2.079282158328818" />
-      <entry key="S5" value="4.444317128695112" />
-      <entry key="S10" value="8.263274102839109" />
-      <entry key="S30" value="17.433786790065504" />
-      <entry key="S60" value="22.499270661994828" />
-      <entry key="M2" value="25.872107708650866" />
-      <entry key="M5" value="28.246656176049946" />
-      <entry key="M10" value="29.10522015622993" />
-      <entry key="M15" value="29.399371974508906" />
-      <entry key="M30" value="29.69761044397038" />
-      <entry key="H1" value="29.848284041065533" />
-      <entry key="H2" value="29.932679166681375" />
-      <entry key="H4" value="30.779051677818455" />
-      <entry key="D1" value="262.3586990573443" />
-      <entry key="W1" value="3851.1121228010807" />
+      <entry key="MS100" value="0.025033433674675688" />
+      <entry key="MS500" value="0.4783040949282912" />
+      <entry key="S2" value="0.8428512295144988" />
+      <entry key="S5" value="1.1124318183285435" />
+      <entry key="S10" value="1.71163986579648" />
+      <entry key="S30" value="4.304445960979671" />
+      <entry key="S60" value="7.067222498768887" />
+      <entry key="M2" value="13.47038865533067" />
+      <entry key="M5" value="30.542797372112982" />
+      <entry key="M10" value="51.47798802762702" />
+      <entry key="M15" value="69.7105481485077" />
+      <entry key="M30" value="108.98963373986298" />
+      <entry key="H1" value="146.17745338941307" />
+      <entry key="H2" value="173.49709693931317" />
+      <entry key="H4" value="195.1815467625967" />
+      <entry key="D1" value="405.6202987501057" />
+      <entry key="W1" value="3902.3957466618685" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -114,33 +114,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.examples.executor": "Run",
-    "Python.main.executor": "Run",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "ai.playground.ignore.import.keys.banner.in.settings": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "/Users/samandar/PycharmProjects/data-structures-and-algorithms",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.jshint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.jshint": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.examples.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;ai.playground.ignore.import.keys.banner.in.settings&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/samandar/PycharmProjects/data-structures-and-algorithms&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/graphs" />
@@ -232,15 +232,8 @@
       <workItem from="1788360637678" duration="3055000" />
       <workItem from="1788692253402" duration="599000" />
       <workItem from="1789148067136" duration="25436000" />
-      <workItem from="1789491632338" duration="33638000" />
-    </task>
-    <task id="LOCAL-00059" summary="improving two pointer &amp; sliding window patterns">
-      <option name="closed" value="true" />
-      <created>1781977584629</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1781977584629</updated>
+      <workItem from="1789491632338" duration="38652000" />
+      <workItem from="1789796340182" duration="359000" />
     </task>
     <task id="LOCAL-00060" summary="solving some easy problems">
       <option name="closed" value="true" />
@@ -626,7 +619,15 @@
       <option name="project" value="LOCAL" />
       <updated>1789668786517</updated>
     </task>
-    <option name="localTasksCounter" value="108" />
+    <task id="LOCAL-00108" summary="solved find peak with binary search algorithm">
+      <option name="closed" value="true" />
+      <created>1789757227233</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1789757227233</updated>
+    </task>
+    <option name="localTasksCounter" value="109" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -644,7 +645,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="solving sliding window problems" />
     <MESSAGE value="solding sliding window problems" />
     <MESSAGE value="random easy problem solved" />
     <MESSAGE value="came back to easy problems again" />
@@ -669,7 +669,8 @@
     <MESSAGE value="4th problem solved in heap" />
     <MESSAGE value="heap problem solved" />
     <MESSAGE value="started soling binary search problems" />
-    <option name="LAST_COMMIT_MESSAGE" value="started soling binary search problems" />
+    <MESSAGE value="solved find peak with binary search algorithm" />
+    <option name="LAST_COMMIT_MESSAGE" value="solved find peak with binary search algorithm" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3338,10 +3339,140 @@
           <line>42</line>
           <option name="timeStamp" value="1277" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/binary_search/successful_pairs.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="1347" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/binary_search/successful_pairs.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="1348" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/binary_search/successful_pairs.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="1349" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/binary_search/successful_pairs.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="1351" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/binary_search/successful_pairs.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="1352" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/binary_search/successful_pairs.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="1353" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/binary_search/successful_pairs.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="1354" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/binary_search/successful_pairs.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="1355" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/binary_search/successful_pairs.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="1356" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/binary_search/successful_pairs.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="1357" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/binary_search/successful_pairs.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="1358" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/binary_search/successful_pairs.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="1359" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/binary_search/successful_pairs.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="1360" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/binary_search/successful_pairs.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="1361" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/binary_search/successful_pairs.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="1362" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/binary_search/successful_pairs.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="1363" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/binary_search/successful_pairs.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="1364" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/binary_search/successful_pairs.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="1365" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/binary_search/successful_pairs.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="1366" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/binary_search/successful_pairs.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="1368" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/binary_search/successful_pairs.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="1369" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/binary_search/successful_pairs.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="1370" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/binary_search/successful_pairs.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="1371" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/binary_search/successful_pairs.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="1372" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/binary_search/successful_pairs.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="1373" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/binary_search/successful_pairs.py</url>
+          <line>32</line>
+          <option name="timeStamp" value="1374" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/data_structures_and_algorithms$main.coverage" NAME="main Coverage Results" MODIFIED="1789629326637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/data_structures_and_algorithms$main.coverage" NAME="main Coverage Results" MODIFIED="1789796251385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
