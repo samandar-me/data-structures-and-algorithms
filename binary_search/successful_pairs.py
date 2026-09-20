@@ -17,17 +17,9 @@ class Solution:
 
        while left <= right:
            mid = left + ((right - left) // 2)
-           current = multiplier * potions[mid]
-           previous = multiplier * potions[mid - 1] if mid > 0 else 0
-           next = multiplier * potions[mid + 1] if mid < pn - 1 else 0
-
-           if current == success:
-               return pn - mid
-           elif previous <= success <= next:
-               return pn - mid
-           elif current > success:
+           if multiplier * potions[mid] >= success:
                right = mid - 1
            else:
                left = mid + 1
 
-       return 0
+       return pn - left
