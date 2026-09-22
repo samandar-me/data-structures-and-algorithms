@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8efb1a0-c606-444b-98ce-804d0c93fb25" name="Changes" comment="attempting on successful_pairs.py">
-      <change afterPath="$PROJECT_DIR$/binary_search/bad_version.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/binary_search/search_insert.py" afterDir="false" />
+    <list default="true" id="d8efb1a0-c606-444b-98ce-804d0c93fb25" name="Changes" comment="practicing binary search">
+      <change afterPath="$PROJECT_DIR$/binary_search/koko_eating_banana.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -47,61 +46,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="0.22531261565270755" />
-      <entry key="MS500" value="0.7422628585469401" />
-      <entry key="S2" value="0.9712183589634694" />
-      <entry key="S5" value="1.4425470997524816" />
-      <entry key="S10" value="2.2983544645108687" />
-      <entry key="S30" value="6.083607156740768" />
-      <entry key="S60" value="9.673099099595456" />
-      <entry key="M2" value="12.6938469685535" />
-      <entry key="M5" value="17.282578257569522" />
-      <entry key="M10" value="27.039038387576586" />
-      <entry key="M15" value="36.33344663700034" />
-      <entry key="M30" value="63.895369551665226" />
-      <entry key="H1" value="113.35964018321224" />
-      <entry key="H2" value="171.04117913124577" />
-      <entry key="H4" value="221.06850909529254" />
-      <entry key="D1" value="421.36534480318136" />
-      <entry key="W1" value="3028.45638210227" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.000000105416867" />
+      <entry key="S10" value="1.000325783093672" />
+      <entry key="S30" value="1.088726986354578" />
+      <entry key="S60" value="1.5056447940238749" />
+      <entry key="M2" value="2.4586967139652938" />
+      <entry key="M5" value="7.080826979209877" />
+      <entry key="M10" value="19.43043324526755" />
+      <entry key="M15" value="32.411424622037245" />
+      <entry key="M30" value="67.8598026583524" />
+      <entry key="H1" value="126.55057070005857" />
+      <entry key="H2" value="199.99739392071663" />
+      <entry key="H4" value="267.38901603534646" />
+      <entry key="D1" value="490.312679620082" />
+      <entry key="W1" value="3097.8961272562783" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.00000000071072" />
-      <entry key="MS500" value="1.014802657355313" />
-      <entry key="S2" value="1.350024588826088" />
-      <entry key="S5" value="1.724473903835276" />
-      <entry key="S10" value="2.0740107668540233" />
-      <entry key="S30" value="2.7101446886810274" />
-      <entry key="S60" value="3.137427101565223" />
-      <entry key="M2" value="3.49365738958024" />
-      <entry key="M5" value="4.432729784496412" />
-      <entry key="M10" value="7.034040068550595" />
-      <entry key="M15" value="9.363082657571965" />
-      <entry key="M30" value="14.863718797005731" />
-      <entry key="H1" value="23.20281121998997" />
-      <entry key="H2" value="32.48497386787001" />
-      <entry key="H4" value="39.94421014535667" />
-      <entry key="D1" value="87.63797615721373" />
-      <entry key="W1" value="972.1222088530722" />
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="3.1772549479822563E-96" />
+      <entry key="S5" value="1.0684443767031165E-38" />
+      <entry key="S10" value="1.743957161172099E-19" />
+      <entry key="S30" value="1.1577507862350425E-6" />
+      <entry key="S60" value="0.0020037073712629782" />
+      <entry key="M2" value="0.1139306151597155" />
+      <entry key="M5" value="2.058173786366593" />
+      <entry key="M10" value="6.710632202056906" />
+      <entry key="M15" value="10.900380810127185" />
+      <entry key="M30" value="20.511581417429387" />
+      <entry key="H1" value="33.1875641959623" />
+      <entry key="H2" value="47.01604438006241" />
+      <entry key="H4" value="58.49349327193376" />
+      <entry key="D1" value="110.4803166384266" />
+      <entry key="W1" value="994.0594452718674" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.3606785821826579" />
-      <entry key="MS500" value="1.4131758129686534" />
-      <entry key="S2" value="2.175950877854695" />
-      <entry key="S5" value="3.0720674729721726" />
-      <entry key="S10" value="4.295524821578224" />
-      <entry key="S30" value="8.728007313831064" />
-      <entry key="S60" value="12.759064830098588" />
-      <entry key="M2" value="16.15392707065259" />
-      <entry key="M5" value="21.69603053406598" />
-      <entry key="M10" value="34.056387374820126" />
-      <entry key="M15" value="45.68110890406437" />
-      <entry key="M30" value="78.74595288583073" />
-      <entry key="H1" value="136.55161856289007" />
-      <entry key="H2" value="203.5183618398889" />
-      <entry key="H4" value="261.00784241121386" />
-      <entry key="D1" value="509.0016572492341" />
-      <entry key="W1" value="4000.576343513281" />
+      <entry key="MS100" value="0.027776333786455314" />
+      <entry key="MS500" value="0.48835426448111363" />
+      <entry key="S2" value="0.8359566292132224" />
+      <entry key="S5" value="0.9308367982108053" />
+      <entry key="S10" value="0.9651111293249376" />
+      <entry key="S30" value="1.0756583828410662" />
+      <entry key="S60" value="1.4984388210769222" />
+      <entry key="M2" value="2.564623951681921" />
+      <entry key="M5" value="9.12786327243024" />
+      <entry key="M10" value="26.126237352665427" />
+      <entry key="M15" value="43.29596835448596" />
+      <entry key="M30" value="88.35593429710931" />
+      <entry key="H1" value="159.72481996031436" />
+      <entry key="H2" value="247.00352986439515" />
+      <entry key="H4" value="325.8761448474157" />
+      <entry key="D1" value="600.7910013592767" />
+      <entry key="W1" value="4091.9532791426623" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -235,15 +234,8 @@
       <workItem from="1789148067136" duration="25436000" />
       <workItem from="1789491632338" duration="38652000" />
       <workItem from="1789796340182" duration="5141000" />
-      <workItem from="1789811956072" duration="4933000" />
-    </task>
-    <task id="LOCAL-00063" summary="solving easy questions related to two-pointers pattern">
-      <option name="closed" value="true" />
-      <created>1782667994352</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1782667994352</updated>
+      <workItem from="1789811956072" duration="9351000" />
+      <workItem from="1790082169983" duration="3758000" />
     </task>
     <task id="LOCAL-00064" summary="solving easy questions related to two-pointers pattern">
       <option name="closed" value="true" />
@@ -629,7 +621,15 @@
       <option name="project" value="LOCAL" />
       <updated>1789920107705</updated>
     </task>
-    <option name="localTasksCounter" value="112" />
+    <task id="LOCAL-00112" summary="practicing binary search">
+      <option name="closed" value="true" />
+      <created>1790013012788</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1790013012788</updated>
+    </task>
+    <option name="localTasksCounter" value="113" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -640,14 +640,25 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="random easy problem solved" />
     <MESSAGE value="came back to easy problems again" />
     <MESSAGE value="solving some two pointer problems" />
     <MESSAGE value="doing 75 problems" />
@@ -672,7 +683,8 @@
     <MESSAGE value="started soling binary search problems" />
     <MESSAGE value="solved find peak with binary search algorithm" />
     <MESSAGE value="attempting on successful_pairs.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="attempting on successful_pairs.py" />
+    <MESSAGE value="practicing binary search" />
+    <option name="LAST_COMMIT_MESSAGE" value="practicing binary search" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3341,10 +3353,70 @@
           <line>42</line>
           <option name="timeStamp" value="1277" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/binary_search/bad_version.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="1293" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/binary_search/bad_version.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="1294" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/binary_search/bad_version.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="1296" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/binary_search/bad_version.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="1297" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/binary_search/bad_version.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="1298" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/binary_search/bad_version.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="1299" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/binary_search/bad_version.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="1300" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/binary_search/bad_version.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="1301" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/binary_search/bad_version.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="1302" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/binary_search/bad_version.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="1303" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/binary_search/bad_version.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="1305" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/binary_search/bad_version.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="1306" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/data_structures_and_algorithms$main.coverage" NAME="main Coverage Results" MODIFIED="1790011613814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/data_structures_and_algorithms$main.coverage" NAME="main Coverage Results" MODIFIED="1790095447948" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
