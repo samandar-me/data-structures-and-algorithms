@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8efb1a0-c606-444b-98ce-804d0c93fb25" name="Changes" comment="practicing binary search">
-      <change afterPath="$PROJECT_DIR$/binary_search/koko_eating_banana.py" afterDir="false" />
+    <list default="true" id="d8efb1a0-c606-444b-98ce-804d0c93fb25" name="Changes" comment="another binary search problem has been solved">
+      <change afterPath="$PROJECT_DIR$/backtracking/subsets.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -46,61 +46,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0" />
-      <entry key="S5" value="1.000000105416867" />
-      <entry key="S10" value="1.000325783093672" />
-      <entry key="S30" value="1.088726986354578" />
-      <entry key="S60" value="1.5056447940238749" />
-      <entry key="M2" value="2.4586967139652938" />
-      <entry key="M5" value="7.080826979209877" />
-      <entry key="M10" value="19.43043324526755" />
-      <entry key="M15" value="32.411424622037245" />
-      <entry key="M30" value="67.8598026583524" />
-      <entry key="H1" value="126.55057070005857" />
-      <entry key="H2" value="199.99739392071663" />
-      <entry key="H4" value="267.38901603534646" />
-      <entry key="D1" value="490.312679620082" />
-      <entry key="W1" value="3097.8961272562783" />
+      <entry key="MS100" value="1.4207154573150505E-57" />
+      <entry key="MS500" value="6.9397846264253146E-12" />
+      <entry key="S2" value="0.0028004439363962337" />
+      <entry key="S5" value="0.20690562589315467" />
+      <entry key="S10" value="1.5545986203628184" />
+      <entry key="S30" value="11.341491154796747" />
+      <entry key="S60" value="20.654803065980207" />
+      <entry key="M2" value="28.284930833552092" />
+      <entry key="M5" value="35.34291979896476" />
+      <entry key="M10" value="44.16740554639246" />
+      <entry key="M15" value="54.71437695639007" />
+      <entry key="M30" value="87.84136738565522" />
+      <entry key="H1" value="146.85793133167397" />
+      <entry key="H2" value="223.7858549138308" />
+      <entry key="H4" value="296.0604197918822" />
+      <entry key="D1" value="526.1197965679627" />
+      <entry key="W1" value="3134.0196571608626" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="3.1772549479822563E-96" />
-      <entry key="S5" value="1.0684443767031165E-38" />
-      <entry key="S10" value="1.743957161172099E-19" />
-      <entry key="S30" value="1.1577507862350425E-6" />
-      <entry key="S60" value="0.0020037073712629782" />
-      <entry key="M2" value="0.1139306151597155" />
-      <entry key="M5" value="2.058173786366593" />
-      <entry key="M10" value="6.710632202056906" />
-      <entry key="M15" value="10.900380810127185" />
-      <entry key="M30" value="20.511581417429387" />
-      <entry key="H1" value="33.1875641959623" />
-      <entry key="H2" value="47.01604438006241" />
-      <entry key="H4" value="58.49349327193376" />
-      <entry key="D1" value="110.4803166384266" />
-      <entry key="W1" value="994.0594452718674" />
+      <entry key="MS100" value="1.0000000000858138" />
+      <entry key="MS500" value="1.0097041527997175" />
+      <entry key="S2" value="1.362923895278207" />
+      <entry key="S5" value="2.0260494722797215" />
+      <entry key="S10" value="2.9998304482216653" />
+      <entry key="S30" value="5.501040983855651" />
+      <entry key="S60" value="6.91192560159039" />
+      <entry key="M2" value="7.8529077170636254" />
+      <entry key="M5" value="8.829563761251631" />
+      <entry key="M10" value="11.384412885004272" />
+      <entry key="M15" value="14.675230062769982" />
+      <entry key="M30" value="23.932281677787813" />
+      <entry key="H1" value="37.35384428682451" />
+      <entry key="H2" value="52.468639216925794" />
+      <entry key="H4" value="65.24661641613667" />
+      <entry key="D1" value="118.76309344622572" />
+      <entry key="W1" value="1002.1369953963554" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.027776333786455314" />
-      <entry key="MS500" value="0.48835426448111363" />
-      <entry key="S2" value="0.8359566292132224" />
-      <entry key="S5" value="0.9308367982108053" />
-      <entry key="S10" value="0.9651111293249376" />
-      <entry key="S30" value="1.0756583828410662" />
-      <entry key="S60" value="1.4984388210769222" />
-      <entry key="M2" value="2.564623951681921" />
-      <entry key="M5" value="9.12786327243024" />
-      <entry key="M10" value="26.126237352665427" />
-      <entry key="M15" value="43.29596835448596" />
-      <entry key="M30" value="88.35593429710931" />
-      <entry key="H1" value="159.72481996031436" />
-      <entry key="H2" value="247.00352986439515" />
-      <entry key="H4" value="325.8761448474157" />
-      <entry key="D1" value="600.7910013592767" />
-      <entry key="W1" value="4091.9532791426623" />
+      <entry key="MS100" value="0.25173888753272694" />
+      <entry key="MS500" value="0.7660510190048636" />
+      <entry key="S2" value="1.2650741889650696" />
+      <entry key="S5" value="2.1395676601347735" />
+      <entry key="S10" value="4.438414367442097" />
+      <entry key="S30" value="16.721527892918026" />
+      <entry key="S60" value="27.478301310912027" />
+      <entry key="M2" value="36.083473617532064" />
+      <entry key="M5" value="44.146081583828604" />
+      <entry key="M10" value="55.53310684266403" />
+      <entry key="M15" value="69.37239677544589" />
+      <entry key="M30" value="111.75791286633478" />
+      <entry key="H1" value="184.19815394698512" />
+      <entry key="H2" value="276.24421017298425" />
+      <entry key="H4" value="361.30035470531084" />
+      <entry key="D1" value="644.8808144956408" />
+      <entry key="W1" value="4136.154347933223" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -118,7 +118,7 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.examples.executor": "Run",
-    "Python.main.executor": "Run",
+    "Python.main.executor": "Debug",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -235,15 +235,7 @@
       <workItem from="1789491632338" duration="38652000" />
       <workItem from="1789796340182" duration="5141000" />
       <workItem from="1789811956072" duration="9351000" />
-      <workItem from="1790082169983" duration="3758000" />
-    </task>
-    <task id="LOCAL-00064" summary="solving easy questions related to two-pointers pattern">
-      <option name="closed" value="true" />
-      <created>1782733369327</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1782733369328</updated>
+      <workItem from="1790082169983" duration="6132000" />
     </task>
     <task id="LOCAL-00065" summary="solding sliding window problems">
       <option name="closed" value="true" />
@@ -629,7 +621,15 @@
       <option name="project" value="LOCAL" />
       <updated>1790013012788</updated>
     </task>
-    <option name="localTasksCounter" value="113" />
+    <task id="LOCAL-00113" summary="another binary search problem has been solved">
+      <option name="closed" value="true" />
+      <created>1790096190172</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1790096190172</updated>
+    </task>
+    <option name="localTasksCounter" value="114" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -659,7 +659,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="came back to easy problems again" />
     <MESSAGE value="solving some two pointer problems" />
     <MESSAGE value="doing 75 problems" />
     <MESSAGE value="solving most common patterns" />
@@ -684,7 +683,8 @@
     <MESSAGE value="solved find peak with binary search algorithm" />
     <MESSAGE value="attempting on successful_pairs.py" />
     <MESSAGE value="practicing binary search" />
-    <option name="LAST_COMMIT_MESSAGE" value="practicing binary search" />
+    <MESSAGE value="another binary search problem has been solved" />
+    <option name="LAST_COMMIT_MESSAGE" value="another binary search problem has been solved" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3412,6 +3412,71 @@
           <url>file://$PROJECT_DIR$/binary_search/bad_version.py</url>
           <line>14</line>
           <option name="timeStamp" value="1306" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/backtracking/subsets.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="1307" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/backtracking/subsets.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="1308" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/backtracking/subsets.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="1309" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/backtracking/subsets.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="1310" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/backtracking/subsets.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="1311" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/backtracking/subsets.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="1312" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/backtracking/subsets.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="1313" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/backtracking/subsets.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="1314" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/backtracking/subsets.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="1315" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/backtracking/subsets.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="1317" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/backtracking/subsets.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="1318" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/backtracking/subsets.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="1319" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/backtracking/subsets.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="1320" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

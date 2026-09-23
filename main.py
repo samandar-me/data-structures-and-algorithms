@@ -1,6 +1,6 @@
-from binary_search.koko_eating_banana import Solution
+from backtracking.subsets import Solution
 
 if __name__ == '__main__':
     s = Solution()
 
-    print(s.minEatingSpeed(piles = [30,11,23,4,20], h = 6))
+    print(s.subsets([1,2,3]))
