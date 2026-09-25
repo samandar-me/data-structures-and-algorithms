@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8efb1a0-c606-444b-98ce-804d0c93fb25" name="Changes" comment="another binary search problem has been solved">
-      <change afterPath="$PROJECT_DIR$/backtracking/subsets.py" afterDir="false" />
+    <list default="true" id="d8efb1a0-c606-444b-98ce-804d0c93fb25" name="Changes" comment="started backtracking pattern">
+      <change afterPath="$PROJECT_DIR$/backtracking/combination_sum3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backtracking/letter_combinations.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -46,61 +47,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.4207154573150505E-57" />
-      <entry key="MS500" value="6.9397846264253146E-12" />
-      <entry key="S2" value="0.0028004439363962337" />
-      <entry key="S5" value="0.20690562589315467" />
-      <entry key="S10" value="1.5545986203628184" />
-      <entry key="S30" value="11.341491154796747" />
-      <entry key="S60" value="20.654803065980207" />
-      <entry key="M2" value="28.284930833552092" />
-      <entry key="M5" value="35.34291979896476" />
-      <entry key="M10" value="44.16740554639246" />
-      <entry key="M15" value="54.71437695639007" />
-      <entry key="M30" value="87.84136738565522" />
-      <entry key="H1" value="146.85793133167397" />
-      <entry key="H2" value="223.7858549138308" />
-      <entry key="H4" value="296.0604197918822" />
-      <entry key="D1" value="526.1197965679627" />
-      <entry key="W1" value="3134.0196571608626" />
+      <entry key="MS100" value="0.001202308857788044" />
+      <entry key="MS500" value="0.2919240021123263" />
+      <entry key="S2" value="1.3524942190685012" />
+      <entry key="S5" value="2.1273332685837745" />
+      <entry key="S10" value="2.5152997062252687" />
+      <entry key="S30" value="2.837618528789233" />
+      <entry key="S60" value="3.097267258122066" />
+      <entry key="M2" value="3.704844138109783" />
+      <entry key="M5" value="4.8932795542564795" />
+      <entry key="M10" value="6.366114921576678" />
+      <entry key="M15" value="8.181271735347988" />
+      <entry key="M30" value="15.971585777204906" />
+      <entry key="H1" value="30.790028390483325" />
+      <entry key="H2" value="51.160068444454154" />
+      <entry key="H4" value="110.13677528889103" />
+      <entry key="D1" value="647.4998648699105" />
+      <entry key="W1" value="3352.1791808592093" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0000000000858138" />
-      <entry key="MS500" value="1.0097041527997175" />
-      <entry key="S2" value="1.362923895278207" />
-      <entry key="S5" value="2.0260494722797215" />
-      <entry key="S10" value="2.9998304482216653" />
-      <entry key="S30" value="5.501040983855651" />
-      <entry key="S60" value="6.91192560159039" />
-      <entry key="M2" value="7.8529077170636254" />
-      <entry key="M5" value="8.829563761251631" />
-      <entry key="M10" value="11.384412885004272" />
-      <entry key="M15" value="14.675230062769982" />
-      <entry key="M30" value="23.932281677787813" />
-      <entry key="H1" value="37.35384428682451" />
-      <entry key="H2" value="52.468639216925794" />
-      <entry key="H4" value="65.24661641613667" />
-      <entry key="D1" value="118.76309344622572" />
-      <entry key="W1" value="1002.1369953963554" />
+      <entry key="MS100" value="1.000000000139405" />
+      <entry key="MS500" value="1.0106869945617383" />
+      <entry key="S2" value="1.321524370857651" />
+      <entry key="S5" value="1.6351635375294018" />
+      <entry key="S10" value="1.796971532662947" />
+      <entry key="S30" value="1.930928608320622" />
+      <entry key="S60" value="2.024395827021756" />
+      <entry key="M2" value="2.2292828883006743" />
+      <entry key="M5" value="2.5650719834834828" />
+      <entry key="M10" value="2.7673557051611586" />
+      <entry key="M15" value="2.926961115852005" />
+      <entry key="M30" value="3.693067089727143" />
+      <entry key="H1" value="5.270896370330715" />
+      <entry key="H2" value="7.699697524035064" />
+      <entry key="H4" value="17.501240308260677" />
+      <entry key="D1" value="126.23751324530225" />
+      <entry key="W1" value="1005.5311554152494" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.25173888753272694" />
-      <entry key="MS500" value="0.7660510190048636" />
-      <entry key="S2" value="1.2650741889650696" />
-      <entry key="S5" value="2.1395676601347735" />
-      <entry key="S10" value="4.438414367442097" />
-      <entry key="S30" value="16.721527892918026" />
-      <entry key="S60" value="27.478301310912027" />
-      <entry key="M2" value="36.083473617532064" />
-      <entry key="M5" value="44.146081583828604" />
-      <entry key="M10" value="55.53310684266403" />
-      <entry key="M15" value="69.37239677544589" />
-      <entry key="M30" value="111.75791286633478" />
-      <entry key="H1" value="184.19815394698512" />
-      <entry key="H2" value="276.24421017298425" />
-      <entry key="H4" value="361.30035470531084" />
-      <entry key="D1" value="644.8808144956408" />
-      <entry key="W1" value="4136.154347933223" />
+      <entry key="MS100" value="0.07707290935387597" />
+      <entry key="MS500" value="0.7989172844779193" />
+      <entry key="S2" value="2.4261801670702954" />
+      <entry key="S5" value="3.6330115973933768" />
+      <entry key="S10" value="4.240255676483909" />
+      <entry key="S30" value="4.742505659150619" />
+      <entry key="S60" value="5.107391603159976" />
+      <entry key="M2" value="5.9253242119797385" />
+      <entry key="M5" value="7.453492781844869" />
+      <entry key="M10" value="9.130171101932204" />
+      <entry key="M15" value="11.105257198407047" />
+      <entry key="M30" value="19.66142239706055" />
+      <entry key="H1" value="36.057649175998435" />
+      <entry key="H2" value="58.85703605240795" />
+      <entry key="H4" value="127.63526297309105" />
+      <entry key="D1" value="773.7348624766255" />
+      <entry key="W1" value="4357.707957885435" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -118,7 +119,7 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.examples.executor": "Run",
-    "Python.main.executor": "Debug",
+    "Python.main.executor": "Run",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -236,14 +237,6 @@
       <workItem from="1789796340182" duration="5141000" />
       <workItem from="1789811956072" duration="9351000" />
       <workItem from="1790082169983" duration="6132000" />
-    </task>
-    <task id="LOCAL-00065" summary="solding sliding window problems">
-      <option name="closed" value="true" />
-      <created>1784051622530</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1784051622530</updated>
     </task>
     <task id="LOCAL-00066" summary="solding sliding window problems">
       <option name="closed" value="true" />
@@ -629,7 +622,15 @@
       <option name="project" value="LOCAL" />
       <updated>1790096190172</updated>
     </task>
-    <option name="localTasksCounter" value="114" />
+    <task id="LOCAL-00114" summary="started backtracking pattern">
+      <option name="closed" value="true" />
+      <created>1790183532931</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1790183532931</updated>
+    </task>
+    <option name="localTasksCounter" value="115" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -659,7 +660,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="solving some two pointer problems" />
     <MESSAGE value="doing 75 problems" />
     <MESSAGE value="solving most common patterns" />
     <MESSAGE value="solving Compress String problem" />
@@ -684,7 +684,8 @@
     <MESSAGE value="attempting on successful_pairs.py" />
     <MESSAGE value="practicing binary search" />
     <MESSAGE value="another binary search problem has been solved" />
-    <option name="LAST_COMMIT_MESSAGE" value="another binary search problem has been solved" />
+    <MESSAGE value="started backtracking pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="started backtracking pattern" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3414,69 +3415,189 @@
           <option name="timeStamp" value="1306" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/backtracking/subsets.py</url>
-          <line>1</line>
-          <option name="timeStamp" value="1307" />
+          <url>file://$PROJECT_DIR$/backtracking/letter_combinations.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="1349" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/backtracking/letter_combinations.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="1350" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/backtracking/letter_combinations.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="1351" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/backtracking/letter_combinations.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="1352" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/backtracking/letter_combinations.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="1353" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/backtracking/letter_combinations.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="1354" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/backtracking/letter_combinations.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="1355" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/backtracking/letter_combinations.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="1356" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/backtracking/letter_combinations.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="1357" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/backtracking/letter_combinations.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="1358" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/backtracking/letter_combinations.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="1359" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/backtracking/subsets.py</url>
           <line>2</line>
-          <option name="timeStamp" value="1308" />
+          <option name="timeStamp" value="1373" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/backtracking/subsets.py</url>
           <line>3</line>
-          <option name="timeStamp" value="1309" />
+          <option name="timeStamp" value="1374" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/backtracking/subsets.py</url>
           <line>5</line>
-          <option name="timeStamp" value="1310" />
+          <option name="timeStamp" value="1375" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/backtracking/subsets.py</url>
           <line>6</line>
-          <option name="timeStamp" value="1311" />
+          <option name="timeStamp" value="1376" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/backtracking/subsets.py</url>
           <line>7</line>
-          <option name="timeStamp" value="1312" />
+          <option name="timeStamp" value="1377" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/backtracking/subsets.py</url>
           <line>8</line>
-          <option name="timeStamp" value="1313" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/backtracking/subsets.py</url>
-          <line>10</line>
-          <option name="timeStamp" value="1314" />
+          <option name="timeStamp" value="1378" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/backtracking/subsets.py</url>
           <line>12</line>
-          <option name="timeStamp" value="1315" />
+          <option name="timeStamp" value="1379" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/backtracking/subsets.py</url>
           <line>13</line>
-          <option name="timeStamp" value="1317" />
+          <option name="timeStamp" value="1380" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/backtracking/subsets.py</url>
           <line>14</line>
-          <option name="timeStamp" value="1318" />
+          <option name="timeStamp" value="1381" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/backtracking/subsets.py</url>
           <line>16</line>
-          <option name="timeStamp" value="1319" />
+          <option name="timeStamp" value="1382" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/backtracking/subsets.py</url>
           <line>17</line>
-          <option name="timeStamp" value="1320" />
+          <option name="timeStamp" value="1383" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/backtracking/combination_sum3.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="1451" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/backtracking/combination_sum3.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="1452" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/backtracking/combination_sum3.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="1453" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/backtracking/combination_sum3.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="1455" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/backtracking/combination_sum3.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="1456" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/backtracking/combination_sum3.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="1457" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/backtracking/combination_sum3.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="1459" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/backtracking/combination_sum3.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="1460" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/backtracking/combination_sum3.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="1464" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/backtracking/combination_sum3.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="1465" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/backtracking/combination_sum3.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="1472" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/backtracking/combination_sum3.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="1475" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/backtracking/combination_sum3.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="1476" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/backtracking/combination_sum3.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="1477" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/backtracking/combination_sum3.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="1478" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
