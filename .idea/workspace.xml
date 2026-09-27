@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8efb1a0-c606-444b-98ce-804d0c93fb25" name="Changes" comment="solved one of backtracking problems">
-      <change afterPath="$PROJECT_DIR$/backtracking/combination_sum.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backtracking/permutations.py" afterDir="false" />
+    <list default="true" id="d8efb1a0-c606-444b-98ce-804d0c93fb25" name="Changes" comment="solved permutations and working on combination sum 1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtracking/combination_sum.py" beforeDir="false" afterPath="$PROJECT_DIR$/backtracking/combination_sum.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,61 +46,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0000283744970846" />
-      <entry key="MS500" value="1.1872136088825356" />
-      <entry key="S2" value="2.444275391213724" />
-      <entry key="S5" value="3.3864698883736715" />
-      <entry key="S10" value="4.073018329382609" />
-      <entry key="S30" value="6.832845212467964" />
-      <entry key="S60" value="13.135690304167365" />
-      <entry key="M2" value="22.462125222086787" />
-      <entry key="M5" value="33.13407304308145" />
-      <entry key="M10" value="38.095736510730546" />
-      <entry key="M15" value="39.959038254267156" />
-      <entry key="M30" value="42.31384479832988" />
-      <entry key="H1" value="45.68806639238673" />
-      <entry key="H2" value="52.98215982853761" />
-      <entry key="H4" value="77.99624577426454" />
-      <entry key="D1" value="555.727078131457" />
-      <entry key="W1" value="3302.9480502570013" />
+      <entry key="MS100" value="8.593913192441467E-7" />
+      <entry key="MS500" value="0.09718343481095112" />
+      <entry key="S2" value="1.2264495317260125" />
+      <entry key="S5" value="2.0915001568315748" />
+      <entry key="S10" value="2.5036860582509797" />
+      <entry key="S30" value="2.824194116222513" />
+      <entry key="S60" value="2.911837872052914" />
+      <entry key="M2" value="3.0281937805199286" />
+      <entry key="M5" value="3.977782399269658" />
+      <entry key="M10" value="5.420637993996571" />
+      <entry key="M15" value="6.273575855948895" />
+      <entry key="M30" value="7.429869889645746" />
+      <entry key="H1" value="8.154856243761259" />
+      <entry key="H2" value="8.566948352866367" />
+      <entry key="H4" value="9.358153179597746" />
+      <entry key="D1" value="229.63205587437224" />
+      <entry key="W1" value="2905.632700492673" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.011759740214148965" />
-      <entry key="MS500" value="0.4112250343562321" />
-      <entry key="S2" value="0.800792296030078" />
-      <entry key="S5" value="0.9149725898431051" />
-      <entry key="S10" value="0.9575816503714802" />
-      <entry key="S30" value="1.291831583880934" />
-      <entry key="S60" value="2.3990131017672214" />
-      <entry key="M2" value="4.098187109670702" />
-      <entry key="M5" value="6.038851656162468" />
-      <entry key="M10" value="6.936253432235501" />
-      <entry key="M15" value="7.270885648768553" />
-      <entry key="M30" value="7.625082087548689" />
-      <entry key="H1" value="7.819255946773145" />
-      <entry key="H2" value="8.258583312273457" />
-      <entry key="H4" value="11.30832174978838" />
-      <entry key="D1" value="101.24530356207052" />
-      <entry key="W1" value="969.501569636925" />
+      <entry key="MS100" value="1.0188407473076682" />
+      <entry key="MS500" value="1.451876363375543" />
+      <entry key="S2" value="1.819888710177371" />
+      <entry key="S5" value="1.9236383621621247" />
+      <entry key="S10" value="1.9610610605794645" />
+      <entry key="S30" value="1.9868481404144993" />
+      <entry key="S60" value="1.9934023054203664" />
+      <entry key="M2" value="1.9966956934894253" />
+      <entry key="M5" value="1.998676964868833" />
+      <entry key="M10" value="1.99933826348681" />
+      <entry key="M15" value="1.999558793655201" />
+      <entry key="M30" value="1.9997793724893764" />
+      <entry key="H1" value="1.9998901546639636" />
+      <entry key="H2" value="2.0020897307662144" />
+      <entry key="H4" value="2.1793565334757465" />
+      <entry key="D1" value="45.95274087959808" />
+      <entry key="W1" value="855.3440358217505" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.15834345373270078" />
-      <entry key="MS500" value="0.9388720757648061" />
-      <entry key="S2" value="2.763205218218119" />
-      <entry key="S5" value="4.0284447658957605" />
-      <entry key="S10" value="4.867573034164684" />
-      <entry key="S30" value="8.044257644657112" />
-      <entry key="S60" value="15.465217949933791" />
-      <entry key="M2" value="26.5035200374647" />
-      <entry key="M5" value="39.14002930377778" />
-      <entry key="M10" value="45.013167681790506" />
-      <entry key="M15" value="47.216781333554955" />
-      <entry key="M30" value="49.93199674242593" />
-      <entry key="H1" value="53.50363305296078" />
-      <entry key="H2" value="61.238603287261185" />
-      <entry key="H4" value="89.30289446853074" />
-      <entry key="D1" value="656.970246045987" />
-      <entry key="W1" value="4272.447298750796" />
+      <entry key="MS100" value="0.06256642085216665" />
+      <entry key="MS500" value="0.8815188156648543" />
+      <entry key="S2" value="2.6002979510204076" />
+      <entry key="S5" value="3.760227333597907" />
+      <entry key="S10" value="4.319102293064917" />
+      <entry key="S30" value="4.757770325732827" />
+      <entry key="S60" value="4.877962997720093" />
+      <entry key="M2" value="5.0109662427164645" />
+      <entry key="M5" value="5.9700072067077175" />
+      <entry key="M10" value="7.415985408521671" />
+      <entry key="M15" value="8.27015478487724" />
+      <entry key="M30" value="9.427935847481354" />
+      <entry key="H1" value="10.153817982269942" />
+      <entry key="H2" value="10.568553250890877" />
+      <entry key="H4" value="11.537247693226572" />
+      <entry key="D1" value="275.5838923874842" />
+      <entry key="W1" value="3760.974696424566" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -237,14 +236,6 @@
       <workItem from="1789796340182" duration="5141000" />
       <workItem from="1789811956072" duration="9351000" />
       <workItem from="1790082169983" duration="6132000" />
-    </task>
-    <task id="LOCAL-00067" summary="solding sliding window problems">
-      <option name="closed" value="true" />
-      <created>1784489012637</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1784489012637</updated>
     </task>
     <task id="LOCAL-00068" summary="solding sliding window problems">
       <option name="closed" value="true" />
@@ -630,7 +621,15 @@
       <option name="project" value="LOCAL" />
       <updated>1790319032939</updated>
     </task>
-    <option name="localTasksCounter" value="116" />
+    <task id="LOCAL-00116" summary="solved permutations and working on combination sum 1">
+      <option name="closed" value="true" />
+      <created>1790364564807</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1790364564808</updated>
+    </task>
+    <option name="localTasksCounter" value="117" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -660,7 +659,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="solving most common patterns" />
     <MESSAGE value="solving Compress String problem" />
     <MESSAGE value="solving prefix sum problems" />
     <MESSAGE value="hashmap is the solution!" />
@@ -685,7 +683,8 @@
     <MESSAGE value="another binary search problem has been solved" />
     <MESSAGE value="started backtracking pattern" />
     <MESSAGE value="solved one of backtracking problems" />
-    <option name="LAST_COMMIT_MESSAGE" value="solved one of backtracking problems" />
+    <MESSAGE value="solved permutations and working on combination sum 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="solved permutations and working on combination sum 1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
