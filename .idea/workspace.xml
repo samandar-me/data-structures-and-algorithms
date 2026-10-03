@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8efb1a0-c606-444b-98ce-804d0c93fb25" name="Changes" comment="solving math + number related problems">
-      <change afterPath="$PROJECT_DIR$/bit_manipulation/find_unique.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/math_py/title_to_number.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/math_py/convert_to_title.py" beforeDir="false" afterPath="$PROJECT_DIR$/math_py/convert_to_title.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/math_py/my_atoi.py" beforeDir="false" afterPath="$PROJECT_DIR$/math_py/my_atoi.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,61 +47,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.2357824233389508E-8" />
-      <entry key="MS500" value="0.026205255763779092" />
-      <entry key="S2" value="0.4023501168706027" />
-      <entry key="S5" value="0.7056150221385347" />
-      <entry key="S10" value="0.9753667964272781" />
-      <entry key="S30" value="1.7616191591905745" />
-      <entry key="S60" value="2.275802422462327" />
-      <entry key="M2" value="3.14477085358096" />
-      <entry key="M5" value="7.3375075388711" />
-      <entry key="M10" value="12.503270953080838" />
-      <entry key="M15" value="15.355766705920603" />
-      <entry key="M30" value="19.09148633456535" />
-      <entry key="H1" value="21.377606467832315" />
-      <entry key="H2" value="22.729154372140215" />
-      <entry key="H4" value="26.96213349814173" />
-      <entry key="D1" value="161.51982103126505" />
-      <entry key="W1" value="2199.563861005306" />
+      <entry key="MS100" value="8.547039318180442E-8" />
+      <entry key="MS500" value="0.038689122633776406" />
+      <entry key="S2" value="0.5832965316183655" />
+      <entry key="S5" value="1.3944927823534943" />
+      <entry key="S10" value="2.004807077919495" />
+      <entry key="S30" value="3.086412989373812" />
+      <entry key="S60" value="5.553805568695674" />
+      <entry key="M2" value="10.387842957222386" />
+      <entry key="M5" value="18.09354612344548" />
+      <entry key="M10" value="24.109008305200266" />
+      <entry key="M15" value="28.953011161610412" />
+      <entry key="M30" value="41.50707331208872" />
+      <entry key="H1" value="58.976093353638575" />
+      <entry key="H2" value="78.19140939255513" />
+      <entry key="H4" value="97.14762654658813" />
+      <entry key="D1" value="236.50448143320267" />
+      <entry key="W1" value="2248.723216038764" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0000005553882534" />
-      <entry key="S5" value="1.0031465792619092" />
-      <entry key="S10" value="1.0560943781667087" />
-      <entry key="S30" value="1.3828476097974653" />
-      <entry key="S60" value="1.6357695725534152" />
-      <entry key="M2" value="2.1608229407053274" />
-      <entry key="M5" value="4.612149113219365" />
-      <entry key="M10" value="7.35372403774276" />
-      <entry key="M15" value="8.799007582663883" />
-      <entry key="M30" value="10.64236889533087" />
-      <entry key="H1" value="11.748379678188364" />
-      <entry key="H2" value="12.37037974859785" />
-      <entry key="H4" value="13.325816943101973" />
-      <entry key="D1" value="41.784607154037644" />
-      <entry key="W1" value="624.8925143513292" />
+      <entry key="MS100" value="1.000000000000008" />
+      <entry key="MS500" value="1.0015154899497556" />
+      <entry key="S2" value="1.19730507909465" />
+      <entry key="S5" value="1.5224627222545029" />
+      <entry key="S10" value="1.7229036943389766" />
+      <entry key="S30" value="1.9863461378385492" />
+      <entry key="S60" value="2.480056079999658" />
+      <entry key="M2" value="3.4101692094985943" />
+      <entry key="M5" value="5.653146273490414" />
+      <entry key="M10" value="8.983734410404963" />
+      <entry key="M15" value="12.01119211772483" />
+      <entry key="M30" value="19.159828205136265" />
+      <entry key="H1" value="27.67461259743128" />
+      <entry key="H2" value="36.25789887050981" />
+      <entry key="H4" value="44.382839492293016" />
+      <entry key="D1" value="79.91464371502798" />
+      <entry key="W1" value="655.2711802784297" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.08246924516420699" />
-      <entry key="MS500" value="0.622023738078499" />
-      <entry key="S2" value="1.2322420983897358" />
-      <entry key="S5" value="1.6212714959903767" />
-      <entry key="S10" value="1.9777644892579" />
-      <entry key="S30" value="3.1149240366906414" />
-      <entry key="S60" value="3.892761470979249" />
-      <entry key="M2" value="5.292750483015539" />
-      <entry key="M5" value="11.938022899437303" />
-      <entry key="M10" value="19.847267256603647" />
-      <entry key="M15" value="24.146864968865017" />
-      <entry key="M30" value="29.728973759258995" />
-      <entry key="H1" value="33.123263126842936" />
-      <entry key="H2" value="35.09809035108627" />
-      <entry key="H4" value="40.28712176450435" />
-      <entry key="D1" value="203.30369663589542" />
-      <entry key="W1" value="2824.4548469034003" />
+      <entry key="MS100" value="0.008608639286533711" />
+      <entry key="MS500" value="0.4095395901088983" />
+      <entry key="S2" value="1.4637322546675293" />
+      <entry key="S5" value="2.71827504020512" />
+      <entry key="S10" value="3.6037810654218854" />
+      <entry key="S30" value="5.020636374312325" />
+      <entry key="S60" value="7.998605510719867" />
+      <entry key="M2" value="13.770943379889006" />
+      <entry key="M5" value="23.728356363012715" />
+      <entry key="M10" value="33.07914266604774" />
+      <entry key="M15" value="40.95225668788202" />
+      <entry key="M30" value="60.65722208783401" />
+      <entry key="H1" value="86.64356865016826" />
+      <entry key="H2" value="114.44459048811711" />
+      <entry key="H4" value="141.52756304274843" />
+      <entry key="D1" value="316.4180167396213" />
+      <entry key="W1" value="2903.9928334037854" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -119,7 +119,7 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.examples.executor": "Run",
-    "Python.main.executor": "Debug",
+    "Python.main.executor": "Run",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -238,14 +238,6 @@
       <workItem from="1789796340182" duration="5141000" />
       <workItem from="1789811956072" duration="9351000" />
       <workItem from="1790082169983" duration="6132000" />
-    </task>
-    <task id="LOCAL-00073" summary="doing 75 problems">
-      <option name="closed" value="true" />
-      <created>1785607143008</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
-      <option name="project" value="LOCAL" />
-      <updated>1785607143009</updated>
     </task>
     <task id="LOCAL-00074" summary="doing 75 problems">
       <option name="closed" value="true" />
@@ -631,7 +623,15 @@
       <option name="project" value="LOCAL" />
       <updated>1790913913948</updated>
     </task>
-    <option name="localTasksCounter" value="122" />
+    <task id="LOCAL-00122" summary="solving math + number related problems">
+      <option name="closed" value="true" />
+      <created>1791047761933</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1791047761934</updated>
+    </task>
+    <option name="localTasksCounter" value="123" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -3526,71 +3526,6 @@
           <option name="timeStamp" value="1383" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/math_py/my_atoi.py</url>
-          <line>18</line>
-          <option name="timeStamp" value="1569" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/math_py/my_atoi.py</url>
-          <line>19</line>
-          <option name="timeStamp" value="1570" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/math_py/my_atoi.py</url>
-          <line>21</line>
-          <option name="timeStamp" value="1572" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/math_py/my_atoi.py</url>
-          <line>20</line>
-          <option name="timeStamp" value="1573" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/math_py/my_atoi.py</url>
-          <line>22</line>
-          <option name="timeStamp" value="1574" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/math_py/my_atoi.py</url>
-          <line>23</line>
-          <option name="timeStamp" value="1575" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/math_py/my_atoi.py</url>
-          <line>24</line>
-          <option name="timeStamp" value="1576" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/math_py/my_atoi.py</url>
-          <line>27</line>
-          <option name="timeStamp" value="1577" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/math_py/my_atoi.py</url>
-          <line>28</line>
-          <option name="timeStamp" value="1578" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/math_py/my_atoi.py</url>
-          <line>29</line>
-          <option name="timeStamp" value="1579" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/math_py/my_atoi.py</url>
-          <line>30</line>
-          <option name="timeStamp" value="1580" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/math_py/my_atoi.py</url>
-          <line>31</line>
-          <option name="timeStamp" value="1581" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/math_py/my_atoi.py</url>
-          <line>32</line>
-          <option name="timeStamp" value="1582" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/math_py/convert_to_title.py</url>
           <line>1</line>
           <option name="timeStamp" value="1583" />
@@ -3624,6 +3559,40 @@
           <url>file://$PROJECT_DIR$/math_py/convert_to_title.py</url>
           <line>9</line>
           <option name="timeStamp" value="1589" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/math_py/title_to_number.py</url>
+          <option name="timeStamp" value="1591" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/math_py/title_to_number.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="1592" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/math_py/title_to_number.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="1593" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/math_py/title_to_number.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="1594" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/math_py/title_to_number.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="1595" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/math_py/title_to_number.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="1596" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/math_py/title_to_number.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="1597" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
