@@ -1,4 +1,10 @@
 class Solution:
     def convertToTitle(self, columnNumber: int) -> str:
-        print(701 % 26)
-        return ''
+        res = ''
+
+        while columnNumber > 0:
+            offset = (columnNumber - 1) % 26
+            res = chr(ord('A') + offset) + res
+            columnNumber = (columnNumber - 1) // 26
+
+        return res
