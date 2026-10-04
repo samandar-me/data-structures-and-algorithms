@@ -1,8 +1,10 @@
-class Node:
+from typing import Optional
+
+class ListNode:
     def __init__(self, val=0):
         self.val = val
         self.next = None
 
-
-def addTwoNumbers(head1: Node, head2: Node) -> Node:
-    return head1
+class Solution:
+    def addTwoNumbers(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:
+        pass
