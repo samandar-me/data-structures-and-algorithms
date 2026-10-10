@@ -1,10 +1,12 @@
 from linked_list.remove_nth_from_end import Solution, ListNode
+from collections import deque
+
+from stack.daily_temperatures import Solution
 
 if __name__ == '__main__':
-    a = [1, 2, 3]
-    b = a
-    b.append(4)
-    print(a)
+    s = Solution()
+    print(s.dailyTemperatures(temperatures = [73,74,75,71,69,72,76,73]))
+
     # s = Solution()
     # head = ListNode(1)
     #
