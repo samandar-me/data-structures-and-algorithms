@@ -1,29 +1,7 @@
-from linked_list.remove_nth_from_end import Solution, ListNode
-from collections import deque
-
-from stack.daily_temperatures import Solution
+from arrays.majority_element import Solution
 
 if __name__ == '__main__':
     s = Solution()
-    print(s.dailyTemperatures(temperatures = [73,74,75,71,69,72,76,73]))
 
-    # s = Solution()
-    # head = ListNode(1)
-    #
-    # two = ListNode(2)
-    # three = ListNode(3)
-    # four = ListNode(4)
-    # five = ListNode(5)
-    #
-    # head.next = two
-    # two.next = three
-    # three.next = four
-    # four.next = five
-    #
-    # curr = s.removeNthFromEnd(head, 2)
-    #
-    # print()
-    # print("main")
-    # while curr:
-    #     print(curr.val)
-    #     curr = curr.next
+    print(s.majorityElement(nums = [2,2,1,1,1,2,2]))
+

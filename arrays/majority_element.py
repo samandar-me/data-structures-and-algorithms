@@ -1,0 +1,26 @@
+from collections import Counter
+
+class Solution:
+    def majorityElement(self, nums: list[int]) -> int:
+        candidate = None
+        count = 0
+
+        for num in nums:
+            if count == 0:
+                candidate = num
+
+            if num == candidate:
+                count += 1
+            else:
+                count -= 1
+
+        return candidate
+
+
+    # def majorityElement(self, nums: list[int]) -> int:
+    #     counter = Counter(nums)
+    #     maxx = max(counter.values())
+    #
+    #     for k, v in counter.items():
+    #         if v == maxx:
+    #             return k
