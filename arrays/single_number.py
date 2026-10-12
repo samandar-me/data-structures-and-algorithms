@@ -1,18 +1,14 @@
+from collections import Counter
 from typing import List
-
 
 class Solution:
     def singleNumber(self, nums: List[int]) -> int:
-        nums = sorted(nums)
-        i = 0
+        xor = 0
 
-        while i < len(nums) - 1:
-            if nums[i] != nums[i+1]:
-                return nums[i]
+        for num in nums:
+            xor ^= num
 
-            i += 2
-
-        return nums[0]
+        return xor
 
     # def singleNumber(self, nums: List[int]) -> int:
     #     hash_map = {}

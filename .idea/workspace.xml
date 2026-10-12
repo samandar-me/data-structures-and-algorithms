@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8efb1a0-c606-444b-98ce-804d0c93fb25" name="Changes" comment="learnt monotonic stack problem">
-      <change afterPath="$PROJECT_DIR$/arrays/majority_element.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arrays/square_of_sorted_array.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stack/count_students.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arrays/plus_one.py" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/plus_one.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/single_number.py" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/single_number.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,61 +46,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="4.788721300639343E-5" />
-      <entry key="MS500" value="0.13678671265759243" />
-      <entry key="S2" value="0.6081503739308308" />
-      <entry key="S5" value="0.8196046076375172" />
-      <entry key="S10" value="0.9053201685798882" />
-      <entry key="S30" value="0.9673880802122244" />
-      <entry key="S60" value="0.983558884974471" />
-      <entry key="M2" value="0.991745373054565" />
-      <entry key="M5" value="0.9967624866465197" />
-      <entry key="M10" value="1.05780327149763" />
-      <entry key="M15" value="1.6517096445116672" />
-      <entry key="M30" value="9.656696690200404" />
-      <entry key="H1" value="35.88871612002099" />
-      <entry key="H2" value="73.10814424830018" />
-      <entry key="H4" value="105.6274261313083" />
-      <entry key="D1" value="314.93721403695264" />
-      <entry key="W1" value="2360.7347025143113" />
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="1.5349334E-315" />
+      <entry key="S5" value="3.002791408569215E-126" />
+      <entry key="S10" value="4.4322641038770075E-63" />
+      <entry key="S30" value="5.975868143222752E-21" />
+      <entry key="S60" value="2.1175454708104784E-10" />
+      <entry key="M2" value="4.9745846713878914E-5" />
+      <entry key="M5" value="0.11918428220251844" />
+      <entry key="M10" value="1.7540515925175253" />
+      <entry key="M15" value="4.351338791501791" />
+      <entry key="M30" value="11.53677256546045" />
+      <entry key="H1" value="26.96606170010688" />
+      <entry key="H2" value="59.857207897932255" />
+      <entry key="H4" value="100.61807539257363" />
+      <entry key="D1" value="324.9676887070723" />
+      <entry key="W1" value="2369.629212640498" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0" />
-      <entry key="S5" value="1.0" />
-      <entry key="S10" value="1.0" />
-      <entry key="S30" value="1.0" />
-      <entry key="S60" value="1.0" />
-      <entry key="M2" value="1.0000000000002096" />
-      <entry key="M5" value="1.0000457663084916" />
-      <entry key="M10" value="1.0356135421763564" />
-      <entry key="M15" value="1.3791636121431674" />
-      <entry key="M30" value="5.9501957910876335" />
-      <entry key="H1" value="21.140148551133674" />
-      <entry key="H2" value="43.07347451121165" />
-      <entry key="H4" value="62.43148641286745" />
-      <entry key="D1" value="157.4504968451537" />
-      <entry key="W1" value="825.322648570589" />
+      <entry key="MS100" value="1.0000000494312968" />
+      <entry key="MS500" value="1.0345780422841335" />
+      <entry key="S2" value="1.4312211964923722" />
+      <entry key="S5" value="1.7142989966787905" />
+      <entry key="S10" value="1.8451621126617015" />
+      <entry key="S30" value="1.9454676493030747" />
+      <entry key="S60" value="1.9723516079541397" />
+      <entry key="M2" value="1.9861015579902745" />
+      <entry key="M5" value="2.048461853204725" />
+      <entry key="M10" value="2.7866314166137727" />
+      <entry key="M15" value="3.95251032356184" />
+      <entry key="M30" value="7.274478431947783" />
+      <entry key="H1" value="15.433291381683226" />
+      <entry key="H2" value="34.17077045474823" />
+      <entry key="H4" value="57.94759091966032" />
+      <entry key="D1" value="162.99624804224305" />
+      <entry key="W1" value="832.9860719408517" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="2.1352406418576137E-4" />
-      <entry key="MS500" value="0.24721837403993258" />
-      <entry key="S2" value="1.1560638870465296" />
-      <entry key="S5" value="1.6027846601110032" />
-      <entry key="S10" value="1.7897652088977865" />
-      <entry key="S30" value="1.927157507130984" />
-      <entry key="S60" value="1.963221275713697" />
-      <entry key="M2" value="1.9815203456899086" />
-      <entry key="M5" value="1.9927045502144012" />
-      <entry key="M10" value="2.0913150556688924" />
-      <entry key="M15" value="3.029144113598115" />
-      <entry key="M30" value="15.603637700238878" />
-      <entry key="H1" value="57.02304446985448" />
-      <entry key="H2" value="116.17561150031221" />
-      <entry key="H4" value="168.05452972035417" />
-      <entry key="D1" value="472.3858395127325" />
-      <entry key="W1" value="3186.055637916862" />
+      <entry key="MS100" value="2.2607582213643155E-7" />
+      <entry key="MS500" value="0.0672173398728412" />
+      <entry key="S2" value="0.8433066695489757" />
+      <entry key="S5" value="1.4140395684883111" />
+      <entry key="S10" value="1.68133323143246" />
+      <entry key="S30" value="1.8874877755425457" />
+      <entry key="S60" value="1.9429181951398122" />
+      <entry key="M2" value="1.9713218094684217" />
+      <entry key="M5" value="2.161492215076391" />
+      <entry key="M10" value="4.53621395769271" />
+      <entry key="M15" value="8.299375244084871" />
+      <entry key="M30" value="18.806903864644205" />
+      <entry key="H1" value="42.39478803545026" />
+      <entry key="H2" value="94.02302368202889" />
+      <entry key="H4" value="158.56149517814157" />
+      <entry key="D1" value="487.961982656045" />
+      <entry key="W1" value="3202.613558330312" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -121,7 +118,7 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.examples.executor": "Run",
-    "Python.main.executor": "Run",
+    "Python.main.executor": "Debug",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -240,14 +237,6 @@
       <workItem from="1789796340182" duration="5141000" />
       <workItem from="1789811956072" duration="9351000" />
       <workItem from="1790082169983" duration="6132000" />
-    </task>
-    <task id="LOCAL-00079" summary="started stack problems">
-      <option name="closed" value="true" />
-      <created>1786108301988</created>
-      <option name="number" value="00079" />
-      <option name="presentableId" value="LOCAL-00079" />
-      <option name="project" value="LOCAL" />
-      <updated>1786108301988</updated>
     </task>
     <task id="LOCAL-00080" summary="started stack problems">
       <option name="closed" value="true" />
@@ -633,7 +622,15 @@
       <option name="project" value="LOCAL" />
       <updated>1791615769068</updated>
     </task>
-    <option name="localTasksCounter" value="128" />
+    <task id="LOCAL-00128" summary="learnt monotonic stack problem">
+      <option name="closed" value="true" />
+      <created>1791741461958</created>
+      <option name="number" value="00128" />
+      <option name="presentableId" value="LOCAL-00128" />
+      <option name="project" value="LOCAL" />
+      <updated>1791741461958</updated>
+    </task>
+    <option name="localTasksCounter" value="129" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -3735,6 +3732,31 @@
           <url>file://$PROJECT_DIR$/stack/daily_temperatures.py</url>
           <line>24</line>
           <option name="timeStamp" value="1677" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arrays/single_number.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="1702" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arrays/single_number.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="1703" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arrays/single_number.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="1704" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arrays/single_number.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="1705" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arrays/single_number.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="1706" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

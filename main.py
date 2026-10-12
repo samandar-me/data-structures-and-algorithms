@@ -1,7 +1,7 @@
-from arrays.majority_element import Solution
+from arrays.single_number import Solution
 
 if __name__ == '__main__':
     s = Solution()
 
-    print(s.majorityElement(nums = [2,2,1,1,1,2,2]))
+    print(s.singleNumber([4,1,2,1,2]))
 
