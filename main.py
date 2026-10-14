@@ -1,8 +1,8 @@
-from stack.eval_rpn import Solution
+from bit_manipulation.hamming_distance import Solution
 
 if __name__ == '__main__':
     s = Solution()
 
-    print(s.evalRPN(["2","1","+","3","*"]))
+    print(s.hammingDistance(x = 1, y = 4))
 
 
