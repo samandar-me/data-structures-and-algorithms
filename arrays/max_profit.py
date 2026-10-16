@@ -1,22 +1,13 @@
 class Solution:
     def maxProfit(self, prices: list[int]) -> int:
-        max_profit = float('-inf')
-        left = 0
-        right = len(prices) - 1
+        max_profit = 0
+        min_price = float('-nf')
 
-        while left < right:
-            max_profit = max(max_profit, (prices[right] - prices[left]))
-            if prices[left + 1] < prices[left]:
-                left += 1
-            elif prices[right-1] > prices[right]:
-                right -= 1
-            else:
-                if prices[left] < prices[right]:
-                    left += 1
-                else:
-                    right -= 1
+        for price in prices:
+            min_price = min(min_price, prices)
+            max_profit = max(max_profit, min_price - price)
 
-        return int(max_profit) if max_profit > 0 else 0
+        return max_profit
 
     # def maxProfit(self, prices: list[int]) -> int:
     #     max_profit = float('-inf')

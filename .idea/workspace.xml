@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8efb1a0-c606-444b-98ce-804d0c93fb25" name="Changes" comment="doing bit-wise operations">
-      <change afterPath="$PROJECT_DIR$/arrays/max_profit.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graphs/can_finish.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/math_py/number_to_words.py" afterDir="false" />
+    <list default="true" id="d8efb1a0-c606-444b-98ce-804d0c93fb25" name="Changes" comment="solving array problems">
+      <change afterPath="$PROJECT_DIR$/arrays/rotate_array.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bit_manipulation/counting_bits.py" beforeDir="false" afterPath="$PROJECT_DIR$/bit_manipulation/counting_bits.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/max_profit.py" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/max_profit.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,61 +47,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="3.184688505236748E-75" />
-      <entry key="S2" value="5.418620261602284E-19" />
-      <entry key="S5" value="1.0216948530847252E-7" />
-      <entry key="S10" value="6.517735201865424E-4" />
-      <entry key="S30" value="0.2602782082678422" />
-      <entry key="S60" value="1.3407064315413983" />
-      <entry key="M2" value="3.353538680353411" />
-      <entry key="M5" value="6.880353980105301" />
-      <entry key="M10" value="11.039928893293888" />
-      <entry key="M15" value="14.441945256679924" />
-      <entry key="M30" value="21.362941039064964" />
-      <entry key="H1" value="28.266070561813272" />
-      <entry key="H2" value="36.053866611101824" />
-      <entry key="H4" value="58.08920847294402" />
-      <entry key="D1" value="262.3450816007291" />
-      <entry key="W1" value="2095.8608599149106" />
+      <entry key="MS100" value="1.0000000000000002" />
+      <entry key="MS500" value="1.000650731262172" />
+      <entry key="S2" value="1.2117149462178407" />
+      <entry key="S5" value="2.019860246385725" />
+      <entry key="S10" value="3.307274490564049" />
+      <entry key="S30" value="5.672645483369161" />
+      <entry key="S60" value="6.695611548331657" />
+      <entry key="M2" value="7.3078422844095465" />
+      <entry key="M5" value="7.712854821472691" />
+      <entry key="M10" value="7.854652538556497" />
+      <entry key="M15" value="7.902702607821063" />
+      <entry key="M30" value="7.951152059410892" />
+      <entry key="H1" value="7.982568866093777" />
+      <entry key="H2" value="8.513282038103409" />
+      <entry key="H4" value="13.933521569501771" />
+      <entry key="D1" value="179.70274205386679" />
+      <entry key="W1" value="1969.9296044299526" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0000173179586656" />
-      <entry key="S5" value="1.027695743013568" />
-      <entry key="S10" value="1.3308637507836818" />
-      <entry key="S30" value="2.8077046264936505" />
-      <entry key="S60" value="4.216863950093753" />
-      <entry key="M2" value="6.250730580547321" />
-      <entry key="M5" value="10.110427758972671" />
-      <entry key="M10" value="14.168426158802676" />
-      <entry key="M15" value="16.845410998658473" />
-      <entry key="M30" value="21.404432635262857" />
-      <entry key="H1" value="25.34713025807495" />
-      <entry key="H2" value="28.83161422835821" />
-      <entry key="H4" value="35.366893996071106" />
-      <entry key="D1" value="100.16858164894722" />
-      <entry key="W1" value="729.1474117905707" />
+      <entry key="MS100" value="1.5123208704696306E-45" />
+      <entry key="MS500" value="1.0863056969307464E-9" />
+      <entry key="S2" value="0.006232306893594454" />
+      <entry key="S5" value="0.17655296081782282" />
+      <entry key="S10" value="0.6204027949018275" />
+      <entry key="S30" value="1.6695580241485133" />
+      <entry key="S60" value="2.216771574954069" />
+      <entry key="M2" value="2.572341599243372" />
+      <entry key="M5" value="2.8192617227057606" />
+      <entry key="M10" value="2.9079237016765798" />
+      <entry key="M15" value="2.938229056001361" />
+      <entry key="M30" value="2.9689205060252166" />
+      <entry key="H1" value="2.9903158119791655" />
+      <entry key="H2" value="3.4252179078342593" />
+      <entry key="H4" value="7.434509773638455" />
+      <entry key="D1" value="78.77106898339922" />
+      <entry key="W1" value="700.5375585602931" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.7896041095457142E-5" />
-      <entry key="MS500" value="0.1123443908263787" />
-      <entry key="S2" value="0.5789604742129074" />
-      <entry key="S5" value="0.8294139975765359" />
-      <entry key="S10" value="1.216037987054146" />
-      <entry key="S30" value="3.0089911898202613" />
-      <entry key="S60" value="5.516985259047756" />
-      <entry key="M2" value="9.57528709054501" />
-      <entry key="M5" value="16.97218534843193" />
-      <entry key="M10" value="25.19463623199714" />
-      <entry key="M15" value="31.275904934195246" />
-      <entry key="M30" value="42.75942356313732" />
-      <entry key="H1" value="53.6081736219911" />
-      <entry key="H2" value="64.88244159321168" />
-      <entry key="H4" value="93.45397163011954" />
-      <entry key="D1" value="362.5123654739431" />
-      <entry key="W1" value="2825.0067671470865" />
+      <entry key="MS100" value="0.9592641193252643" />
+      <entry key="MS500" value="0.992351324585811" />
+      <entry key="S2" value="1.2056658759699486" />
+      <entry key="S5" value="2.146641468757999" />
+      <entry key="S10" value="3.8438238805252776" />
+      <entry key="S30" value="7.260950813815455" />
+      <entry key="S60" value="8.85676461972755" />
+      <entry key="M2" value="9.8473774884108" />
+      <entry key="M5" value="10.517586986312876" />
+      <entry key="M10" value="10.75505716726828" />
+      <entry key="M15" value="10.835860873331516" />
+      <entry key="M30" value="10.917507730621102" />
+      <entry key="H1" value="10.971593523229712" />
+      <entry key="H2" value="11.937804107028777" />
+      <entry key="H4" value="21.367443415744564" />
+      <entry key="D1" value="258.47282612757897" />
+      <entry key="W1" value="2670.4657312669633" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -121,7 +119,7 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.examples.executor": "Run",
-    "Python.main.executor": "Debug",
+    "Python.main.executor": "Run",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -240,14 +238,6 @@
       <workItem from="1789796340182" duration="5141000" />
       <workItem from="1789811956072" duration="9351000" />
       <workItem from="1790082169983" duration="6132000" />
-    </task>
-    <task id="LOCAL-00083" summary="started stack problems">
-      <option name="closed" value="true" />
-      <created>1786476593362</created>
-      <option name="number" value="00083" />
-      <option name="presentableId" value="LOCAL-00083" />
-      <option name="project" value="LOCAL" />
-      <updated>1786476593363</updated>
     </task>
     <task id="LOCAL-00084" summary="solving queue problems">
       <option name="closed" value="true" />
@@ -633,7 +623,15 @@
       <option name="project" value="LOCAL" />
       <updated>1791973114679</updated>
     </task>
-    <option name="localTasksCounter" value="132" />
+    <task id="LOCAL-00132" summary="solving array problems">
+      <option name="closed" value="true" />
+      <created>1792060360805</created>
+      <option name="number" value="00132" />
+      <option name="presentableId" value="LOCAL-00132" />
+      <option name="project" value="LOCAL" />
+      <updated>1792060360806</updated>
+    </task>
+    <option name="localTasksCounter" value="133" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -663,7 +661,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="solved some linked list problems" />
     <MESSAGE value="starting binary tree" />
     <MESSAGE value="solving binary tree problems" />
     <MESSAGE value="solved binary search tree" />
@@ -688,7 +685,8 @@
     <MESSAGE value="solving linkedin problems" />
     <MESSAGE value="learnt monotonic stack problem" />
     <MESSAGE value="doing bit-wise operations" />
-    <option name="LAST_COMMIT_MESSAGE" value="doing bit-wise operations" />
+    <MESSAGE value="solving array problems" />
+    <option name="LAST_COMMIT_MESSAGE" value="solving array problems" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3848,107 +3846,63 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/arrays/max_profit.py</url>
-          <line>20</line>
+          <line>11</line>
           <option name="timeStamp" value="1727" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/arrays/max_profit.py</url>
-          <line>21</line>
+          <line>12</line>
           <option name="timeStamp" value="1728" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/arrays/max_profit.py</url>
-          <line>22</line>
+          <line>13</line>
           <option name="timeStamp" value="1729" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/arrays/max_profit.py</url>
-          <line>23</line>
+          <line>14</line>
           <option name="timeStamp" value="1730" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/arrays/max_profit.py</url>
-          <line>25</line>
+          <line>16</line>
           <option name="timeStamp" value="1731" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/arrays/max_profit.py</url>
-          <line>26</line>
+          <line>17</line>
           <option name="timeStamp" value="1732" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/arrays/max_profit.py</url>
-          <line>27</line>
+          <line>18</line>
           <option name="timeStamp" value="1734" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/arrays/max_profit.py</url>
-          <line>29</line>
+          <line>20</line>
           <option name="timeStamp" value="1735" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/arrays/max_profit.py</url>
-          <line>32</line>
+          <line>23</line>
           <option name="timeStamp" value="1738" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/arrays/max_profit.py</url>
-          <line>28</line>
+          <line>19</line>
           <option name="timeStamp" value="1739" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/arrays/max_profit.py</url>
-          <line>30</line>
+          <line>21</line>
           <option name="timeStamp" value="1740" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/arrays/max_profit.py</url>
-          <option name="timeStamp" value="1741" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/arrays/max_profit.py</url>
-          <line>1</line>
-          <option name="timeStamp" value="1742" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/arrays/max_profit.py</url>
-          <line>2</line>
-          <option name="timeStamp" value="1743" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/arrays/max_profit.py</url>
-          <line>3</line>
-          <option name="timeStamp" value="1744" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/arrays/max_profit.py</url>
-          <line>4</line>
-          <option name="timeStamp" value="1745" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/arrays/max_profit.py</url>
-          <line>6</line>
+          <line>10</line>
           <option name="timeStamp" value="1746" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/arrays/max_profit.py</url>
-          <line>7</line>
-          <option name="timeStamp" value="1747" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/arrays/max_profit.py</url>
-          <line>9</line>
-          <option name="timeStamp" value="1749" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/arrays/max_profit.py</url>
-          <line>8</line>
-          <option name="timeStamp" value="1750" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/arrays/max_profit.py</url>
-          <line>18</line>
-          <option name="timeStamp" value="1753" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -1,8 +1,10 @@
-from arrays.max_profit import Solution
+from arrays.rotate_array import Solution
 
 if __name__ == '__main__':
     s = Solution()
 
-    print(s.maxProfit([3,2,6,5,0,3]))
+    print("play".index("f"))
+
+    s.rotate([1, 2], k=3)
 
 
