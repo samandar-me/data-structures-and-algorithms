@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8efb1a0-c606-444b-98ce-804d0c93fb25" name="Changes" comment="solving array problems">
-      <change afterPath="$PROJECT_DIR$/hashtable/ransom_note.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arrays/max_profit.py" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/max_profit.py" afterDir="false" />
+    <list default="true" id="d8efb1a0-c606-444b-98ce-804d0c93fb25" name="Changes" comment="doing some hash map problems">
+      <change afterPath="$PROJECT_DIR$/arrays/max_average.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hashtable/frequency_sort.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rotate_array.py" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rotate_array.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,61 +48,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0" />
-      <entry key="S5" value="1.0" />
-      <entry key="S10" value="1.0" />
-      <entry key="S30" value="1.0000000006675933" />
-      <entry key="S60" value="1.000072636245797" />
-      <entry key="M2" value="1.0240697032447956" />
-      <entry key="M5" value="1.7839489535133923" />
-      <entry key="M10" value="3.5041670234454685" />
-      <entry key="M15" value="4.688075884241998" />
-      <entry key="M30" value="6.431779900725861" />
-      <entry key="H1" value="7.5977936142120175" />
-      <entry key="H2" value="8.739716402428549" />
-      <entry key="H4" value="14.285408336994385" />
-      <entry key="D1" value="179.28181201280825" />
-      <entry key="W1" value="1968.6968183681304" />
+      <entry key="MS100" value="1.0114264152424852" />
+      <entry key="MS500" value="1.5548006818585773" />
+      <entry key="S2" value="2.512942998235964" />
+      <entry key="S5" value="3.3250224370583283" />
+      <entry key="S10" value="3.944988952419907" />
+      <entry key="S30" value="4.600648277102465" />
+      <entry key="S60" value="5.142937171009202" />
+      <entry key="M2" value="7.226516648783359" />
+      <entry key="M5" value="14.490622082019968" />
+      <entry key="M10" value="21.10932173684511" />
+      <entry key="M15" value="24.431827171035227" />
+      <entry key="M30" value="30.749425566218232" />
+      <entry key="H1" value="42.310727759029525" />
+      <entry key="H2" value="57.39817654343271" />
+      <entry key="H4" value="70.33947399649024" />
+      <entry key="D1" value="126.9275909235725" />
+      <entry key="W1" value="1643.249288069553" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="7.170394102108324E-152" />
-      <entry key="S5" value="4.690646270030597E-61" />
-      <entry key="S10" value="1.0112361457599364E-30" />
-      <entry key="S30" value="1.9648427417866608E-10" />
-      <entry key="S60" value="2.4048283540954012E-5" />
-      <entry key="M2" value="0.008472473341429476" />
-      <entry key="M5" value="0.28655502124095966" />
-      <entry key="M10" value="0.9270845024256438" />
-      <entry key="M15" value="1.371228586166622" />
-      <entry key="M30" value="2.0281995125968515" />
-      <entry key="H1" value="2.4715711069596913" />
-      <entry key="H2" value="3.113982962681543" />
-      <entry key="H4" value="7.088695965013987" />
-      <entry key="D1" value="78.14821717265025" />
-      <entry key="W1" value="699.743545163561" />
+      <entry key="MS100" value="2.190968236917563E-6" />
+      <entry key="MS500" value="0.0738120434883361" />
+      <entry key="S2" value="0.532025064005606" />
+      <entry key="S5" value="1.0168993582065744" />
+      <entry key="S10" value="1.5790863790700436" />
+      <entry key="S30" value="2.4346023788066753" />
+      <entry key="S60" value="3.4850621321270188" />
+      <entry key="M2" value="6.535570886863855" />
+      <entry key="M5" value="14.50192331999627" />
+      <entry key="M10" value="20.963564304581695" />
+      <entry key="M15" value="24.034972616490524" />
+      <entry key="M30" value="28.544918408973572" />
+      <entry key="H1" value="34.05534982745014" />
+      <entry key="H2" value="40.35312486808864" />
+      <entry key="H4" value="45.61892281740121" />
+      <entry key="D1" value="74.89196157622673" />
+      <entry key="W1" value="618.6205101788076" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.8705505632961241" />
-      <entry key="MS500" value="0.9726549474122855" />
-      <entry key="S2" value="0.9930924954370359" />
-      <entry key="S5" value="0.9972312513520695" />
-      <entry key="S10" value="0.9986146661010289" />
-      <entry key="S30" value="0.9995380094850346" />
-      <entry key="S60" value="0.9998650587906988" />
-      <entry key="M2" value="1.0323186049193398" />
-      <entry key="M5" value="2.068980954641499" />
-      <entry key="M10" value="4.428831241411147" />
-      <entry key="M15" value="6.056922603395834" />
-      <entry key="M30" value="8.458219560822073" />
-      <entry key="H1" value="10.068293698461966" />
-      <entry key="H2" value="11.853064828708611" />
-      <entry key="H4" value="21.373542759160703" />
-      <entry key="D1" value="257.4290519031138" />
-      <entry key="W1" value="2668.4389334082516" />
+      <entry key="MS100" value="0.08029618068177637" />
+      <entry key="MS500" value="0.8588918586487649" />
+      <entry key="S2" value="2.4683456159931816" />
+      <entry key="S5" value="3.9921749234880646" />
+      <entry key="S10" value="5.304518676864615" />
+      <entry key="S30" value="6.944193984210903" />
+      <entry key="S60" value="8.574614279561706" />
+      <entry key="M2" value="13.723861893604134" />
+      <entry key="M5" value="28.964218734588837" />
+      <entry key="M10" value="42.053222889679446" />
+      <entry key="M15" value="48.4518967645441" />
+      <entry key="M30" value="59.28524878359198" />
+      <entry key="H1" value="76.3600427205864" />
+      <entry key="H2" value="97.74729877975247" />
+      <entry key="H4" value="115.95596607852441" />
+      <entry key="D1" value="201.81880326236447" />
+      <entry key="W1" value="2261.868585899824" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -236,14 +239,6 @@
       <workItem from="1789796340182" duration="5141000" />
       <workItem from="1789811956072" duration="9351000" />
       <workItem from="1790082169983" duration="6132000" />
-    </task>
-    <task id="LOCAL-00085" summary="linkedlist">
-      <option name="closed" value="true" />
-      <created>1786787183074</created>
-      <option name="number" value="00085" />
-      <option name="presentableId" value="LOCAL-00085" />
-      <option name="project" value="LOCAL" />
-      <updated>1786787183074</updated>
     </task>
     <task id="LOCAL-00086" summary="solved some linked list problems">
       <option name="closed" value="true" />
@@ -629,7 +624,15 @@
       <option name="project" value="LOCAL" />
       <updated>1792123904406</updated>
     </task>
-    <option name="localTasksCounter" value="134" />
+    <task id="LOCAL-00134" summary="doing some hash map problems">
+      <option name="closed" value="true" />
+      <created>1792124839707</created>
+      <option name="number" value="00134" />
+      <option name="presentableId" value="LOCAL-00134" />
+      <option name="project" value="LOCAL" />
+      <updated>1792124839707</updated>
+    </task>
+    <option name="localTasksCounter" value="135" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -659,7 +662,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="starting binary tree" />
     <MESSAGE value="solving binary tree problems" />
     <MESSAGE value="solved binary search tree" />
     <MESSAGE value="grinding binary tree" />
@@ -684,7 +686,8 @@
     <MESSAGE value="learnt monotonic stack problem" />
     <MESSAGE value="doing bit-wise operations" />
     <MESSAGE value="solving array problems" />
-    <option name="LAST_COMMIT_MESSAGE" value="solving array problems" />
+    <MESSAGE value="doing some hash map problems" />
+    <option name="LAST_COMMIT_MESSAGE" value="doing some hash map problems" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3901,6 +3904,36 @@
           <url>file://$PROJECT_DIR$/arrays/max_profit.py</url>
           <line>10</line>
           <option name="timeStamp" value="1746" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arrays/max_average.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="1759" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arrays/max_average.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="1760" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arrays/max_average.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="1761" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arrays/max_average.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="1762" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arrays/max_average.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="1763" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/arrays/max_average.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="1764" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

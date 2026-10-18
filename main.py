@@ -1,10 +1,11 @@
-from arrays.rotate_array import Solution
+from arrays.max_average import Solution
+from hashtable.frequency_sort import Solution
 
 if __name__ == '__main__':
     s = Solution()
 
-    print("play".index("f"))
+    print(s.frequencySort("Aabb"))
 
-    s.rotate([1, 2], k=3)
+    # print(s.findMaxAverage([1,12,-5,-6,50,3], k = 4))
 
 

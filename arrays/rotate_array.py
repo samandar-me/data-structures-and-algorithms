@@ -1,21 +1,14 @@
 class Solution:
     def rotate(self, nums: list[int], k: int) -> None:
-        original = nums.copy()
-        if k > len(nums):
-            nums += nums
-        last_k_nums = nums[-k:] if k > 0 else []
+        n = len(nums)
+        k = k % n
+        temp_list = []
 
-        print(nums)
-        i = 0
-        for n in last_k_nums:
-            nums[i] = n
-            i += 1
+        for i in range(n-k, n):
+            temp_list.append(nums[i])
 
-        for j in range(len(nums)-k):
-            nums[i] = original[j]
-            i += 1
+        for i in range(n-k):
+            temp_list.append(nums[i])
 
-        for _ in range(len(original)):
-            nums.pop()
-
-        print(nums)
+        for j in range(n):
+            nums[j] = temp_list[j]
