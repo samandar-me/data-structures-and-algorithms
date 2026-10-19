@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8efb1a0-c606-444b-98ce-804d0c93fb25" name="Changes" comment="doing some hash map problems">
-      <change afterPath="$PROJECT_DIR$/hashtable/top_k_frequent.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/two_pointers/two_sum2.py" afterDir="false" />
+    <list default="true" id="d8efb1a0-c606-444b-98ce-804d0c93fb25" name="Changes" comment="solving two pointers, sliding window and hash tables">
+      <change afterPath="$PROJECT_DIR$/sliding_window/check_inclusion.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arrays/max_average.py" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/max_average.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,61 +46,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.000000001971581" />
-      <entry key="S2" value="1.0066764529968837" />
-      <entry key="S5" value="1.159614693208199" />
-      <entry key="S10" value="1.6817445189199052" />
-      <entry key="S30" value="3.5990041320373045" />
-      <entry key="S60" value="5.17943431913483" />
-      <entry key="M2" value="6.621219073198668" />
-      <entry key="M5" value="7.896657792783083" />
-      <entry key="M10" value="8.705913181403695" />
-      <entry key="M15" value="10.113519611460015" />
-      <entry key="M30" value="17.242409143875584" />
-      <entry key="H1" value="32.5443288831665" />
-      <entry key="H2" value="54.02111269929626" />
-      <entry key="H4" value="74.3415233095527" />
-      <entry key="D1" value="140.60416743923057" />
-      <entry key="W1" value="1653.6428268996779" />
+      <entry key="MS100" value="1.7116939350918435E-8" />
+      <entry key="MS500" value="0.027969533466499132" />
+      <entry key="S2" value="0.40895102927889054" />
+      <entry key="S5" value="0.6993080413692307" />
+      <entry key="S10" value="0.8362464122797413" />
+      <entry key="S30" value="0.9483194356150582" />
+      <entry key="S60" value="1.1675728073998528" />
+      <entry key="M2" value="2.261929808875579" />
+      <entry key="M5" value="5.263638262172461" />
+      <entry key="M10" value="7.498973209301547" />
+      <entry key="M15" value="8.49483771573751" />
+      <entry key="M30" value="9.6525803028337" />
+      <entry key="H1" value="10.336506529586089" />
+      <entry key="H2" value="12.546260414432075" />
+      <entry key="H4" value="26.04755317751103" />
+      <entry key="D1" value="131.3540684352833" />
+      <entry key="W1" value="1614.754115568049" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="2.8168814443779324E-72" />
-      <entry key="S2" value="1.6480664341232387E-18" />
-      <entry key="S5" value="1.3265590755418475E-7" />
-      <entry key="S10" value="6.182490764564621E-4" />
-      <entry key="S30" value="0.17643310573334764" />
-      <entry key="S60" value="0.7271439326647204" />
-      <entry key="M2" value="1.476773038866405" />
-      <entry key="M5" value="2.261557040947427" />
-      <entry key="M10" value="2.8925984924236054" />
-      <entry key="M15" value="4.225791671815511" />
-      <entry key="M30" value="10.849129624043469" />
-      <entry key="H1" value="22.785609485671138" />
-      <entry key="H2" value="36.47757596210889" />
-      <entry key="H4" value="47.98938277117265" />
-      <entry key="D1" value="84.22474536480765" />
-      <entry key="W1" value="627.7311866265135" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0000000000000167" />
+      <entry key="S2" value="1.0003590568732414" />
+      <entry key="S5" value="1.0418856537077004" />
+      <entry key="S10" value="1.2046598597581768" />
+      <entry key="S30" value="1.5941087557622007" />
+      <entry key="S60" value="1.9282945386222425" />
+      <entry key="M2" value="3.063386441853948" />
+      <entry key="M5" value="6.515261033210523" />
+      <entry key="M10" value="9.327929811396652" />
+      <entry key="M15" value="10.627947804671884" />
+      <entry key="M30" value="12.169534189226958" />
+      <entry key="H1" value="13.057060318771361" />
+      <entry key="H2" value="14.339502109192512" />
+      <entry key="H4" value="20.979914020961562" />
+      <entry key="D1" value="75.39161385697923" />
+      <entry key="W1" value="614.0571560503727" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.05831456197105047" />
-      <entry key="MS500" value="0.5664419436516165" />
-      <entry key="S2" value="0.8731798085311394" />
-      <entry key="S5" value="1.0952608387502303" />
-      <entry key="S10" value="1.6402827962275899" />
-      <entry key="S30" value="3.749944264595581" />
-      <entry key="S60" value="5.884420075639176" />
-      <entry key="M2" value="8.080993235377521" />
-      <entry key="M5" value="10.148988542604789" />
-      <entry key="M10" value="11.593119142976674" />
-      <entry key="M15" value="14.334884812590834" />
-      <entry key="M30" value="28.087297311268514" />
-      <entry key="H1" value="55.325714440709405" />
-      <entry key="H2" value="90.49512709455901" />
-      <entry key="H4" value="122.32844057243686" />
-      <entry key="D1" value="224.82810353396977" />
-      <entry key="W1" value="2281.372794601553" />
+      <entry key="MS100" value="0.013415085127015123" />
+      <entry key="MS500" value="0.4334811405519182" />
+      <entry key="S2" value="1.13227959885535" />
+      <entry key="S5" value="1.594819264360245" />
+      <entry key="S10" value="1.9539766807099552" />
+      <entry key="S30" value="2.506487394998985" />
+      <entry key="S60" value="3.0743751912230115" />
+      <entry key="M2" value="5.3067191428482925" />
+      <entry key="M5" value="11.761424434385676" />
+      <entry key="M10" value="16.814074402030013" />
+      <entry key="M15" value="19.112976210098108" />
+      <entry key="M30" value="21.816466214173968" />
+      <entry key="H1" value="23.390529665002905" />
+      <entry key="H2" value="26.88410780895087" />
+      <entry key="H4" value="47.026293736293425" />
+      <entry key="D1" value="206.74495576439426" />
+      <entry key="W1" value="2228.8100868776573" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -239,14 +237,6 @@
       <workItem from="1789796340182" duration="5141000" />
       <workItem from="1789811956072" duration="9351000" />
       <workItem from="1790082169983" duration="6132000" />
-    </task>
-    <task id="LOCAL-00087" summary="starting binary tree">
-      <option name="closed" value="true" />
-      <created>1786885594202</created>
-      <option name="number" value="00087" />
-      <option name="presentableId" value="LOCAL-00087" />
-      <option name="project" value="LOCAL" />
-      <updated>1786885594202</updated>
     </task>
     <task id="LOCAL-00088" summary="solving binary tree problems">
       <option name="closed" value="true" />
@@ -632,7 +622,15 @@
       <option name="project" value="LOCAL" />
       <updated>1792347453999</updated>
     </task>
-    <option name="localTasksCounter" value="136" />
+    <task id="LOCAL-00136" summary="solving two pointers, sliding window and hash tables">
+      <option name="closed" value="true" />
+      <created>1792354699376</created>
+      <option name="number" value="00136" />
+      <option name="presentableId" value="LOCAL-00136" />
+      <option name="project" value="LOCAL" />
+      <updated>1792354699376</updated>
+    </task>
+    <option name="localTasksCounter" value="137" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -662,7 +660,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="solving binary tree problems" />
     <MESSAGE value="solved binary search tree" />
     <MESSAGE value="grinding binary tree" />
     <MESSAGE value="solving graph problems" />
@@ -687,7 +684,8 @@
     <MESSAGE value="doing bit-wise operations" />
     <MESSAGE value="solving array problems" />
     <MESSAGE value="doing some hash map problems" />
-    <option name="LAST_COMMIT_MESSAGE" value="doing some hash map problems" />
+    <MESSAGE value="solving two pointers, sliding window and hash tables" />
+    <option name="LAST_COMMIT_MESSAGE" value="solving two pointers, sliding window and hash tables" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3974,6 +3972,51 @@
           <url>file://$PROJECT_DIR$/hashtable/top_k_frequent.py</url>
           <line>13</line>
           <option name="timeStamp" value="1777" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/check_inclusion.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="1778" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/check_inclusion.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="1779" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/check_inclusion.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="1780" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/check_inclusion.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="1781" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/check_inclusion.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="1782" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/check_inclusion.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="1783" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/check_inclusion.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="1784" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/check_inclusion.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="1785" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/check_inclusion.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="1788" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
