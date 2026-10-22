@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8efb1a0-c606-444b-98ce-804d0c93fb25" name="Changes" comment="solving two pointers, sliding window and hash tables">
-      <change afterPath="$PROJECT_DIR$/sliding_window/check_inclusion.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sliding_window/explanation.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sliding_window/max_product.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sliding_window/max_sub_array.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sliding_window/sub_array_sum.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sliding_window/maximum_subarray.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,61 +50,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.7116939350918435E-8" />
-      <entry key="MS500" value="0.027969533466499132" />
-      <entry key="S2" value="0.40895102927889054" />
-      <entry key="S5" value="0.6993080413692307" />
-      <entry key="S10" value="0.8362464122797413" />
-      <entry key="S30" value="0.9483194356150582" />
-      <entry key="S60" value="1.1675728073998528" />
-      <entry key="M2" value="2.261929808875579" />
-      <entry key="M5" value="5.263638262172461" />
-      <entry key="M10" value="7.498973209301547" />
-      <entry key="M15" value="8.49483771573751" />
-      <entry key="M30" value="9.6525803028337" />
-      <entry key="H1" value="10.336506529586089" />
-      <entry key="H2" value="12.546260414432075" />
-      <entry key="H4" value="26.04755317751103" />
-      <entry key="D1" value="131.3540684352833" />
-      <entry key="W1" value="1614.754115568049" />
+      <entry key="MS100" value="1.0000000000000027" />
+      <entry key="MS500" value="1.0013558998107515" />
+      <entry key="S2" value="1.4277751143513708" />
+      <entry key="S5" value="2.602582904378263" />
+      <entry key="S10" value="3.5237155948993366" />
+      <entry key="S30" value="4.429354940225011" />
+      <entry key="S60" value="4.735141327503358" />
+      <entry key="M2" value="5.069929325755859" />
+      <entry key="M5" value="6.071214826843054" />
+      <entry key="M10" value="8.455581678504526" />
+      <entry key="M15" value="11.852147548828796" />
+      <entry key="M30" value="21.836855811284476" />
+      <entry key="H1" value="35.374260109565306" />
+      <entry key="H2" value="53.15302308983879" />
+      <entry key="H4" value="75.1976519695" />
+      <entry key="D1" value="197.98642170132513" />
+      <entry key="W1" value="1637.5745612371916" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0000000000000167" />
-      <entry key="S2" value="1.0003590568732414" />
-      <entry key="S5" value="1.0418856537077004" />
-      <entry key="S10" value="1.2046598597581768" />
-      <entry key="S30" value="1.5941087557622007" />
-      <entry key="S60" value="1.9282945386222425" />
-      <entry key="M2" value="3.063386441853948" />
-      <entry key="M5" value="6.515261033210523" />
-      <entry key="M10" value="9.327929811396652" />
-      <entry key="M15" value="10.627947804671884" />
-      <entry key="M30" value="12.169534189226958" />
-      <entry key="H1" value="13.057060318771361" />
-      <entry key="H2" value="14.339502109192512" />
-      <entry key="H4" value="20.979914020961562" />
-      <entry key="D1" value="75.39161385697923" />
-      <entry key="W1" value="614.0571560503727" />
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="2.4240807893030417E-110" />
+      <entry key="S5" value="2.1338819223623433E-44" />
+      <entry key="S10" value="2.0615940963832002E-22" />
+      <entry key="S30" value="9.373194150089271E-8" />
+      <entry key="S60" value="4.329463633260786E-4" />
+      <entry key="M2" value="0.02946354757455363" />
+      <entry key="M5" value="0.42981052452889745" />
+      <entry key="M10" value="1.8127308577564496" />
+      <entry key="M15" value="3.7002819409636456" />
+      <entry key="M30" value="8.710994863193955" />
+      <entry key="H1" value="14.678181659823192" />
+      <entry key="H2" value="21.535797931997973" />
+      <entry key="H4" value="30.453396702839132" />
+      <entry key="D1" value="95.7419635822754" />
+      <entry key="W1" value="629.9083042143955" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.013415085127015123" />
-      <entry key="MS500" value="0.4334811405519182" />
-      <entry key="S2" value="1.13227959885535" />
-      <entry key="S5" value="1.594819264360245" />
-      <entry key="S10" value="1.9539766807099552" />
-      <entry key="S30" value="2.506487394998985" />
-      <entry key="S60" value="3.0743751912230115" />
-      <entry key="M2" value="5.3067191428482925" />
-      <entry key="M5" value="11.761424434385676" />
-      <entry key="M10" value="16.814074402030013" />
-      <entry key="M15" value="19.112976210098108" />
-      <entry key="M30" value="21.816466214173968" />
-      <entry key="H1" value="23.390529665002905" />
-      <entry key="H2" value="26.88410780895087" />
-      <entry key="H4" value="47.026293736293425" />
-      <entry key="D1" value="206.74495576439426" />
-      <entry key="W1" value="2228.8100868776573" />
+      <entry key="MS100" value="8.620146448173722E-4" />
+      <entry key="MS500" value="0.2451444166131682" />
+      <entry key="S2" value="1.1143159755189538" />
+      <entry key="S5" value="2.4388524281505912" />
+      <entry key="S10" value="3.4280605139647267" />
+      <entry key="S30" value="4.392937206854546" />
+      <entry key="S60" value="4.71642839025723" />
+      <entry key="M2" value="5.088903018312643" />
+      <entry key="M5" value="6.495312021088053" />
+      <entry key="M10" value="10.263024835713336" />
+      <entry key="M15" value="15.546529782144688" />
+      <entry key="M30" value="30.541547696358194" />
+      <entry key="H1" value="50.047185203037586" />
+      <entry key="H2" value="74.68495570664724" />
+      <entry key="H4" value="105.64837445365518" />
+      <entry key="D1" value="293.7272514288204" />
+      <entry key="W1" value="2267.4816495660325" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -118,7 +122,7 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.examples.executor": "Run",
-    "Python.main.executor": "Run",
+    "Python.main.executor": "Debug",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -144,10 +148,10 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/sliding_window" />
       <recent name="$PROJECT_DIR$/graphs" />
       <recent name="$PROJECT_DIR$/stack" />
       <recent name="$PROJECT_DIR$/two_pointers" />
-      <recent name="$PROJECT_DIR$/sliding_window" />
       <recent name="$PROJECT_DIR$/strings" />
     </key>
   </component>
@@ -237,14 +241,6 @@
       <workItem from="1789796340182" duration="5141000" />
       <workItem from="1789811956072" duration="9351000" />
       <workItem from="1790082169983" duration="6132000" />
-    </task>
-    <task id="LOCAL-00088" summary="solving binary tree problems">
-      <option name="closed" value="true" />
-      <created>1787159481122</created>
-      <option name="number" value="00088" />
-      <option name="presentableId" value="LOCAL-00088" />
-      <option name="project" value="LOCAL" />
-      <updated>1787159481122</updated>
     </task>
     <task id="LOCAL-00089" summary="solved binary search tree">
       <option name="closed" value="true" />
@@ -630,7 +626,15 @@
       <option name="project" value="LOCAL" />
       <updated>1792354699376</updated>
     </task>
-    <option name="localTasksCounter" value="137" />
+    <task id="LOCAL-00137" summary="solving two pointers, sliding window and hash tables">
+      <option name="closed" value="true" />
+      <created>1792399250823</created>
+      <option name="number" value="00137" />
+      <option name="presentableId" value="LOCAL-00137" />
+      <option name="project" value="LOCAL" />
+      <updated>1792399250823</updated>
+    </task>
+    <option name="localTasksCounter" value="138" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -4017,6 +4021,131 @@
           <url>file://$PROJECT_DIR$/sliding_window/check_inclusion.py</url>
           <line>14</line>
           <option name="timeStamp" value="1788" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/max_sub_array.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="1789" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/max_sub_array.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="1790" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/max_sub_array.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="1791" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/max_sub_array.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="1792" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/max_sub_array.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="1793" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/max_sub_array.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="1794" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/max_sub_array.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="1795" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/sub_array_sum.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="1796" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/sub_array_sum.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="1798" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/sub_array_sum.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="1799" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/sub_array_sum.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="1804" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/sub_array_sum.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="1806" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/sub_array_sum.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="1808" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/sub_array_sum.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="1809" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/sub_array_sum.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="1812" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/sub_array_sum.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="1813" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/sub_array_sum.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="1817" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/sub_array_sum.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="1818" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/sub_array_sum.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="1819" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/max_product.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="1820" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/max_product.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="1821" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/max_product.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="1822" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/max_product.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="1823" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/max_product.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="1824" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/max_product.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="1826" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
