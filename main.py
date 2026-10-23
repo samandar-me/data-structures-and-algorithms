@@ -1,7 +1,7 @@
-from sliding_window.max_product import Solution
+from sliding_window.min_sub_arr_len import Solution
 
 if __name__ == '__main__':
     s = Solution()
 
-    print(s.maxProduct(nums = [-2, 3, -4]))
+    print(s.minSubArrayLen(target = 7, nums = [2,3,1,2,4,3]))
 
