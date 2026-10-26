@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8efb1a0-c606-444b-98ce-804d0c93fb25" name="Changes" comment="learning sliding window pattern">
-      <change afterPath="$PROJECT_DIR$/sliding_window/three_sum.py" afterDir="false" />
+    <list default="true" id="d8efb1a0-c606-444b-98ce-804d0c93fb25" name="Changes" comment="working on sliding window problems">
+      <change afterPath="$PROJECT_DIR$/hashtable/all_anagrams.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heaps/longest_consecutive.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -46,61 +47,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.005519307143121" />
-      <entry key="MS500" value="1.5006084416028014" />
-      <entry key="S2" value="2.390854757216104" />
-      <entry key="S5" value="2.727110779489717" />
-      <entry key="S10" value="2.863486815956997" />
-      <entry key="S30" value="3.70283500627806" />
-      <entry key="S60" value="5.573454531754031" />
-      <entry key="M2" value="7.821951414281367" />
-      <entry key="M5" value="10.013686551500232" />
-      <entry key="M10" value="10.945257199400176" />
-      <entry key="M15" value="11.282386703628058" />
-      <entry key="M30" value="11.633767043601004" />
-      <entry key="H1" value="11.820570347990177" />
-      <entry key="H2" value="12.422241540850695" />
-      <entry key="H4" value="18.79263742768792" />
-      <entry key="D1" value="151.27751613190796" />
-      <entry key="W1" value="1561.099592940768" />
+      <entry key="MS100" value="1.0308197720154175" />
+      <entry key="MS500" value="1.4986156256760348" />
+      <entry key="S2" value="1.840313752233282" />
+      <entry key="S5" value="1.9327743357207932" />
+      <entry key="S10" value="1.9658024309975581" />
+      <entry key="S30" value="1.9884691407963961" />
+      <entry key="S60" value="1.996880447290219" />
+      <entry key="M2" value="2.176701399213478" />
+      <entry key="M5" value="5.675702336453105" />
+      <entry key="M10" value="16.44661482832634" />
+      <entry key="M15" value="27.84406817740864" />
+      <entry key="M30" value="55.85328454697165" />
+      <entry key="H1" value="89.28285917504756" />
+      <entry key="H2" value="125.68343334183817" />
+      <entry key="H4" value="166.5276301552513" />
+      <entry key="D1" value="268.2935933188551" />
+      <entry key="W1" value="1466.6788973509329" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.727192010732575E-300" />
-      <entry key="MS500" value="1.1409793921799143E-60" />
-      <entry key="S2" value="1.4272442467220073E-15" />
-      <entry key="S5" value="1.7038176145794445E-6" />
-      <entry key="S10" value="0.001837842666426438" />
-      <entry key="S30" value="0.19424938571181757" />
-      <entry key="S60" value="0.6232194543329893" />
-      <entry key="M2" value="1.1164056866931242" />
-      <entry key="M5" value="1.5839577133909861" />
-      <entry key="M10" value="1.7798616722660845" />
-      <entry key="M15" value="1.850407498113189" />
-      <entry key="M30" value="1.923750674763456" />
-      <entry key="H1" value="1.9657205398896445" />
-      <entry key="H2" value="2.3401231539006058" />
-      <entry key="H4" value="6.084658054584986" />
-      <entry key="D1" value="75.64929621372676" />
-      <entry key="W1" value="609.5614801332805" />
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="3.85959632285054E-105" />
+      <entry key="S5" value="1.716393074750165E-42" />
+      <entry key="S10" value="1.3101118558162014E-21" />
+      <entry key="S30" value="1.0942702338164052E-7" />
+      <entry key="S60" value="3.388148817902888E-4" />
+      <entry key="M2" value="0.028764298181820185" />
+      <entry key="M5" value="1.1000321625546965" />
+      <entry key="M10" value="5.529753937347193" />
+      <entry key="M15" value="10.90363307168477" />
+      <entry key="M30" value="25.034030815065393" />
+      <entry key="H1" value="41.738863810890294" />
+      <entry key="H2" value="57.29889768120283" />
+      <entry key="H4" value="71.10087440252993" />
+      <entry key="D1" value="105.79220032356487" />
+      <entry key="W1" value="570.2086051555963" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.022956176251837383" />
-      <entry key="MS500" value="0.6932832022226293" />
-      <entry key="S2" value="1.9703978556760906" />
-      <entry key="S5" value="2.524335987543041" />
-      <entry key="S10" value="2.7569712347648454" />
-      <entry key="S30" value="3.85540332703501" />
-      <entry key="S60" value="6.171127863742203" />
-      <entry key="M2" value="8.922912923661844" />
-      <entry key="M5" value="11.59045353238677" />
-      <entry key="M10" value="12.721311020871338" />
-      <entry key="M15" value="13.130204595906632" />
-      <entry key="M30" value="13.556196376224257" />
-      <entry key="H1" value="13.785622405187574" />
-      <entry key="H2" value="14.761985323829695" />
-      <entry key="H4" value="24.87685297419904" />
-      <entry key="D1" value="226.92595032871637" />
-      <entry key="W1" value="2170.659909433093" />
+      <entry key="MS100" value="0.034016216159074554" />
+      <entry key="MS500" value="0.7038290749089026" />
+      <entry key="S2" value="1.5096034146944741" />
+      <entry key="S5" value="1.7841418802734959" />
+      <entry key="S10" value="1.8884566961126137" />
+      <entry key="S30" value="1.9619831156937553" />
+      <entry key="S60" value="1.9838597540898677" />
+      <entry key="M2" value="2.1979202047494857" />
+      <entry key="M5" value="6.766013060902679" />
+      <entry key="M10" value="21.961120059396382" />
+      <entry key="M15" value="38.73010753307369" />
+      <entry key="M30" value="80.86933964869782" />
+      <entry key="H1" value="131.00730948112846" />
+      <entry key="H2" value="182.972274792538" />
+      <entry key="H4" value="237.62193885424833" />
+      <entry key="D1" value="374.08408843649033" />
+      <entry key="W1" value="2036.886364160233" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -114,34 +115,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.examples.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;ai.playground.ignore.import.keys.banner.in.settings&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/samandar/PycharmProjects/data-structures-and-algorithms&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;python.packages.toolwindow.project.migrated.to.right.top.v2&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.examples.executor": "Run",
+    "Python.main.executor": "Run",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "ai.playground.ignore.import.keys.banner.in.settings": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "/Users/samandar/PycharmProjects/data-structures-and-algorithms",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.jshint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.jshint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "python.packages.toolwindow.project.migrated.to.right.top.v2": "true",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/sliding_window" />
@@ -237,14 +238,6 @@
       <workItem from="1789796340182" duration="5141000" />
       <workItem from="1789811956072" duration="9351000" />
       <workItem from="1790082169983" duration="6132000" />
-    </task>
-    <task id="LOCAL-00091" summary="solved binary search tree">
-      <option name="closed" value="true" />
-      <created>1787600297134</created>
-      <option name="number" value="00091" />
-      <option name="presentableId" value="LOCAL-00091" />
-      <option name="project" value="LOCAL" />
-      <updated>1787600297134</updated>
     </task>
     <task id="LOCAL-00092" summary="grinding binary tree">
       <option name="closed" value="true" />
@@ -630,7 +623,15 @@
       <option name="project" value="LOCAL" />
       <updated>1792728859757</updated>
     </task>
-    <option name="localTasksCounter" value="140" />
+    <task id="LOCAL-00140" summary="working on sliding window problems">
+      <option name="closed" value="true" />
+      <created>1792821701401</created>
+      <option name="number" value="00140" />
+      <option name="presentableId" value="LOCAL-00140" />
+      <option name="project" value="LOCAL" />
+      <updated>1792821701401</updated>
+    </task>
+    <option name="localTasksCounter" value="141" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -660,7 +661,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="grinding binary tree" />
     <MESSAGE value="solving graph problems" />
     <MESSAGE value="solved daily problem - array" />
     <MESSAGE value="solving some graph problems" />
@@ -685,7 +685,8 @@
     <MESSAGE value="doing some hash map problems" />
     <MESSAGE value="solving two pointers, sliding window and hash tables" />
     <MESSAGE value="learning sliding window pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="learning sliding window pattern" />
+    <MESSAGE value="working on sliding window problems" />
+    <option name="LAST_COMMIT_MESSAGE" value="working on sliding window problems" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3631,57 +3632,7 @@
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/sliding_window/longest_substring.py</url>
           <line>2</line>
-          <option name="timeStamp" value="1656" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/sliding_window/longest_substring.py</url>
-          <line>3</line>
-          <option name="timeStamp" value="1657" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/sliding_window/longest_substring.py</url>
-          <line>4</line>
-          <option name="timeStamp" value="1658" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/sliding_window/longest_substring.py</url>
-          <line>5</line>
-          <option name="timeStamp" value="1659" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/sliding_window/longest_substring.py</url>
-          <line>7</line>
           <option name="timeStamp" value="1660" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/sliding_window/longest_substring.py</url>
-          <line>8</line>
-          <option name="timeStamp" value="1661" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/sliding_window/longest_substring.py</url>
-          <line>9</line>
-          <option name="timeStamp" value="1662" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/sliding_window/longest_substring.py</url>
-          <line>10</line>
-          <option name="timeStamp" value="1663" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/sliding_window/longest_substring.py</url>
-          <line>12</line>
-          <option name="timeStamp" value="1664" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/sliding_window/longest_substring.py</url>
-          <line>13</line>
-          <option name="timeStamp" value="1665" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/sliding_window/longest_substring.py</url>
-          <line>14</line>
-          <option name="timeStamp" value="1666" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/sliding_window/longest_substring.py</url>
@@ -4317,6 +4268,146 @@
           <url>file://$PROJECT_DIR$/sliding_window/three_sum.py</url>
           <line>30</line>
           <option name="timeStamp" value="1864" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/heaps/longest_consecutive.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="1865" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/heaps/longest_consecutive.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="1877" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/hashtable/all_anagrams.py</url>
+          <line>40</line>
+          <option name="timeStamp" value="1879" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/hashtable/all_anagrams.py</url>
+          <line>41</line>
+          <option name="timeStamp" value="1880" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/hashtable/all_anagrams.py</url>
+          <line>42</line>
+          <option name="timeStamp" value="1881" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/hashtable/all_anagrams.py</url>
+          <line>43</line>
+          <option name="timeStamp" value="1882" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/hashtable/all_anagrams.py</url>
+          <line>44</line>
+          <option name="timeStamp" value="1883" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/hashtable/all_anagrams.py</url>
+          <line>46</line>
+          <option name="timeStamp" value="1884" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/hashtable/all_anagrams.py</url>
+          <line>47</line>
+          <option name="timeStamp" value="1885" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/hashtable/all_anagrams.py</url>
+          <line>49</line>
+          <option name="timeStamp" value="1886" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/hashtable/all_anagrams.py</url>
+          <line>50</line>
+          <option name="timeStamp" value="1887" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/hashtable/all_anagrams.py</url>
+          <line>51</line>
+          <option name="timeStamp" value="1888" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/hashtable/all_anagrams.py</url>
+          <line>52</line>
+          <option name="timeStamp" value="1889" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/hashtable/all_anagrams.py</url>
+          <line>54</line>
+          <option name="timeStamp" value="1890" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/hashtable/all_anagrams.py</url>
+          <line>38</line>
+          <option name="timeStamp" value="1904" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/hashtable/all_anagrams.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="1905" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/hashtable/all_anagrams.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="1906" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/hashtable/all_anagrams.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="1907" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/hashtable/all_anagrams.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="1908" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/hashtable/all_anagrams.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="1909" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/hashtable/all_anagrams.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="1910" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/hashtable/all_anagrams.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="1912" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/hashtable/all_anagrams.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="1914" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/hashtable/all_anagrams.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="1915" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/hashtable/all_anagrams.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="1916" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/hashtable/all_anagrams.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="1917" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/hashtable/all_anagrams.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="1918" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/hashtable/all_anagrams.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="1919" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
