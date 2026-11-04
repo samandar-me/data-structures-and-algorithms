@@ -5,10 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8efb1a0-c606-444b-98ce-804d0c93fb25" name="Changes" comment="working on sliding window problems">
-      <change afterPath="$PROJECT_DIR$/binary_search/binary_search.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hashtable/isomorphic.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hashtable/word_pattern.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/intervals/search_range.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/heaps/longest_consecutive.py" beforeDir="false" afterPath="$PROJECT_DIR$/heaps/longest_consecutive.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
@@ -50,61 +46,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0269556720647854" />
-      <entry key="MS500" value="1.6514615385523055" />
-      <entry key="S2" value="2.643369004959661" />
-      <entry key="S5" value="3.5303694868680644" />
-      <entry key="S10" value="4.604425299808864" />
-      <entry key="S30" value="7.945502659794623" />
-      <entry key="S60" value="10.496977203869506" />
-      <entry key="M2" value="13.153501246098134" />
-      <entry key="M5" value="21.923847031348142" />
-      <entry key="M10" value="33.67131871937447" />
-      <entry key="M15" value="42.64723751129318" />
-      <entry key="M30" value="69.51596610222539" />
-      <entry key="H1" value="118.65205726967173" />
-      <entry key="H2" value="178.91288800526192" />
-      <entry key="H4" value="241.98385922750396" />
-      <entry key="D1" value="458.23541820208953" />
-      <entry key="W1" value="1665.723176121882" />
+      <entry key="MS100" value="2.9274417704018063E-5" />
+      <entry key="MS500" value="0.12396459134228666" />
+      <entry key="S2" value="0.5933879488460385" />
+      <entry key="S5" value="0.8418984414046269" />
+      <entry key="S10" value="1.367908464713675" />
+      <entry key="S30" value="5.51558663176531" />
+      <entry key="S60" value="10.468497366539948" />
+      <entry key="M2" value="15.23560116391258" />
+      <entry key="M5" value="19.422482435614594" />
+      <entry key="M10" value="21.139252071452532" />
+      <entry key="M15" value="22.033276415624844" />
+      <entry key="M30" value="29.036775424038336" />
+      <entry key="H1" value="62.439497851468" />
+      <entry key="H2" value="134.87089132475825" />
+      <entry key="H4" value="229.34620792603323" />
+      <entry key="D1" value="509.1690074658312" />
+      <entry key="W1" value="1732.9509771962619" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="1.2628801909339694E-99" />
-      <entry key="S5" value="6.537384194245934E-40" />
-      <entry key="S10" value="6.562675770854883E-20" />
-      <entry key="S30" value="2.0523495321470237E-6" />
-      <entry key="S60" value="0.005970149832421073" />
-      <entry key="M2" value="0.3448338050827031" />
-      <entry key="M5" value="4.0940161797277" />
-      <entry key="M10" value="9.81817128882402" />
-      <entry key="M15" value="14.034935983075586" />
-      <entry key="M30" value="25.37606484857419" />
-      <entry key="H1" value="43.95902042521646" />
-      <entry key="H2" value="65.46896451770583" />
-      <entry key="H4" value="88.86173894992298" />
-      <entry key="D1" value="183.22483516559055" />
-      <entry key="W1" value="671.5217487694584" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.000001425755792" />
+      <entry key="S2" value="1.0416226937503235" />
+      <entry key="S5" value="1.5566735551747226" />
+      <entry key="S10" value="2.728705907659468" />
+      <entry key="S30" value="5.705506627198974" />
+      <entry key="S60" value="7.602499599636779" />
+      <entry key="M2" value="9.03240964995498" />
+      <entry key="M5" value="10.133140327093429" />
+      <entry key="M10" value="10.55559570020771" />
+      <entry key="M15" value="10.777532590086663" />
+      <entry key="M30" value="12.871591596918885" />
+      <entry key="H1" value="23.904164358358518" />
+      <entry key="H2" value="48.542170545664284" />
+      <entry key="H4" value="81.85954514600024" />
+      <entry key="D1" value="196.9238495519629" />
+      <entry key="W1" value="691.2412984769556" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.03872233825453256" />
-      <entry key="MS500" value="0.8647472628233039" />
-      <entry key="S2" value="2.246289630667287" />
-      <entry key="S5" value="3.316924925587213" />
-      <entry key="S10" value="4.476204249145265" />
-      <entry key="S30" value="7.887220529192583" />
-      <entry key="S60" value="10.468128432216865" />
-      <entry key="M2" value="13.476312615051851" />
-      <entry key="M5" value="25.99826701475824" />
-      <entry key="M10" value="43.47133846607216" />
-      <entry key="M15" value="56.66553430467712" />
-      <entry key="M30" value="94.87686430303907" />
-      <entry key="H1" value="162.59739706978976" />
-      <entry key="H2" value="244.37130215622835" />
-      <entry key="H4" value="330.83828911593815" />
-      <entry key="D1" value="641.4577444900372" />
-      <entry key="W1" value="2337.2436155530786" />
+      <entry key="MS100" value="0.0030439240614322373" />
+      <entry key="MS500" value="0.3638164309369646" />
+      <entry key="S2" value="1.2580340472583198" />
+      <entry key="S5" value="2.1815102105779" />
+      <entry key="S10" value="3.923878077337276" />
+      <entry key="S30" value="11.06391843001393" />
+      <entry key="S60" value="17.94026722674591" />
+      <entry key="M2" value="24.17847254096488" />
+      <entry key="M5" value="29.51147957480702" />
+      <entry key="M10" value="31.67109388862035" />
+      <entry key="M15" value="32.79446549508712" />
+      <entry key="M30" value="41.898658936499" />
+      <entry key="H1" value="86.33508240785687" />
+      <entry key="H2" value="183.40459155383672" />
+      <entry key="H4" value="311.1986665426761" />
+      <entry key="D1" value="706.0900897088325" />
+      <entry key="W1" value="2424.1909172634237" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -241,14 +237,6 @@
       <workItem from="1789796340182" duration="5141000" />
       <workItem from="1789811956072" duration="9351000" />
       <workItem from="1790082169983" duration="6132000" />
-    </task>
-    <task id="LOCAL-00093" summary="grinding binary tree">
-      <option name="closed" value="true" />
-      <created>1787671816308</created>
-      <option name="number" value="00093" />
-      <option name="presentableId" value="LOCAL-00093" />
-      <option name="project" value="LOCAL" />
-      <updated>1787671816308</updated>
     </task>
     <task id="LOCAL-00094" summary="solving graph problems">
       <option name="closed" value="true" />
@@ -634,7 +622,15 @@
       <option name="project" value="LOCAL" />
       <updated>1793035644458</updated>
     </task>
-    <option name="localTasksCounter" value="142" />
+    <task id="LOCAL-00142" summary="working on sliding window problems">
+      <option name="closed" value="true" />
+      <created>1793552073550</created>
+      <option name="number" value="00142" />
+      <option name="presentableId" value="LOCAL-00142" />
+      <option name="project" value="LOCAL" />
+      <updated>1793552073550</updated>
+    </task>
+    <option name="localTasksCounter" value="143" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -4273,16 +4269,6 @@
           <option name="timeStamp" value="1864" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/heaps/longest_consecutive.py</url>
-          <line>53</line>
-          <option name="timeStamp" value="1865" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/heaps/longest_consecutive.py</url>
-          <line>72</line>
-          <option name="timeStamp" value="1877" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/hashtable/all_anagrams.py</url>
           <line>40</line>
           <option name="timeStamp" value="1879" />
@@ -4414,273 +4400,28 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/heaps/longest_consecutive.py</url>
-          <line>54</line>
-          <option name="timeStamp" value="1920" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/heaps/longest_consecutive.py</url>
-          <line>55</line>
-          <option name="timeStamp" value="1921" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/heaps/longest_consecutive.py</url>
-          <line>56</line>
-          <option name="timeStamp" value="1923" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/heaps/longest_consecutive.py</url>
-          <line>59</line>
-          <option name="timeStamp" value="1925" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/heaps/longest_consecutive.py</url>
-          <line>71</line>
-          <option name="timeStamp" value="1936" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/heaps/longest_consecutive.py</url>
-          <line>57</line>
-          <option name="timeStamp" value="1950" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/heaps/longest_consecutive.py</url>
-          <line>60</line>
-          <option name="timeStamp" value="1961" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/heaps/longest_consecutive.py</url>
-          <line>58</line>
-          <option name="timeStamp" value="1962" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/heaps/longest_consecutive.py</url>
-          <line>62</line>
-          <option name="timeStamp" value="1963" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/heaps/longest_consecutive.py</url>
-          <line>63</line>
-          <option name="timeStamp" value="1964" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/heaps/longest_consecutive.py</url>
-          <line>67</line>
-          <option name="timeStamp" value="1965" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/heaps/longest_consecutive.py</url>
-          <line>68</line>
-          <option name="timeStamp" value="1966" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/heaps/longest_consecutive.py</url>
-          <line>69</line>
-          <option name="timeStamp" value="1967" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/heaps/longest_consecutive.py</url>
-          <line>65</line>
-          <option name="timeStamp" value="1971" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/heaps/longest_consecutive.py</url>
-          <line>66</line>
-          <option name="timeStamp" value="1972" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/heaps/longest_consecutive.py</url>
-          <line>70</line>
-          <option name="timeStamp" value="1973" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/heaps/longest_consecutive.py</url>
-          <line>28</line>
+          <line>31</line>
           <option name="timeStamp" value="1974" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/heaps/longest_consecutive.py</url>
-          <line>29</line>
-          <option name="timeStamp" value="1975" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/heaps/longest_consecutive.py</url>
-          <line>30</line>
-          <option name="timeStamp" value="1976" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/heaps/longest_consecutive.py</url>
-          <line>31</line>
-          <option name="timeStamp" value="1977" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/heaps/longest_consecutive.py</url>
-          <line>32</line>
-          <option name="timeStamp" value="1978" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/heaps/longest_consecutive.py</url>
-          <line>33</line>
-          <option name="timeStamp" value="1979" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/heaps/longest_consecutive.py</url>
-          <line>34</line>
-          <option name="timeStamp" value="1980" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/heaps/longest_consecutive.py</url>
-          <line>38</line>
-          <option name="timeStamp" value="1981" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/heaps/longest_consecutive.py</url>
-          <line>37</line>
-          <option name="timeStamp" value="1982" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/heaps/longest_consecutive.py</url>
-          <line>39</line>
-          <option name="timeStamp" value="1983" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/heaps/longest_consecutive.py</url>
-          <line>43</line>
-          <option name="timeStamp" value="1986" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/heaps/longest_consecutive.py</url>
-          <line>44</line>
-          <option name="timeStamp" value="1987" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/heaps/longest_consecutive.py</url>
-          <line>45</line>
-          <option name="timeStamp" value="1988" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/heaps/longest_consecutive.py</url>
-          <line>51</line>
-          <option name="timeStamp" value="1990" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/heaps/longest_consecutive.py</url>
-          <line>27</line>
-          <option name="timeStamp" value="1991" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/heaps/longest_consecutive.py</url>
-          <line>48</line>
-          <option name="timeStamp" value="1992" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/heaps/longest_consecutive.py</url>
-          <line>49</line>
-          <option name="timeStamp" value="1993" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/heaps/longest_consecutive.py</url>
-          <line>35</line>
-          <option name="timeStamp" value="1996" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/heaps/longest_consecutive.py</url>
-          <line>41</line>
-          <option name="timeStamp" value="1997" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/heaps/longest_consecutive.py</url>
-          <line>42</line>
-          <option name="timeStamp" value="1998" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/heaps/longest_consecutive.py</url>
-          <line>47</line>
-          <option name="timeStamp" value="1999" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/heaps/longest_consecutive.py</url>
-          <line>1</line>
+          <line>14</line>
           <option name="timeStamp" value="2000" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/heaps/longest_consecutive.py</url>
-          <line>2</line>
+          <line>15</line>
           <option name="timeStamp" value="2001" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/heaps/longest_consecutive.py</url>
-          <line>3</line>
+          <line>16</line>
           <option name="timeStamp" value="2002" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/heaps/longest_consecutive.py</url>
-          <line>5</line>
-          <option name="timeStamp" value="2003" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/heaps/longest_consecutive.py</url>
-          <line>4</line>
-          <option name="timeStamp" value="2004" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/heaps/longest_consecutive.py</url>
-          <line>6</line>
-          <option name="timeStamp" value="2005" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/heaps/longest_consecutive.py</url>
-          <line>7</line>
-          <option name="timeStamp" value="2006" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/heaps/longest_consecutive.py</url>
-          <line>8</line>
-          <option name="timeStamp" value="2007" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/heaps/longest_consecutive.py</url>
-          <line>10</line>
-          <option name="timeStamp" value="2008" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/heaps/longest_consecutive.py</url>
-          <line>11</line>
-          <option name="timeStamp" value="2009" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/heaps/longest_consecutive.py</url>
-          <line>12</line>
-          <option name="timeStamp" value="2010" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/heaps/longest_consecutive.py</url>
-          <line>14</line>
-          <option name="timeStamp" value="2011" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/heaps/longest_consecutive.py</url>
-          <line>17</line>
-          <option name="timeStamp" value="2012" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/heaps/longest_consecutive.py</url>
-          <line>18</line>
-          <option name="timeStamp" value="2013" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/heaps/longest_consecutive.py</url>
-          <line>25</line>
-          <option name="timeStamp" value="2014" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/heaps/longest_consecutive.py</url>
           <line>20</line>
-          <option name="timeStamp" value="2015" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/heaps/longest_consecutive.py</url>
-          <line>23</line>
-          <option name="timeStamp" value="2016" />
+          <option name="timeStamp" value="2005" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/hashtable/word_pattern.py</url>
@@ -4764,23 +4505,53 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/heaps/longest_consecutive.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="2118" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/heaps/longest_consecutive.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="2119" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/heaps/longest_consecutive.py</url>
           <line>21</line>
-          <option name="timeStamp" value="2085" />
+          <option name="timeStamp" value="2120" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/heaps/longest_consecutive.py</url>
           <line>22</line>
-          <option name="timeStamp" value="2086" />
+          <option name="timeStamp" value="2121" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/heaps/longest_consecutive.py</url>
-          <line>15</line>
-          <option name="timeStamp" value="2087" />
+          <line>24</line>
+          <option name="timeStamp" value="2122" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/heaps/longest_consecutive.py</url>
-          <line>16</line>
-          <option name="timeStamp" value="2088" />
+          <line>25</line>
+          <option name="timeStamp" value="2124" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/heaps/longest_consecutive.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="2125" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/heaps/longest_consecutive.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="2126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/heaps/longest_consecutive.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="2127" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/heaps/longest_consecutive.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="2128" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
