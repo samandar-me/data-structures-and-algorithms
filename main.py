@@ -1,6 +1,6 @@
-from binary_search.search_in_rotated_array import Solution
+from sliding_window.trapping_rain_water import Solution
 
 if __name__ == '__main__':
     solution = Solution()
 
-    print(solution.search(nums = [4,5,6,7,0,1,2], target = 0))
+    print(solution.trap(height = [0,1,0,2,1,0,1,3,2,1,2,1]))

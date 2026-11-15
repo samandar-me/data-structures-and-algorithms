@@ -22,4 +22,4 @@ def isValid(word: str) -> bool:
         if brackets[closing] != opening:
             return False
 
-    return len(stack) == 0
+    return not stack

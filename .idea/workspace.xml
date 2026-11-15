@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8efb1a0-c606-444b-98ce-804d0c93fb25" name="Changes" comment="working on sliding window problems">
-      <change afterPath="$PROJECT_DIR$/binary_search/search_in_rotated_array.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sorting/largest_number.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hashtable/design_hashmap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sliding_window/trapping_rain_water.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/valid_brackets.py" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/valid_brackets.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,23 +48,23 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0" />
-      <entry key="S5" value="1.0" />
-      <entry key="S10" value="1.0" />
-      <entry key="S30" value="1.0" />
-      <entry key="S60" value="1.0" />
-      <entry key="M2" value="1.0" />
-      <entry key="M5" value="1.0000000000001261" />
-      <entry key="M10" value="1.0000028820762243" />
-      <entry key="M15" value="1.0008266186666726" />
-      <entry key="M30" value="1.2382633535914778" />
-      <entry key="H1" value="5.052329238499845" />
-      <entry key="H2" value="17.719202849308182" />
-      <entry key="H4" value="34.963936936417774" />
-      <entry key="D1" value="104.4197606632353" />
-      <entry key="W1" value="1282.6371694534782" />
+      <entry key="MS100" value="1.0000730882998425" />
+      <entry key="MS500" value="1.148857106170621" />
+      <entry key="S2" value="1.6211441408922198" />
+      <entry key="S5" value="1.8265648964375698" />
+      <entry key="S10" value="1.9091561452454524" />
+      <entry key="S30" value="1.9687524775279486" />
+      <entry key="S60" value="1.9842522428361282" />
+      <entry key="M2" value="1.9920948759247414" />
+      <entry key="M5" value="1.9968304196721796" />
+      <entry key="M10" value="1.9984139520620592" />
+      <entry key="M15" value="1.9989423550054906" />
+      <entry key="M30" value="1.999471037602136" />
+      <entry key="H1" value="1.9997355619410966" />
+      <entry key="H2" value="2.004151331605396" />
+      <entry key="H4" value="3.0031826038907496" />
+      <entry key="D1" value="97.15371351907247" />
+      <entry key="W1" value="807.0087847713464" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -71,37 +72,37 @@
       <entry key="S2" value="0.0" />
       <entry key="S5" value="0.0" />
       <entry key="S10" value="0.0" />
-      <entry key="S30" value="2.772854246511932E-143" />
-      <entry key="S60" value="5.316941771062872E-72" />
-      <entry key="M2" value="2.9859464256276492E-36" />
-      <entry key="M5" value="2.0232274691978847E-14" />
-      <entry key="M10" value="4.913740126861528E-7" />
-      <entry key="M15" value="1.4526815115721402E-4" />
-      <entry key="M30" value="0.04330213888342873" />
-      <entry key="H1" value="0.7496658146313065" />
-      <entry key="H2" value="3.121182773705243" />
-      <entry key="H4" value="6.369595951683313" />
-      <entry key="D1" value="27.828156899748105" />
-      <entry key="W1" value="496.9396240056103" />
+      <entry key="S30" value="0.0" />
+      <entry key="S60" value="0.0" />
+      <entry key="M2" value="3.9593455403944363E-283" />
+      <entry key="M5" value="8.60020015953829E-113" />
+      <entry key="M10" value="6.023881825529835E-56" />
+      <entry key="M15" value="5.4552128521573464E-37" />
+      <entry key="M30" value="4.986938495184909E-18" />
+      <entry key="H1" value="1.51294045203283E-8" />
+      <entry key="H2" value="8.340136573660228E-4" />
+      <entry key="H4" value="0.19585585949538395" />
+      <entry key="D1" value="18.653224588553336" />
+      <entry key="W1" value="272.3273727579469" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.09672281209639938" />
-      <entry key="MS500" value="0.6267665102203452" />
-      <entry key="S2" value="0.8897673099587733" />
-      <entry key="S5" value="0.9543563736825879" />
-      <entry key="S10" value="0.9769116509094299" />
-      <entry key="S30" value="0.992243881796107" />
-      <entry key="S60" value="0.9961143919229895" />
-      <entry key="M2" value="0.9980553050422554" />
-      <entry key="M5" value="0.9992216677251459" />
-      <entry key="M10" value="0.9996141302997428" />
-      <entry key="M15" value="1.0007121296614832" />
-      <entry key="M30" value="1.2813994877447747" />
-      <entry key="H1" value="5.801618189715231" />
-      <entry key="H2" value="20.83970554277144" />
-      <entry key="H4" value="41.33285675716483" />
-      <entry key="D1" value="132.24748692913838" />
-      <entry key="W1" value="1779.5758101325207" />
+      <entry key="MS100" value="0.06936893612436901" />
+      <entry key="MS500" value="0.7022409823522358" />
+      <entry key="S2" value="1.458464827611298" />
+      <entry key="S5" value="1.754109796621613" />
+      <entry key="S10" value="1.8714879207310848" />
+      <entry key="S30" value="1.9558536838751506" />
+      <entry key="S60" value="1.9777585094459178" />
+      <entry key="M2" value="1.9888368094454643" />
+      <entry key="M5" value="1.9955244901844376" />
+      <entry key="M10" value="1.9977605355837527" />
+      <entry key="M15" value="1.998506643541581" />
+      <entry key="M30" value="1.9992531316077387" />
+      <entry key="H1" value="1.9996266114956136" />
+      <entry key="H2" value="2.0049306474867192" />
+      <entry key="H4" value="3.198986393191372" />
+      <entry key="D1" value="115.80654088648807" />
+      <entry key="W1" value="1079.335576260785" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -115,34 +116,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.examples.executor": "Run",
-    "Python.main.executor": "Run",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "ai.playground.ignore.import.keys.banner.in.settings": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "/Users/samandar/PycharmProjects/data-structures-and-algorithms",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.jshint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.jshint": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "python.packages.toolwindow.project.migrated.to.right.top.v2": "true",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.examples.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;ai.playground.ignore.import.keys.banner.in.settings&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/samandar/PycharmProjects/data-structures-and-algorithms&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;python.packages.toolwindow.project.migrated.to.right.top.v2&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/sliding_window" />
@@ -238,14 +239,6 @@
       <workItem from="1789796340182" duration="5141000" />
       <workItem from="1789811956072" duration="9351000" />
       <workItem from="1790082169983" duration="6132000" />
-    </task>
-    <task id="LOCAL-00095" summary="solving graph problems">
-      <option name="closed" value="true" />
-      <created>1787923766954</created>
-      <option name="number" value="00095" />
-      <option name="presentableId" value="LOCAL-00095" />
-      <option name="project" value="LOCAL" />
-      <updated>1787923766954</updated>
     </task>
     <task id="LOCAL-00096" summary="solving graph problems">
       <option name="closed" value="true" />
@@ -631,7 +624,15 @@
       <option name="project" value="LOCAL" />
       <updated>1793807311489</updated>
     </task>
-    <option name="localTasksCounter" value="144" />
+    <task id="LOCAL-00144" summary="working on sliding window problems">
+      <option name="closed" value="true" />
+      <created>1794208372443</created>
+      <option name="number" value="00144" />
+      <option name="presentableId" value="LOCAL-00144" />
+      <option name="project" value="LOCAL" />
+      <updated>1794208372443</updated>
+    </task>
+    <option name="localTasksCounter" value="145" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -4553,6 +4554,86 @@
           <url>file://$PROJECT_DIR$/heaps/longest_consecutive.py</url>
           <line>29</line>
           <option name="timeStamp" value="2128" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/trapping_rain_water.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="2129" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/trapping_rain_water.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="2130" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/trapping_rain_water.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="2132" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/trapping_rain_water.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="2133" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/trapping_rain_water.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="2134" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/trapping_rain_water.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="2135" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/trapping_rain_water.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="2136" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/trapping_rain_water.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="2137" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/trapping_rain_water.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="2138" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/trapping_rain_water.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="2139" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/trapping_rain_water.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="2140" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/trapping_rain_water.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="2141" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/trapping_rain_water.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="2142" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/trapping_rain_water.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="2143" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/trapping_rain_water.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="2144" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sliding_window/trapping_rain_water.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="2145" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
