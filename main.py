@@ -1,6 +1,5 @@
-from sliding_window.trapping_rain_water import Solution
+from intervals.merge_intervals import Solution
 
 if __name__ == '__main__':
-    solution = Solution()
-
-    print(solution.trap(height = [0,1,0,2,1,0,1,3,2,1,2,1]))
+    sol = Solution()
+    print(sol.merge(intervals = [[1,3],[2,6],[8,10],[15,18]]))

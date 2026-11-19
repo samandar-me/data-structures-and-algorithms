@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8efb1a0-c606-444b-98ce-804d0c93fb25" name="Changes" comment="working on sliding window problems">
-      <change afterPath="$PROJECT_DIR$/hashtable/design_hashmap.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sliding_window/trapping_rain_water.py" afterDir="false" />
+    <list default="true" id="d8efb1a0-c606-444b-98ce-804d0c93fb25" name="Changes" comment="still solving problems on leetcode yeah!">
+      <change afterPath="$PROJECT_DIR$/intervals/merge_intervals.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linked_list/merge_two_sorted_list.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arrays/valid_brackets.py" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/valid_brackets.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sorting/largest_number.py" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/largest_number.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,61 +48,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0000730882998425" />
-      <entry key="MS500" value="1.148857106170621" />
-      <entry key="S2" value="1.6211441408922198" />
-      <entry key="S5" value="1.8265648964375698" />
-      <entry key="S10" value="1.9091561452454524" />
-      <entry key="S30" value="1.9687524775279486" />
-      <entry key="S60" value="1.9842522428361282" />
-      <entry key="M2" value="1.9920948759247414" />
-      <entry key="M5" value="1.9968304196721796" />
-      <entry key="M10" value="1.9984139520620592" />
-      <entry key="M15" value="1.9989423550054906" />
-      <entry key="M30" value="1.999471037602136" />
-      <entry key="H1" value="1.9997355619410966" />
-      <entry key="H2" value="2.004151331605396" />
-      <entry key="H4" value="3.0031826038907496" />
-      <entry key="D1" value="97.15371351907247" />
-      <entry key="W1" value="807.0087847713464" />
+      <entry key="MS100" value="1.5098674799974215E-4" />
+      <entry key="MS500" value="0.29996419761111126" />
+      <entry key="S2" value="1.579104886566339" />
+      <entry key="S5" value="3.62509252550022" />
+      <entry key="S10" value="6.143850645643737" />
+      <entry key="S30" value="14.223114415635209" />
+      <entry key="S60" value="22.021273652120104" />
+      <entry key="M2" value="29.43488869791251" />
+      <entry key="M5" value="36.114203156846294" />
+      <entry key="M10" value="38.886022531113014" />
+      <entry key="M15" value="39.88357510189969" />
+      <entry key="M30" value="40.92092133367542" />
+      <entry key="H1" value="41.45512554998766" />
+      <entry key="H2" value="41.74057871841137" />
+      <entry key="H4" value="42.53046750837279" />
+      <entry key="D1" value="76.94941596238473" />
+      <entry key="W1" value="707.3006803321326" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="0.0" />
-      <entry key="S5" value="0.0" />
-      <entry key="S10" value="0.0" />
-      <entry key="S30" value="0.0" />
-      <entry key="S60" value="0.0" />
-      <entry key="M2" value="3.9593455403944363E-283" />
-      <entry key="M5" value="8.60020015953829E-113" />
-      <entry key="M10" value="6.023881825529835E-56" />
-      <entry key="M15" value="5.4552128521573464E-37" />
-      <entry key="M30" value="4.986938495184909E-18" />
-      <entry key="H1" value="1.51294045203283E-8" />
-      <entry key="H2" value="8.340136573660228E-4" />
-      <entry key="H4" value="0.19585585949538395" />
-      <entry key="D1" value="18.653224588553336" />
-      <entry key="W1" value="272.3273727579469" />
+      <entry key="MS100" value="1.0642571141660042" />
+      <entry key="MS500" value="1.5775428952535056" />
+      <entry key="S2" value="1.8860429973401667" />
+      <entry key="S5" value="2.3226385618608494" />
+      <entry key="S10" value="3.3550654453400384" />
+      <entry key="S30" value="6.527328520067164" />
+      <entry key="S60" value="9.061960222964398" />
+      <entry key="M2" value="11.52198774136917" />
+      <entry key="M5" value="13.854005872606862" />
+      <entry key="M10" value="14.854488261760235" />
+      <entry key="M15" value="15.21902690884682" />
+      <entry key="M30" value="15.60054640098533" />
+      <entry key="H1" value="15.797976401489379" />
+      <entry key="H2" value="15.912823792947" />
+      <entry key="H4" value="16.617830870420367" />
+      <entry key="D1" value="37.69912637712554" />
+      <entry key="W1" value="264.3671200429441" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.06936893612436901" />
-      <entry key="MS500" value="0.7022409823522358" />
-      <entry key="S2" value="1.458464827611298" />
-      <entry key="S5" value="1.754109796621613" />
-      <entry key="S10" value="1.8714879207310848" />
-      <entry key="S30" value="1.9558536838751506" />
-      <entry key="S60" value="1.9777585094459178" />
-      <entry key="M2" value="1.9888368094454643" />
-      <entry key="M5" value="1.9955244901844376" />
-      <entry key="M10" value="1.9977605355837527" />
-      <entry key="M15" value="1.998506643541581" />
-      <entry key="M30" value="1.9992531316077387" />
-      <entry key="H1" value="1.9996266114956136" />
-      <entry key="H2" value="2.0049306474867192" />
-      <entry key="H4" value="3.198986393191372" />
-      <entry key="D1" value="115.80654088648807" />
-      <entry key="W1" value="1079.335576260785" />
+      <entry key="MS100" value="0.3192887358181628" />
+      <entry key="MS500" value="1.3147335062622998" />
+      <entry key="S2" value="2.873886321364833" />
+      <entry key="S5" value="5.465939620344391" />
+      <entry key="S10" value="9.12091610734187" />
+      <entry key="S30" value="20.494230491534967" />
+      <entry key="S60" value="30.888269168544134" />
+      <entry key="M2" value="40.82319784628105" />
+      <entry key="M5" value="49.90050617234628" />
+      <entry key="M10" value="53.70357566931271" />
+      <entry key="M15" value="55.07722792490341" />
+      <entry key="M30" value="56.50838754176396" />
+      <entry key="H1" value="57.24646007808437" />
+      <entry key="H2" value="57.65005416030976" />
+      <entry key="H4" value="59.14658310176024" />
+      <entry key="D1" value="114.64803483774193" />
+      <entry key="W1" value="971.6672653467953" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -239,14 +239,6 @@
       <workItem from="1789796340182" duration="5141000" />
       <workItem from="1789811956072" duration="9351000" />
       <workItem from="1790082169983" duration="6132000" />
-    </task>
-    <task id="LOCAL-00096" summary="solving graph problems">
-      <option name="closed" value="true" />
-      <created>1787926619308</created>
-      <option name="number" value="00096" />
-      <option name="presentableId" value="LOCAL-00096" />
-      <option name="project" value="LOCAL" />
-      <updated>1787926619308</updated>
     </task>
     <task id="LOCAL-00097" summary="solving graph problems">
       <option name="closed" value="true" />
@@ -632,7 +624,15 @@
       <option name="project" value="LOCAL" />
       <updated>1794208372443</updated>
     </task>
-    <option name="localTasksCounter" value="145" />
+    <task id="LOCAL-00145" summary="still solving problems on leetcode yeah!">
+      <option name="closed" value="true" />
+      <created>1794765597122</created>
+      <option name="number" value="00145" />
+      <option name="presentableId" value="LOCAL-00145" />
+      <option name="project" value="LOCAL" />
+      <updated>1794765597122</updated>
+    </task>
+    <option name="localTasksCounter" value="146" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -662,7 +662,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="solving graph problems" />
     <MESSAGE value="solved daily problem - array" />
     <MESSAGE value="solving some graph problems" />
     <MESSAGE value="starting heap &amp; priority queue" />
@@ -687,7 +686,8 @@
     <MESSAGE value="solving two pointers, sliding window and hash tables" />
     <MESSAGE value="learning sliding window pattern" />
     <MESSAGE value="working on sliding window problems" />
-    <option name="LAST_COMMIT_MESSAGE" value="working on sliding window problems" />
+    <MESSAGE value="still solving problems on leetcode yeah!" />
+    <option name="LAST_COMMIT_MESSAGE" value="still solving problems on leetcode yeah!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -4634,6 +4634,56 @@
           <url>file://$PROJECT_DIR$/sliding_window/trapping_rain_water.py</url>
           <line>19</line>
           <option name="timeStamp" value="2145" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/intervals/merge_intervals.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="2146" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/intervals/merge_intervals.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="2147" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/intervals/merge_intervals.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="2148" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/intervals/merge_intervals.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="2149" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/intervals/merge_intervals.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="2150" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/intervals/merge_intervals.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="2155" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/intervals/merge_intervals.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="2156" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/intervals/merge_intervals.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="2157" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/intervals/merge_intervals.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="2159" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/intervals/merge_intervals.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="2160" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
