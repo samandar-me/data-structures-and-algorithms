@@ -1,5 +1,6 @@
-from intervals.merge_intervals import Solution
+from arrays.next_greater_letter import Solution
 
 if __name__ == '__main__':
     sol = Solution()
-    print(sol.merge(intervals = [[1,3],[2,6],[8,10],[15,18]]))
+    print(sol.nextGreatestLetter(letters = ["c","f","j"], target = "a"))
+    print(sol.nextGreatestLetter(letters = ["c","f","j"], target = "d"))
